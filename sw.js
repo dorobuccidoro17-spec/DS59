@@ -1,8 +1,8 @@
 /* DS59 service worker — app-shell cache + fresh briefing data */
 const CACHE = 'ds59-v1';
 const ASSETS = [
-  './', './index.html', './manifest.webmanifest',
-  './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png'
+  './', './index.html', './manifest.webmanifest', './brief.json',
+  './icon-512.png', './maskable-512.png'
 ];
 
 self.addEventListener('install', (e) => {

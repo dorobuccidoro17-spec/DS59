@@ -1,0 +1,15 @@
+{
+  "name": "DS59 Command Center",
+  "short_name": "DS59",
+  "description": "Your DS59 daily briefing — South Africa business, crypto, and AI, read aloud.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#070b12",
+  "theme_color": "#070b12",
+  "icons": [
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -85,7 +85,7 @@ footer .sig{font-weight:800;color:#67e8f9;}
   <div class="accent"></div>
 
   <div class="vbtns">
-    <button class="vbtn" id="briefBtn">&#128266;&nbsp;Brief me, sir</button>
+    <button class="vbtn" id="briefBtn">&#128266;&nbsp;Brief me, DS59</button>
     <button class="vbtn mic" id="micBtn" title="Speak">&#127908;</button>
     <button class="vbtn mic" id="stopBtn" title="Stop">&#9209;</button>
   </div>
@@ -169,13 +169,15 @@ tick(); setInterval(tick,15000);
 /* -------- Voice (TTS + optional STT) -------- */
 var synth=window.speechSynthesis, vVoice=null;
 function pickVoice(){if(!synth)return;var vs=synth.getVoices();if(!vs||!vs.length)return;
-  vVoice=vs.filter(function(v){return /daniel/i.test(v.name);})[0]
-    ||vs.filter(function(v){return /(uk english male|british|arthur|oliver)/i.test(v.name);})[0]
-    ||vs.filter(function(v){return v.lang==='en-GB';})[0]||null;}
+  vVoice=vs.filter(function(v){return /(serena|google uk english female|libby|sonia|hazel|kate|stephanie|fiona)/i.test(v.name);})[0]
+    ||vs.filter(function(v){return v.lang==='en-GB' && /female/i.test(v.name);})[0]
+    ||vs.filter(function(v){return /(samantha|zira|aria|jenny|karen|moira|tessa|victoria|allison|female)/i.test(v.name);})[0]
+    ||vs.filter(function(v){return v.lang==='en-GB';})[0]
+    ||vs.filter(function(v){return /^en/i.test(v.lang);})[0]||null;}
 if(synth){pickVoice();if('onvoiceschanged' in synth)synth.onvoiceschanged=pickVoice;}
 function vstate(m){document.getElementById('vstate').textContent=m||'';}
 function say(t){if(!synth){vstate('No speech output');return;}synth.cancel();
-  var u=new SpeechSynthesisUtterance(t);if(vVoice)u.voice=vVoice;u.rate=0.98;u.pitch=0.9;u.lang=(vVoice&&vVoice.lang)||'en-GB';
+  var u=new SpeechSynthesisUtterance(t);if(vVoice)u.voice=vVoice;u.rate=0.95;u.pitch=1.0;u.lang=(vVoice&&vVoice.lang)||'en-GB';
   u.onstart=function(){vstate('Speaking…');};u.onend=function(){vstate('');};synth.speak(u);}
 function greetWord(){var h=new Date().getHours();return h<12?'Good morning':(h<18?'Good afternoon':'Good evening');}
 function briefingText(){

@@ -1,0 +1,52 @@
+name: DS59 Daily Briefing
+
+# Runs on GitHub's servers — no desktop app required.
+on:
+  schedule:
+    # 05:00 UTC = 07:00 SAST (South Africa, UTC+2). GitHub cron is always UTC.
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}   # lets you run it manually from the Actions tab
+
+permissions:
+  contents: write         # allows the job to commit the updated brief.json
+
+jobs:
+  send-brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate briefing (writes brief.json) and send email
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DS59_MODEL:        ${{ secrets.DS59_MODEL }}
+          SMTP_HOST:         ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:         ${{ secrets.SMTP_PORT }}
+          SMTP_USER:         ${{ secrets.SMTP_USER }}
+          SMTP_PASS:         ${{ secrets.SMTP_PASS }}
+          MAIL_FROM:         ${{ secrets.MAIL_FROM }}
+          MAIL_TO:           ${{ secrets.MAIL_TO }}
+        run: python ds59_brief.py
+
+      - name: Publish brief.json to the phone app
+        run: |
+          if [ -n "$(git status --porcelain brief.json)" ]; then
+            git config user.name  "DS59 Bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add brief.json
+            git commit -m "DS59: update briefing $(date -u +%Y-%m-%d)"
+            git push
+            echo "brief.json published."
+          else
+            echo "brief.json unchanged — nothing to publish."
+          fi

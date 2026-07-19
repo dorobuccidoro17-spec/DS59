@@ -190,13 +190,21 @@ document.getElementById('stopBtn').onclick=function(){if(synth)synth.cancel();vs
 
 var Rec=window.SpeechRecognition||window.webkitSpeechRecognition, rec=null, listening=false;
 var micBtn=document.getElementById('micBtn');
-function handle(t){t=(t||'').toLowerCase();
-  if(/stop|quiet|silence/.test(t)){if(synth)synth.cancel();return;}
+function handle(t){var raw=(t||'').trim();
+  if(!raw){vstate('Didn’t catch that, sir');return;}
+  vstate('“'+raw+'”'); t=raw.toLowerCase();
+  if(/stop|quiet|silence|cancel|enough/.test(t)){if(synth)synth.cancel();vstate('');return;}
   if(/joke/.test(t)){say(DATA.joke);return;}
-  if(/quote|motivat/.test(t)){say('From '+DATA.quote.by+': '+DATA.quote.text);return;}
-  if(/bitcoin|ether|eth|rand|market|price|jse/.test(t)){say(DATA.watchlist.map(function(x){return x.k+' '+x.v;}).join('. '));return;}
-  if(/concept|learn/.test(t)){say(DATA.concept.title+'. '+DATA.concept.body+' '+DATA.concept.takeaway);return;}
-  say(briefingText());}
+  if(/quote|motivat|inspir/.test(t)){say('From '+DATA.quote.by+': '+DATA.quote.text);return;}
+  if(/price|bitcoin|btc|ether|eth|rand|zar|market|jse|watchlist|stock/.test(t)){
+    say(DATA.watchlist.map(function(x){return x.k+', '+x.v+', '+x.chg.replace('▲','up').replace('▼','down');}).join('. '));return;}
+  if(/concept|learn|teach|lesson/.test(t)){say(DATA.concept.title+'. '+DATA.concept.body+' '+DATA.concept.takeaway);return;}
+  if(/headline|news|south africa|crypto|\bai\b/.test(t)){
+    say('Today’s headlines. '+DATA.headlines.map(function(h){return h.tag.replace('·','')+'. '+h.title+'.';}).join(' '));return;}
+  if(/brief|read|catch me up|summary|update me|everything/.test(t)){say(briefingText());return;}
+  if(/help|what can you|commands|options/.test(t)){
+    say('You can ask me for your brief, the headlines, market prices, the quote, the joke, or the concept, sir. For a full conversation, speak with me in Cowork.');return;}
+  say('I didn’t catch a command, sir. Try: brief, headlines, prices, the quote, the joke, or the concept.');}
 micBtn.onclick=function(){
   if(!Rec){vstate('Mic not supported — tap Brief me');return;}
   if(listening){try{rec.stop();}catch(e){}return;}

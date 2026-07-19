@@ -1,5 +1,5 @@
 /* DS59 service worker — app-shell cache + fresh briefing data */
-const CACHE = 'ds59-v2';
+const CACHE = 'ds59-v3';
 const ASSETS = [
   './', './index.html', './manifest.webmanifest', './brief.json',
   './icon-512.png', './maskable-512.png'

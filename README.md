@@ -1,56 +1,76 @@
-# DS59 — Mobile App (installable on your phone)
+# DS59 Cloud Job — always-on email + daily phone update
 
-This is DS59 as an **installable web app**. You host these files once, open the link on
-your phone, tap **Add to Home Screen**, and DS59 gets its own icon and opens full-screen
-like a native app — with the dark HUD, watchlist, briefing, and a **Brief me** button that
-reads it aloud. No Play Store, no APK, works on Android and iPhone.
+This runs on **GitHub's servers every morning** (no desktop app needed). Each run it:
 
-## Files
+1. Fetches the top South Africa business, crypto, and AI headlines,
+2. Fetches live BTC, ETH, and USD/ZAR for the watchlist,
+3. **Emails** you the briefing (via your Gmail), and
+4. **Republishes `brief.json`** into your DS59 repo — so your phone app updates itself daily.
+
+It installs **into your existing `DS59` repo** (the same one that hosts the phone app).
+
+## Files to add (into the DS59 repo, at the top level)
 ```
-index.html            the app
-manifest.webmanifest  makes it installable (name, icon)
-sw.js                 service worker (offline + fresh data)
-brief.json            the briefing data (this is what refreshes daily)
-icons/                app icons (192, 512, maskable)
+ds59_brief.py
+requirements.txt
+.github/workflows/ds59-daily-brief.yml
 ```
 
-## Step 1 — Put it online (free, ~5 min)
+---
 
-It must be served over **HTTPS** (required for install + voice). Easiest option:
+## Stage 1 — Add the three files
 
-**GitHub Pages**
-1. Create a repo (e.g. `ds59-app`) at https://github.com/new — Public.
-2. Upload **all** these files, keeping the `icons/` folder.
-3. Repo **Settings → Pages** → Source: **Deploy from a branch** → branch **main**, folder **/(root)** → Save.
-4. After a minute your app is live at `https://<your-username>.github.io/ds59-app/`.
+1. Open https://github.com/dorobuccidoro17-spec/DS59 → **Add file ▾ → Create new file**.
+2. For each file, type the name (for the workflow, type the **full path** so GitHub makes the folders), paste the contents from the matching card, and **Commit**:
+   - `ds59_brief.py`
+   - `requirements.txt`
+   - `.github/workflows/ds59-daily-brief.yml`
 
-*(Prefer drag-and-drop? https://app.netlify.com/drop — drop the `ds59-pwa` folder and it gives you an HTTPS link instantly.)*
+Your repo now has the app **and** the daily job side by side.
 
-## Step 2 — Install it on your phone
+## Stage 2 — Get a Gmail App Password (the sender)
 
-Open that link on your phone, then:
-- **Android (Chrome):** tap the **⋮** menu → **Install app** (or **Add to Home Screen**).
-- **iPhone (Safari):** tap **Share** → **Add to Home Screen**.
+1. Turn on **2-Step Verification**: https://myaccount.google.com/security
+2. Open **App passwords**: https://myaccount.google.com/apppasswords → create one named "DS59".
+3. Copy the **16-character password** — that's your `SMTP_PASS` (not your normal Gmail password).
 
-DS59 now sits on your home screen with its own icon.
+## Stage 3 — Add secrets
 
-## Step 3 — Keeping it fresh (optional but recommended)
+Repo → **Settings → Secrets and variables → Actions → New repository secret**. Add:
 
-The app shows the briefing in `brief.json`. To make your phone update **automatically each
-morning**, have the always-on cloud job (the `ds59-cloud` package) also write a new
-`brief.json` into this hosted folder. Then the phone shows the latest brief every time you
-open it — no re-installing. I can wire that up for you on request.
+| Secret name         | Value                                            |
+|---------------------|--------------------------------------------------|
+| `SMTP_HOST`         | `smtp.gmail.com`                                 |
+| `SMTP_PORT`         | `465`                                            |
+| `SMTP_USER`         | your sending Gmail address                       |
+| `SMTP_PASS`         | the 16-character App Password                    |
+| `MAIL_FROM`         | your sending Gmail address                       |
+| `MAIL_TO`           | `tdshai91@gmail.com`                             |
+| `ANTHROPIC_API_KEY` | *(optional)* to polish summaries in DS59's voice |
 
-Until then, the app shows the built-in briefing and still reads it aloud.
+## Stage 4 — Allow the job to update the app
 
-## Voice notes
-- **Speaking (Brief me):** works on Android and iPhone.
-- **Listening (🎙):** works well on Android Chrome; on iPhone it's limited — just use
-  **Brief me** there. The first time, allow microphone access.
+Repo → **Settings → Actions → General** → scroll to **Workflow permissions** → select
+**Read and write permissions** → **Save**. (This lets the job publish the daily `brief.json`.)
 
-## Good to know
-- It works offline after the first open (cached), showing the last briefing it saw.
-- This app is a *viewer + voice* for your briefing. Full two-way chat, code, and live
-  connectors belong to the standalone-app plan (see `DS59-Standalone-App-Plan.md`).
+## Stage 5 — Test it now
+
+1. **Actions** tab → enable workflows if prompted → select **DS59 Daily Briefing** →
+   **Run workflow** → **Run workflow**.
+2. Wait ~1 minute. You should get an email at `tdshai91@gmail.com` (check Spam the first time),
+   and a new commit updating `brief.json`.
+3. Open the phone app — it now shows today's briefing.
+
+Done. It runs automatically at **07:00 SAST** every day, independent of any app.
+
+---
+
+## Notes
+- **Change the time:** edit the `cron` in the workflow (UTC; 07:00 SAST = `0 5 * * *`).
+- **No email yet, phone only?** Skip the SMTP secrets — the job still updates `brief.json`
+  so your phone refreshes; it just won't email until you add them.
+- GitHub may start a scheduled run a few minutes late, and pauses schedules after 60 days
+  of no repo activity (any commit or manual run re-arms it).
+- Once this is live, we turn **off** the in-app email so you don't get duplicates.
 
 *DS59 — at your service, sir.*

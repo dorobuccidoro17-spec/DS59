@@ -1,6 +1,28 @@
 {
   "date": "Tuesday, 28 July 2026",
-  "watchlist": [],
+  "watchlist": [
+    {
+      "k": "Bitcoin",
+      "v": "$63,866",
+      "chg": "▼ 1.0%",
+      "dir": "down",
+      "c": "#fb923c"
+    },
+    {
+      "k": "Ethereum",
+      "v": "$1,920",
+      "chg": "▼ 0.4%",
+      "dir": "down",
+      "c": "#818cf8"
+    },
+    {
+      "k": "USD / ZAR",
+      "v": "R16.76",
+      "chg": "spot",
+      "dir": "up",
+      "c": "#34d399"
+    }
+  ],
   "quote": {
     "text": "Everything you've ever wanted is on the other side of fear.",
     "by": "George Addair"
@@ -11,29 +33,29 @@
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "24 Jul 2026",
-      "title": "Rand steadies before SARB decision",
-      "source": "BusinessTech",
-      "summary": "The rand held near 16.40 to the dollar ahead of next week's rate meeting.",
-      "link": "https://businesstech.co.za/x/"
+      "date": "28 Jul 2026",
+      "title": "Cape Town’s wealth boom, influence draws private members’ club",
+      "source": "Moneyweb",
+      "summary": "Located within the Cape Grace hotel estate on a private quay at the V&A Waterfront, the club is the latest sign of Cape Town’s growing economic and cultural influence.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/cape-towns-wealth-boom-influence-draws-private-members-club/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "24 Jul 2026",
-      "title": "Rand steadies before SARB decision",
-      "source": "BusinessTech",
-      "summary": "The rand held near 16.40 to the dollar ahead of next week's rate meeting.",
-      "link": "https://businesstech.co.za/x/"
+      "date": "28 Jul 2026",
+      "title": "BlackRock, Fidelity, other Wall Street giants back the Clarity Act",
+      "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
+      "summary": "",
+      "link": "https://www.coindesk.com/policy/2026/07/28/blackrock-fidelity-other-wall-street-giants-back-the-clarity-act"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "24 Jul 2026",
-      "title": "Rand steadies before SARB decision",
-      "source": "BusinessTech",
-      "summary": "The rand held near 16.40 to the dollar ahead of next week's rate meeting.",
-      "link": "https://businesstech.co.za/x/"
+      "date": "28 Jul 2026",
+      "title": "Perplexity’s Personal Computer turns Windows PCs into AI agents",
+      "source": "AI",
+      "summary": "Perplexity has expanded its agentic Personal Computer tool to Windows, allowing computers running the world's most popular OS to be used as a locally run AI system. Like the Mac version that Perplexity launched in April, Personal Computer for Windows operates like a \"general-purpose digital worker\" that can access…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
     }
   ],
   "concept": {

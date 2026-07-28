@@ -1,44 +1,44 @@
 {
-  "date": "Sunday, 19 July 2026",
+  "date": "Tuesday, 28 July 2026",
   "watchlist": [],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "by": "George Addair"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
+  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "19 Jul 2026",
+      "date": "24 Jul 2026",
       "title": "Rand steadies before SARB decision",
       "source": "BusinessTech",
-      "summary": "The rand held near 16.40 to the dollar ahead of next week's rate meeting. Analysts expect a hold.",
+      "summary": "The rand held near 16.40 to the dollar ahead of next week's rate meeting.",
       "link": "https://businesstech.co.za/x/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "19 Jul 2026",
+      "date": "24 Jul 2026",
       "title": "Rand steadies before SARB decision",
       "source": "BusinessTech",
-      "summary": "The rand held near 16.40 to the dollar ahead of next week's rate meeting. Analysts expect a hold.",
+      "summary": "The rand held near 16.40 to the dollar ahead of next week's rate meeting.",
       "link": "https://businesstech.co.za/x/"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "19 Jul 2026",
+      "date": "24 Jul 2026",
       "title": "Rand steadies before SARB decision",
       "source": "BusinessTech",
-      "summary": "The rand held near 16.40 to the dollar ahead of next week's rate meeting. Analysts expect a hold.",
+      "summary": "The rand held near 16.40 to the dollar ahead of next week's rate meeting.",
       "link": "https://businesstech.co.za/x/"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "AI Governance & the EU AI Act",
+    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
+    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
   }
 }

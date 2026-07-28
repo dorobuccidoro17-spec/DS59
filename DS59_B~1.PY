@@ -121,11 +121,23 @@ def two_sentences(text, limit=320):
     return out or text[:limit]
 
 
+UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+      "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+
+
 def fetch_top(feeds):
     for url in feeds:
         try:
-            feed = feedparser.parse(url)
-            if feed.bozo and not feed.entries:
+            content = None
+            try:
+                resp = requests.get(url, headers={"User-Agent": UA,
+                    "Accept": "application/rss+xml, application/xml, text/xml, */*"}, timeout=25)
+                if resp.ok and resp.content:
+                    content = resp.content
+            except Exception as exc:  # noqa: BLE001
+                print(f"  ! fetch {url}: {exc}", file=sys.stderr)
+            feed = feedparser.parse(content if content is not None else url)
+            if not feed.entries:
                 continue
             src = ((feed.feed.get("title") if getattr(feed, "feed", None) else "")
                    or "").split("-")[0].split("|")[0].strip() or "Source"
@@ -283,8 +295,8 @@ def main():
         else:
             print(f"  ! no item for {sec['tag']}", file=sys.stderr)
     if not items:
-        print("No headlines fetched; aborting.", file=sys.stderr)
-        sys.exit(1)
+        print("  ! No headlines fetched from any feed — publishing the brief without news today.",
+              file=sys.stderr)
 
     ds59_polish([it for _, it in items])
     watchlist = fetch_watchlist()

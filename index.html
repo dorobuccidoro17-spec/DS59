@@ -1,236 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<meta name="theme-color" content="#070b12">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="DS59">
-<link rel="manifest" href="manifest.webmanifest">
-<link rel="apple-touch-icon" href="icon-512.png">
-<title>DS59 Command Center</title>
-<style>
-:root{color-scheme:dark;--bg:#070b12;--panel:rgba(255,255,255,.04);--line:rgba(148,171,204,.16);
-  --ink:#e8eef8;--ink2:#aab7c9;--muted:#6d7c92;--cyan:#22d3ee;}
-*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
-html,body{margin:0;}
-body{background:radial-gradient(700px 300px at 50% -8%,rgba(34,211,238,.15),transparent 60%),var(--bg);
-  color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  line-height:1.5;-webkit-font-smoothing:antialiased;
-  padding:calc(env(safe-area-inset-top) + 14px) 14px calc(env(safe-area-inset-bottom) + 28px);}
-.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;}
-.bar{display:flex;justify-content:space-between;align-items:center;
-  background:linear-gradient(180deg,rgba(34,211,238,.09),rgba(34,211,238,.02));
-  border:1px solid rgba(34,211,238,.28);border-radius:13px;padding:10px 13px;}
-.bl{display:flex;align-items:center;gap:9px;}
-.orb{width:15px;height:15px;border-radius:50%;background:radial-gradient(circle at 50% 40%,#a5f3fc,#22d3ee 60%,#0891b2);
-  box-shadow:0 0 10px 2px rgba(34,211,238,.7);animation:pulse 2.4s ease-out infinite;}
-@keyframes pulse{0%{box-shadow:0 0 8px 1px rgba(34,211,238,.7);}70%{box-shadow:0 0 0 9px rgba(34,211,238,0);}100%{box-shadow:0 0 0 0 rgba(34,211,238,0);}}
-.brand{font-weight:800;letter-spacing:.14em;font-size:15px;text-shadow:0 0 12px rgba(34,211,238,.5);}
-.clock{font-weight:700;font-size:14px;letter-spacing:.1em;color:#d7fbff;}
-.today{font-size:9.5px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;font-weight:700;text-align:right;}
-h1.greet{font-size:23px;margin:18px 2px 2px;font-weight:800;text-shadow:0 0 16px rgba(34,211,238,.22);}
-.sub{color:var(--ink2);font-size:13px;margin:0 2px;font-style:italic;}
-.accent{height:3px;border-radius:3px;margin:13px 0 4px;background:linear-gradient(90deg,#22d3ee,#818cf8,#f59e0b,#fb923c);
-  box-shadow:0 0 14px rgba(34,211,238,.4);}
-.vbtns{display:flex;gap:9px;margin:14px 0 6px;}
-.vbtn{flex:1;border:1px solid rgba(103,232,249,.4);background:rgba(34,211,238,.11);color:#aef2ff;
-  font-size:15px;font-weight:800;padding:14px 10px;border-radius:13px;cursor:pointer;}
-.vbtn:active{background:rgba(34,211,238,.22);}
-.vbtn.mic{flex:0 0 58px;}
-.vbtn.rec{background:#f87171;color:#210a0a;border-color:#fca5a5;}
-.vstate{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#67e8f9;font-weight:700;margin:2px 2px 0;min-height:14px;}
-.tiles{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin:14px 0 6px;}
-.tile{background:var(--panel);border:1px solid var(--line);border-top:2px solid var(--c,#22d3ee);border-radius:11px;padding:10px 12px;}
-.tk{font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:800;}
-.tv{font-size:18px;font-weight:800;margin-top:2px;}
-.tc{font-size:11px;font-weight:800;margin-top:1px;}
-.tc.up{color:#34d399;}.tc.down{color:#f87171;}
-.divider{display:flex;align-items:center;gap:10px;margin:22px 2px 12px;}
-.divider .t{font-size:10.5px;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#67e8f9;}
-.divider .r{flex:1;height:1px;background:linear-gradient(90deg,rgba(103,232,249,.5),rgba(103,232,249,0));}
-.quote{background:linear-gradient(135deg,rgba(34,211,238,.10),rgba(129,140,248,.10));border:1px solid rgba(103,232,249,.28);
-  border-radius:15px;padding:20px 18px 16px;margin:14px 0;}
-.quote blockquote{margin:0;font-family:Georgia,serif;font-style:italic;font-size:18px;color:#e6f6ff;}
-.quote cite{display:block;margin-top:10px;font-style:normal;font-weight:800;font-size:13px;color:#67e8f9;}
-.card{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--c,#22d3ee);border-radius:13px;
-  padding:14px 15px;margin-bottom:12px;}
-.chip{display:inline-block;font-size:10.5px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;
-  color:#06121a;background:var(--c,#22d3ee);padding:4px 10px;border-radius:99px;}
-.cdate{font-size:10.5px;font-weight:800;color:var(--c,#22d3ee);float:right;
-  border:1px solid var(--c,#22d3ee);padding:2px 8px;border-radius:99px;opacity:.85;}
-.card h3{font-size:16px;line-height:1.32;margin:9px 0 3px;font-weight:700;color:#f1f6ff;}
-.card .src{font-size:11.5px;color:var(--muted);font-weight:700;margin-bottom:7px;}
-.card p{font-size:14px;color:var(--ink2);margin:0;}
-.card .read{display:inline-block;margin-top:11px;font-size:13px;font-weight:800;color:var(--c,#22d3ee);text-decoration:none;}
-.takeaway{margin-top:11px;padding:10px 12px;border-radius:10px;background:rgba(45,212,191,.14);
-  border:1px solid rgba(45,212,191,.4);font-size:13px;color:#d7f5ef;}
-.takeaway b{color:#2dd4bf;}
-footer{margin-top:20px;padding-top:15px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:11.5px;line-height:1.7;}
-footer .sig{font-weight:800;color:#67e8f9;}
-.install{background:rgba(129,140,248,.12);border:1px solid rgba(129,140,248,.35);border-radius:12px;
-  padding:11px 13px;margin:14px 0 2px;font-size:12.5px;color:#cdd6ff;display:none;}
-.install b{color:#a5b4fc;}
-</style>
-</head>
-<body>
-  <div class="bar">
-    <div class="bl"><span class="orb"></span><span class="brand">DS59</span></div>
-    <div><div class="clock mono" id="clock">--:--</div><div class="today" id="today">&mdash;</div></div>
-  </div>
+name: DS59 Daily Briefing
 
-  <h1 class="greet" id="greet">Good morning, sir.</h1>
-  <div class="sub" id="sub">Your briefing is ready, Mr Shai.</div>
-  <div class="accent"></div>
+# Runs on GitHub's servers — no desktop app required.
+on:
+  schedule:
+    # 05:00 UTC = 07:00 SAST (South Africa, UTC+2). GitHub cron is always UTC.
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}   # lets you run it manually from the Actions tab
 
-  <div class="vbtns">
-    <button class="vbtn" id="briefBtn">&#128266;&nbsp;Brief me, DS59</button>
-    <button class="vbtn mic" id="micBtn" title="Speak">&#127908;</button>
-    <button class="vbtn mic" id="stopBtn" title="Stop">&#9209;</button>
-  </div>
-  <div class="vstate" id="vstate"></div>
+permissions:
+  contents: write         # allows the job to commit the updated brief.json
 
-  <div class="tiles" id="tiles"></div>
+jobs:
+  send-brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-  <div class="divider"><span class="t">Daily Briefing</span><span class="r"></span></div>
-  <div class="quote"><blockquote id="qt"></blockquote><cite id="qc"></cite></div>
-  <div id="joke"></div>
-  <div id="edge"></div>
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
 
-  <div class="divider"><span class="t">Today's Headlines</span><span class="r"></span></div>
-  <div id="news"></div>
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-  <div class="divider"><span class="t">Learn &amp; Grow</span><span class="r"></span></div>
-  <div id="concept"></div>
+      - name: Generate briefing (writes brief.json) and send email
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DS59_MODEL:        ${{ secrets.DS59_MODEL }}
+          SMTP_HOST:         ${{ secrets.SMTP_HOST }}
+          SMTP_PORT:         ${{ secrets.SMTP_PORT }}
+          SMTP_USER:         ${{ secrets.SMTP_USER }}
+          SMTP_PASS:         ${{ secrets.SMTP_PASS }}
+          MAIL_FROM:         ${{ secrets.MAIL_FROM }}
+          MAIL_TO:           ${{ secrets.MAIL_TO }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT:     ${{ secrets.VAPID_SUBJECT }}
+          PUSH_SUBSCRIPTION: ${{ secrets.PUSH_SUBSCRIPTION }}
+        run: python ds59_brief.py
 
-  <div class="install" id="install">Tip: to keep DS59 on your home screen &mdash; <b>Share &rarr; Add to Home Screen</b>.</div>
-
-  <footer><span class="sig">DS59</span> &middot; at your service, sir<br><span id="stamp"></span></footer>
-
-<script>
-/* -------- Baked-in briefing (auto-updates if brief.json is present) -------- */
-var DATA = {
-  "date":"Friday, 18 July 2026",
-  "watchlist":[
-    {"k":"Bitcoin","v":"$64,720","chg":"▼ 0.4%","dir":"down","c":"#fb923c"},
-    {"k":"Ethereum","v":"$1,917","chg":"▲ 1.5%","dir":"up","c":"#818cf8"},
-    {"k":"USD / ZAR","v":"R16.46","chg":"rand ▼ 0.4%","dir":"down","c":"#34d399"},
-    {"k":"JSE Top-40","v":"Open","chg":"▼ 0.5%","dir":"down","c":"#22d3ee"}
-  ],
-  "quote":{"text":"It always seems impossible until it's done.","by":"Nelson Mandela"},
-  "joke":"Why don't scientists trust atoms? Because they make up everything.",
-  "edge":"Start with the problem, not the technology. The AI initiatives that pay off begin with one specific, costly business problem and a metric to move — not “let's use AI.” Pilot it small, then scale what works.",
-  "headlines":[
-    {"tag":"South Africa · Business","c":"#34d399","date":"17 Jul 2026","title":"Rand slips as inflation data and SARB rate meeting come into focus","source":"CNBC Africa (Reuters)","summary":"The rand weakened to about 16.46 to the dollar on Friday, on track for a second straight weekly loss as Middle East tensions dented risk appetite. Investors await June inflation data and next week's SARB meeting, where the rate call is seen as close.","link":"https://www.cnbcafrica.com/2026/south-african-rand-slips-with-inflation-and-rate-setting-meeting-in-focus"},
-    {"tag":"Crypto · Trading & Developments","c":"#fb923c","date":"16 Jul 2026","title":"Bitcoin and ethereum rise; ETH called 'increasingly compelling'","source":"Yahoo Finance","summary":"Bitcoin opened around $64,720 and ethereum near $1,917 on Thursday, extending gains after a softer US inflation report. Ethereum has climbed ~7% over five days versus bitcoin's ~2%, and analysts call ETH 'increasingly compelling.'","link":"https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-july-16-2026-prices-rise-ethereum-becomes-increasingly-compelling-124218108.html"},
-    {"tag":"AI Pulse","c":"#818cf8","date":"10 Jul 2026","title":"Three frontier labs shipped at once — the race shifts to 'best fit'","source":"AIapps","summary":"OpenAI's GPT-5.6 arrived as a three-model lineup, xAI's Grok 4.5 claims top-tier coding at far lower cost, and Meta's Muse Spark 1.1 packs a 1M-token context. The signal for leaders: the market is moving from 'best model' to best fit on price, speed, and reliability.","link":"https://www.aiapps.com/blog/july-ai-mega-update-major-breakthroughs-launches/"}
-  ],
-  "concept":{"title":"Large Language Models (LLMs)","body":"An LLM is trained on vast text to predict the next word, which lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').","takeaway":"Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."}
-};
-
-function esc(s){return (s+'').replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];});}
-
-function render(){
-  document.getElementById('sub').textContent = 'Your briefing for '+DATA.date+', Mr Shai.';
-  // tiles
-  document.getElementById('tiles').innerHTML = DATA.watchlist.map(function(t){
-    return '<div class="tile" style="--c:'+t.c+'"><div class="tk">'+esc(t.k)+'</div><div class="tv">'+esc(t.v)+
-      '</div><div class="tc '+(t.dir==='up'?'up':'down')+'">'+esc(t.chg)+'</div></div>';
-  }).join('');
-  document.getElementById('qt').textContent = '“'+DATA.quote.text+'”';
-  document.getElementById('qc').textContent = '— '+DATA.quote.by;
-  document.getElementById('joke').innerHTML =
-    '<div class="card" style="--c:#22d3ee"><span class="chip">Joke of the Day</span><p style="margin-top:9px">'+esc(DATA.joke)+' 😄</p></div>';
-  document.getElementById('edge').innerHTML =
-    '<div class="card" style="--c:#f59e0b"><span class="chip">Executive Edge</span><p style="margin-top:9px">'+esc(DATA.edge)+'</p></div>';
-  document.getElementById('news').innerHTML = DATA.headlines.map(function(h){
-    return '<div class="card" style="--c:'+h.c+'"><span class="cdate">'+esc(h.date)+'</span><span class="chip">'+esc(h.tag)+
-      '</span><h3>'+esc(h.title)+'</h3><div class="src">'+esc(h.source)+'</div><p>'+esc(h.summary)+
-      '</p><a class="read" href="'+esc(h.link)+'" target="_blank" rel="noopener">Read full article &rarr;</a></div>';
-  }).join('');
-  document.getElementById('concept').innerHTML =
-    '<div class="card" style="--c:#2dd4bf"><span class="chip">AI Concept of the Day</span><h3>'+esc(DATA.concept.title)+
-    '</h3><p>'+esc(DATA.concept.body)+'</p><div class="takeaway"><b>Executive takeaway:</b> '+esc(DATA.concept.takeaway)+'</div></div>';
-  document.getElementById('stamp').textContent = 'Showing briefing for '+DATA.date;
-}
-
-/* -------- Clock + greeting -------- */
-function pad(n){return (n<10?'0':'')+n;}
-var days=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
-var months=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-function tick(){var d=new Date();
-  document.getElementById('clock').textContent=pad(d.getHours())+':'+pad(d.getMinutes());
-  document.getElementById('today').textContent=days[d.getDay()]+' '+d.getDate()+' '+months[d.getMonth()];
-  var h=d.getHours();var p=h<12?'Good morning':(h<18?'Good afternoon':'Good evening');
-  document.getElementById('greet').textContent=p+', sir.';}
-tick(); setInterval(tick,15000);
-
-/* -------- Voice (TTS + optional STT) -------- */
-var synth=window.speechSynthesis, vVoice=null;
-function pickVoice(){if(!synth)return;var vs=synth.getVoices();if(!vs||!vs.length)return;
-  vVoice=vs.filter(function(v){return /(serena|google uk english female|libby|sonia|hazel|kate|stephanie|fiona)/i.test(v.name);})[0]
-    ||vs.filter(function(v){return v.lang==='en-GB' && /female/i.test(v.name);})[0]
-    ||vs.filter(function(v){return /(samantha|zira|aria|jenny|karen|moira|tessa|victoria|allison|female)/i.test(v.name);})[0]
-    ||vs.filter(function(v){return v.lang==='en-GB';})[0]
-    ||vs.filter(function(v){return /^en/i.test(v.lang);})[0]||null;}
-if(synth){pickVoice();if('onvoiceschanged' in synth)synth.onvoiceschanged=pickVoice;}
-function vstate(m){document.getElementById('vstate').textContent=m||'';}
-function say(t){if(!synth){vstate('No speech output');return;}synth.cancel();
-  var u=new SpeechSynthesisUtterance(t);if(vVoice)u.voice=vVoice;u.rate=0.95;u.pitch=1.0;u.lang=(vVoice&&vVoice.lang)||'en-GB';
-  u.onstart=function(){vstate('Speaking…');};u.onend=function(){vstate('');};synth.speak(u);}
-function greetWord(){var h=new Date().getHours();return h<12?'Good morning':(h<18?'Good afternoon':'Good evening');}
-function briefingText(){
-  var w=DATA.watchlist.map(function(t){return t.k+' '+t.v+', '+t.chg.replace('▼','down').replace('▲','up');}).join('. ');
-  var hl=DATA.headlines.map(function(h){return h.tag.replace('·','')+': '+h.title+'. '+h.summary;}).join(' ');
-  return greetWord()+', sir. Here is your briefing for '+DATA.date+'. Markets: '+w+'. Today’s motivation, from '+DATA.quote.by+': '+DATA.quote.text+' '+DATA.joke+' Executive edge: '+DATA.edge+' Now, the headlines. '+hl+' And your A I concept of the day: '+DATA.concept.title+'. '+DATA.concept.body+' The executive takeaway: '+DATA.concept.takeaway+' That concludes the briefing, sir.';
-}
-document.getElementById('briefBtn').onclick=function(){say(briefingText());};
-document.getElementById('stopBtn').onclick=function(){if(synth)synth.cancel();vstate('');};
-
-var Rec=window.SpeechRecognition||window.webkitSpeechRecognition, rec=null, listening=false;
-var micBtn=document.getElementById('micBtn');
-function handle(t){var raw=(t||'').trim();
-  if(!raw){vstate('Didn’t catch that, sir');return;}
-  vstate('“'+raw+'”'); t=raw.toLowerCase();
-  if(/stop|quiet|silence|cancel|enough/.test(t)){if(synth)synth.cancel();vstate('');return;}
-  if(/joke/.test(t)){say(DATA.joke);return;}
-  if(/quote|motivat|inspir/.test(t)){say('From '+DATA.quote.by+': '+DATA.quote.text);return;}
-  if(/price|bitcoin|btc|ether|eth|rand|zar|market|jse|watchlist|stock/.test(t)){
-    say(DATA.watchlist.map(function(x){return x.k+', '+x.v+', '+x.chg.replace('▲','up').replace('▼','down');}).join('. '));return;}
-  if(/concept|learn|teach|lesson/.test(t)){say(DATA.concept.title+'. '+DATA.concept.body+' '+DATA.concept.takeaway);return;}
-  if(/headline|news|south africa|crypto|\bai\b/.test(t)){
-    say('Today’s headlines. '+DATA.headlines.map(function(h){return h.tag.replace('·','')+'. '+h.title+'.';}).join(' '));return;}
-  if(/brief|read|catch me up|summary|update me|everything/.test(t)){say(briefingText());return;}
-  if(/help|what can you|commands|options/.test(t)){
-    say('You can ask me for your brief, the headlines, market prices, the quote, the joke, or the concept, sir. For a full conversation, speak with me in Cowork.');return;}
-  say('I didn’t catch a command, sir. Try: brief, headlines, prices, the quote, the joke, or the concept.');}
-micBtn.onclick=function(){
-  if(!Rec){vstate('Mic not supported — tap Brief me');return;}
-  if(listening){try{rec.stop();}catch(e){}return;}
-  rec=new Rec();rec.lang='en-GB';rec.interimResults=false;
-  rec.onstart=function(){listening=true;micBtn.classList.add('rec');vstate('Listening…');};
-  rec.onerror=function(e){vstate('Mic: '+((e&&e.error)||'error'));};
-  rec.onend=function(){listening=false;micBtn.classList.remove('rec');if(document.getElementById('vstate').textContent==='Listening…')vstate('');};
-  rec.onresult=function(e){handle(e.results[0][0].transcript);};
-  try{rec.start();}catch(e){}
-};
-
-/* -------- Render, then try to pull fresh brief.json -------- */
-render();
-fetch('brief.json?ts='+Date.now()).then(function(r){return r.ok?r.json():null;}).then(function(j){
-  if(j&&j.headlines){DATA=j;render();}
-}).catch(function(){});
-
-/* -------- PWA plumbing -------- */
-if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(function(){});}
-// iOS install hint (no beforeinstallprompt there)
-var isIOS=/iphone|ipad|ipod/i.test(navigator.userAgent);
-var standalone=window.matchMedia('(display-mode: standalone)').matches||window.navigator.standalone;
-if(isIOS&&!standalone){document.getElementById('install').style.display='block';}
-window.addEventListener('beforeinstallprompt',function(e){e.preventDefault();var el=document.getElementById('install');
-  el.innerHTML='Tap to install DS59 on your home screen.';el.style.display='block';el.style.cursor='pointer';
-  el.onclick=function(){e.prompt();};});
-</script>
-</body>
-</html>
+      - name: Publish brief.json to the phone app
+        run: |
+          if [ -n "$(git status --porcelain brief.json)" ]; then
+            git config user.name  "DS59 Bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add brief.json
+            git commit -m "DS59: update briefing $(date -u +%Y-%m-%d)"
+            git push
+            echo "brief.json published."
+          else
+            echo "brief.json unchanged — nothing to publish."
+          fi

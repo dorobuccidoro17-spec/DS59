@@ -1,18 +1,18 @@
 {
-  "date": "Wednesday, 29 July 2026",
+  "date": "Thursday, 30 July 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$64,391",
-      "chg": "▲ 1.5%",
-      "dir": "up",
+      "v": "$63,994",
+      "chg": "▼ 0.7%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,914",
-      "chg": "▲ 1.6%",
-      "dir": "up",
+      "v": "$1,903",
+      "chg": "▼ 0.7%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "29 Jul 2026",
-      "title": "Valterra Platinum dividend surges 29-fold, exceeds estimates",
+      "date": "30 Jul 2026",
+      "title": "Ebola vaccine race accelerates as Congo outbreak outpaces response",
       "source": "Moneyweb",
-      "summary": "Announced a payout of R57 per share on Wednesday.",
-      "link": "https://www.moneyweb.co.za/mineweb/valterra-platinum-dividend-surges-29-fold-exceeds-estimates/"
+      "summary": "'The epidemic is fast becoming a humanitarian crisis,' CEPI Chief Executive Officer Richard Hatchett said. 'This vaccine candidate could become an important tool for Bundibugyo outbreak control and response.'",
+      "link": "https://www.moneyweb.co.za/news-fast-news/ebola-vaccine-race-accelerates-as-congo-outbreak-outpaces-response/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "29 Jul 2026",
-      "title": "Live updates: Bitcoin clears $64,000 in Asia hours ahead of Fed decision",
+      "date": "30 Jul 2026",
+      "title": "Bitcoin, ether whipsaw wipes out $280 million even as prices remain flat over 24 hours",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/07/29/live-updates-bitcoin-clears-usd64-000-in-asia-hours-ahead-of-fed-decision"
+      "link": "https://www.coindesk.com/markets/2026/07/30/bitcoin-ether-whipsaw-wipes-out-usd280-million-even-as-prices-remain-flat-over-24-hours"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "28 Jul 2026",
-      "title": "AI leaders sign a statement asking the government to do something about automated AI",
+      "date": "29 Jul 2026",
+      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
       "source": "AI",
-      "summary": "Employees of OpenAI and Anthropic, as well as Google, Meta, Thinking Machines, Microsoft, Mistral, and other leading AI labs, have written a statement to the US government supporting a potential slowdown of sorts for frontier AI development - or at least a speed-up of global coordinated governance efforts. \"Al could…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
+      "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year.",
+      "link": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

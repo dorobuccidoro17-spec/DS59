@@ -34,6 +34,10 @@ SMTP_PORT = int(os.environ.get("SMTP_PORT") or "465")
 SMTP_PASS = os.environ.get("SMTP_PASS", "")
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 MODEL = os.environ.get("DS59_MODEL", "claude-sonnet-5")
+# Web Push (phone notification) — all optional
+VAPID_PRIVATE_KEY = os.environ.get("VAPID_PRIVATE_KEY", "")
+VAPID_SUBJECT = os.environ.get("VAPID_SUBJECT") or "mailto:dorobuccidoro17@gmail.com"
+PUSH_SUBSCRIPTION = os.environ.get("PUSH_SUBSCRIPTION", "")
 DRY_RUN = "--dry-run" in sys.argv
 
 # section -> phone tag, phone accent colour, email colours, RSS feeds
@@ -278,6 +282,24 @@ def render_email(date_str, quote, joke, edge, concept, items, watchlist):
     return html_body, "\n".join(lines)
 
 
+def send_push(items):
+    """Send a phone notification via Web Push (optional)."""
+    if not (VAPID_PRIVATE_KEY and PUSH_SUBSCRIPTION):
+        print("  [no push] VAPID key / subscription not set — skipping notification.")
+        return
+    try:
+        from pywebpush import webpush
+        sub = json.loads(PUSH_SUBSCRIPTION)
+        headline = items[0][1]["title"] if items else "Your daily briefing is ready."
+        payload = json.dumps({"title": "DS59 — today's briefing", "body": headline})
+        webpush(subscription_info=sub, data=payload,
+                vapid_private_key=VAPID_PRIVATE_KEY,
+                vapid_claims={"sub": VAPID_SUBJECT})
+        print("  ✓ push notification sent")
+    except Exception as exc:  # noqa: BLE001
+        print(f"  ! push notification failed: {exc}", file=sys.stderr)
+
+
 def main():
     today = datetime.date.today()
     date_str = today.strftime("%A, %d %B %Y")
@@ -307,6 +329,9 @@ def main():
     with open("brief.json", "w", encoding="utf-8") as fh:
         json.dump(brief, fh, ensure_ascii=False, indent=2)
     print("  ✓ wrote brief.json")
+
+    # Notify the phone (optional Web Push).
+    send_push(items)
 
     # 2) Email (only if SMTP secrets are configured).
     html_body, text_body = render_email(date_str, quote, joke, edge, concept, items, watchlist)

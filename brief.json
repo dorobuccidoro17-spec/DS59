@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 30 July 2026",
+  "date": "Monday, 03 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$63,994",
-      "chg": "▼ 0.7%",
-      "dir": "down",
+      "v": "$63,635",
+      "chg": "▲ 0.9%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,903",
-      "chg": "▼ 0.7%",
-      "dir": "down",
+      "v": "$1,861",
+      "chg": "▲ 0.3%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.71",
+      "v": "R16.49",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "30 Jul 2026",
-      "title": "Ebola vaccine race accelerates as Congo outbreak outpaces response",
+      "date": "03 Aug 2026",
+      "title": "Treasury releases R7bn while demanding municipal accountability",
       "source": "Moneyweb",
-      "summary": "'The epidemic is fast becoming a humanitarian crisis,' CEPI Chief Executive Officer Richard Hatchett said. 'This vaccine candidate could become an important tool for Bundibugyo outbreak control and response.'",
-      "link": "https://www.moneyweb.co.za/news-fast-news/ebola-vaccine-race-accelerates-as-congo-outbreak-outpaces-response/"
+      "summary": "‘If the municipal officials are at fault, it is correct that you must not give them money when they cannot account and enforce the accountability mechanism, so their communities do not suffer,’ says Dr Zweli Mkhize, chair of parliament's Cogta committee.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/treasury-releases-r7bn-while-demanding-municipal-accountability/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "30 Jul 2026",
-      "title": "Bitcoin, ether whipsaw wipes out $280 million even as prices remain flat over 24 hours",
+      "date": "03 Aug 2026",
+      "title": "U.S.-Japan intervention revives yen carry trade fears for bitcoin",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/07/30/bitcoin-ether-whipsaw-wipes-out-usd280-million-even-as-prices-remain-flat-over-24-hours"
+      "link": "https://www.coindesk.com/markets/2026/08/03/u-s-japan-intervention-revives-yen-carry-trade-fears-for-bitcoin"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "29 Jul 2026",
-      "title": "Microsoft confirms Copilot ‘super app’ coming this year",
+      "date": "03 Aug 2026",
+      "title": "China’s Alibaba takes another swipe at America’s AI supremacy",
       "source": "AI",
-      "summary": "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities. During an earnings call on Wednesday, Microsoft CEO Satya Nadella said the app will span \"both consumer and commercial experiences\" when it launches this year.",
-      "link": "https://www.theverge.com/tech/972927/microsoft-copilot-super-app-confirmed"
+      "summary": "Chinese tech giant Alibaba released what it says is its largest and \"most capable AI model to date,\" claiming performance rivaling the best systems from US frontier labs Anthropic and OpenAI, as well as domestic rivals like Moonshot AI's Kimi K3. Alibaba said it was making the model, Qwen3.8-Max, widely available to…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

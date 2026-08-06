@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 05 August 2026",
+  "date": "Thursday, 06 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$64,023",
-      "chg": "▲ 0.6%",
+      "v": "$64,809",
+      "chg": "▲ 1.2%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,863",
-      "chg": "▲ 0.2%",
+      "v": "$1,910",
+      "chg": "▲ 2.5%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.40",
+      "v": "R16.32",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "05 Aug 2026",
-      "title": "Trump says Iran talks going well as hopes rise for Hormuz deal",
+      "date": "06 Aug 2026",
+      "title": "OpenAI models joined forces months ahead of Hugging Face hack",
       "source": "Moneyweb",
-      "summary": "Trump told reporters in Los Angeles on Tuesday night that talks with Iran are 'moving along very nicely,' adding, 'We’ll know in 48 hours.'",
-      "link": "https://www.moneyweb.co.za/news/international/trump-says-iran-talks-going-well-as-hopes-rise-for-hormuz-deal/"
+      "summary": "Working together to break out of their testing environment as early as May.",
+      "link": "https://www.moneyweb.co.za/news/ai/openai-models-joined-forces-months-ahead-of-hugging-face-hack/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "05 Aug 2026",
-      "title": "New Ethereum proposal would cut issuance to zero if staked ETH reaches $112 billion",
+      "date": "06 Aug 2026",
+      "title": "Live updates: Bitcoin nears $65,000 as oil, inflation hopes keep macro bid alive",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/08/05/new-ethereum-proposal-would-cut-issuance-to-zero-if-staked-eth-reaches-usd112-billion"
+      "link": "https://www.coindesk.com/tech/2026/08/06/live-updates-bitcoin-nears-usd65-000-as-oil-inflation-hopes-keep-macro-bid-alive"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "04 Aug 2026",
-      "title": "AMD’s data center business is booming while gaming takes a backseat",
+      "date": "06 Aug 2026",
+      "title": "Elon Musk’s attempt at an AI Wikipedia hasn’t been updated in months",
       "source": "AI",
-      "summary": "Driven by demand for AI capacity, AMD's data center revenue more than doubled year-over-year in its latest earnings report, reaching $6.7 billion. That's up from $5.8 billion in Q1, and jumping 107 percent from the $3.2 billion it reported for the same period a year ago.",
-      "link": "https://www.theverge.com/tech/975381/amd-q2-2026-earnings-ai-gaming-ryzen"
+      "summary": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

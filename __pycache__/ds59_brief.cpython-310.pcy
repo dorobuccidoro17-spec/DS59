@@ -1,1 +1,185 @@
+o
 
+    ]útj|Ž  ã                
+   @   s^  d Z ddlZddlZddlZddlZddlZddlZddlZddlZddl	m
+Z
+ ddlmZ ddl
+Z
+ddlZej dd¡Zej dd¡Zej d	e¡Zej d
+d¡Zzeeej d¡p\d
+ƒ ¡ ƒZW n eym   dZY nw ej dd¡Zej dd¡Zej dd¡Zej dd¡Zej d¡p‘dZej dd¡Zdej v Z!dddddg d¢dœdd d!d"d#g d$¢dœd%d&d'd(d)g d*¢dœgZ"g d+¢Z#g d,¢Z$g d-¢Z%g d.¢Z&d/d0„ Z'dHd2d3„Z(d4Z)d5d6„ Z*d7d8„ Z+d9d:„ Z,d;d<„ Z-d=d>„ Z.d?d@„ Z/dAdB„ Z0dCdD„ Z1e2dEkr-ze1ƒ  W n" e3y% Z4 zddl5Z5e6dFej7dG e5 8¡  W Y dZ4[4ndZ4[4ww e 9d¡ dS dS )IuN  
+DS59 Daily Briefing â€” always-on cloud edition (email + phone update).
+
+Runs on a schedule via GitHub Actions, independent of any desktop app. It:
+  1. Fetches the top South Africa business, crypto, and AI headlines (public RSS).
+  2. Fetches live BTC, ETH, and USD/ZAR for the watchlist.
+  3. Writes brief.json (the file the phone app reads) â€” always.
+  4. Emails the briefing via SMTP (if SMTP_* secrets are set).
+
+Environment variables (GitHub Actions secrets):
+  MAIL_TO            recipient (default: tdshai91@gmail.com)
+  MAIL_FROM          from address (default: SMTP_USER)
+  SMTP_HOST/PORT/USER/PASS   your mail sender (e.g. Gmail App Password)
+  ANTHROPIC_API_KEY  (optional) polish summaries in DS59's voice
+  DS59_MODEL         (optional) Claude model, default claude-sonnet-5
+
+Local test (no send): python ds59_brief.py --dry-run
+é    N)Ú
+MIMEMultipart)ÚMIMETextÚMAIL_TOztdshai91@gmail.comÚ	SMTP_USERÚ Ú	MAIL_FROMÚ	SMTP_HOSTzsmtp.gmail.comÚ	SMTP_PORTÚ465éÑ  Ú	SMTP_PASSÚANTHROPIC_API_KEYÚ
+DS59_MODELzclaude-sonnet-5ÚVAPID_PRIVATE_KEYÚ
+VAPID_SUBJECTz mailto:dorobuccidoro17@gmail.comÚPUSH_SUBSCRIPTIONz	--dry-runu   South Africa Â· Businessú#34d399z#eafaf3z#c3ecd8z#059669)z%https://businesstech.co.za/news/feed/z https://www.moneyweb.co.za/feed/z'https://mg.co.za/section/business/feed/)ÚtagÚpcÚbgÚbdÚcÚfeedsu    Crypto Â· Trading & Developmentsú#fb923cz#fdefe7z#f5d3bfz#c2410c)z/https://www.coindesk.com/arc/outboundfeeds/rss/zhttps://cointelegraph.com/rsszhttps://decrypt.co/feedzAI Pulseú#818cf8z#eeecfbz#d3cef4z#4338ca)zAhttps://www.theverge.com/rss/ai-artificial-intelligence/index.xmlz)https://venturebeat.com/category/ai/feed/z=https://techcrunch.com/category/artificial-intelligence/feed/)))z+It always seems impossible until it's done.úNelson Mandela)z3The best way to predict the future is to create it.ú
+Peter Drucker)z:Discipline is the bridge between goals and accomplishment.zJim Rohn)zVSuccess is not final, failure is not fatal: it is the courage to continue that counts.úWinston Churchill)z Whatever you are, be a good one.zAbraham Lincoln)z,Opportunities don't happen. You create them.z
+Chris Grosser)z;Everything you've ever wanted is on the other side of fear.z
+George Addair)zCA leader is one who knows the way, goes the way, and shows the way.zJohn C. Maxwell)zEIf you want to go fast, go alone. If you want to go far, go together.zAfrican proverb)z$Culture eats strategy for breakfast.r   )zYThe greatest glory in living lies not in never falling, but in rising every time we fall.r   )zHDo not wait for the perfect moment; take the moment and make it perfect.zZoey Sayward)z What gets measured gets managed.r   )z5The price of light is less than the cost of darkness.zArthur C. Nielsen)z-In the middle of difficulty lies opportunity.zAlbert Einstein)zGManagement is doing things right; leadership is doing the right things.r   )z*You miss 100% of the shots you don't take.z
+Wayne Gretzky)z*Vision without execution is hallucination.z
+Thomas Edison)zFEducation is the most powerful weapon you can use to change the world.r   )z:The way to get started is to quit talking and begin doing.zWalt Disney)z9Innovation distinguishes between a leader and a follower.ú
+Steve Jobs)z`Courage is what it takes to stand up and speak; it is also what it takes to sit down and listen.r   )z%Quality is not an act, it is a habit.Ú	Aristotle)zHIt is not the strongest that survives, but the most adaptable to change.zLeon Megginson)zJEfficiency is doing things right; effectiveness is doing the right things.r   )z%A goal without a plan is just a wish.u   Antoine de Saint-ExupÃ©ry)z*Simplicity is the ultimate sophistication.zLeonardo da Vinci)zEHardships often prepare ordinary people for an extraordinary destiny.z
+C.S. Lewis)z#Well done is better than well said.zBenjamin Franklin)zThe obstacle is the way.zMarcus Aurelius)z6Great things in business are never done by one person.r   )z!Fall seven times, stand up eight.zJapanese proverb)zEIf you don't drive your business, you will be driven out of business.zB.C. Forbes)z%Knowing is not enough; we must apply.zJohann Wolfgang von Goethe)z.Risk comes from not knowing what you're doing.zWarren Buffett)zLThe best time to plant a tree was 20 years ago. The second best time is now.zChinese proverb)zXLeadership is not about being in charge. It's about taking care of those in your charge.zSimon Sinek)zQPerfection is not attainable, but if we chase perfection we can catch excellence.zVince Lombardi)z.Action is the foundational key to all success.z
+Pablo Picasso)z'Ideas are easy. Implementation is hard.zGuy Kawasaki)z0Character cannot be developed in ease and quiet.zHelen Keller)(zBWhy don't scientists trust atoms? Because they make up everything.zQI told my computer I needed a break, and now it won't stop sending me KitKat ads.zDWhy did the scarecrow win an award? He was outstanding in his field.z6I would tell you a UDP joke, but you might not get it.zAWhy do programmers prefer dark mode? Because light attracts bugs.zCI'm reading a book about anti-gravity. It's impossible to put down.zGParallel lines have so much in common. It's a shame they'll never meet.z3My boss told me to have a good day, so I went home.z0I used to play piano by ear. Now I use my hands.zHThe meeting could have been an email. The email could have been silence.zAWhy did the spreadsheet go to therapy? Too many unresolved cells.zfI asked the librarian if the library had books on paranoia. She whispered, 'They're right behind you.'zKA budget is just a spreadsheet telling you what you can't afford, politely.z?Why don't skeletons fight each other? They don't have the guts.z6My password is the last eight digits of pi. Good luck.zCTwo economists walk into a bar. They argue about whether it exists.z7Why did the coffee file a police report? It got mugged.z>I'd tell you a construction joke, but I'm still working on it.z&Autocorrect has become my worst enema.z5Why was the maths book sad? It had too many problems.ziI bought shoes from a drug dealer once. I don't know what he laced them with, but I was tripping all day.z0Deadlines are just dreams with anxiety attached.z9Why did the developer go broke? He used up all his cache.z@I have a joke about procrastination, but I'll tell you tomorrow.z1Never trust a stair. It's always up to something.zCThe early bird gets the worm, but the second mouse gets the cheese.z6Why don't eggs tell jokes? They'd crack each other up.z[My email signature says 'sent from my phone' so people forgive the typos. I'm on a desktop.zBI told my wife she should embrace her mistakes. She gave me a hug.z@Statistics show that people who have more birthdays live longer.zEWhy did the strategy deck cross the road? To get to the next quarter.z2A clean desk is a sign of a cluttered desk drawer.z/I'm on a seafood diet. I see food and I eat it.z4Time flies like an arrow. Fruit flies like a banana.z7Why did the robot go on holiday? It needed to recharge.uG   I would exercise, but I'm allergic to sweat â€” it makes my eyes water.zASome people graduate with honours. I'm just honoured to graduate.z>My plan for retirement is to keep making plans for retirement.z1Why do meetings about efficiency always run over?z=I named my Wi-Fi 'Hack me if you can'. It's been quiet since.)u¦   Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move â€” not 'let's use AI.'zsPilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.zeFix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.zZUpskill the team, don't just buy tools. Adoption, not licences, is where the return lives.zgAssign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.z[Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.zkMeasure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.zaAvoid 'AI theatre'. An impressive demo that never reaches production is a cost, not a capability.zfCommunicate the 'why' early. Unexplained automation breeds fear; explained automation breeds adoption.uf   Prioritise use cases by value Ã— feasibility. The best first project is valuable AND easy, not heroic.z_Verify vendor claims with your own pilot. Benchmarks are marketing until they run on your data.zPBudget for change management, not just licences. The software is the cheap part.zZTrack leading indicators, not vanity metrics. Time saved per task beats 'number of users'.zcDocument decisions for auditability. If a regulator asked why the model did that, could you answer?zbRevisit your AI strategy quarterly. The capability curve moves faster than annual planning cycles.zYWrite the policy before the incident. Data-usage rules are cheap now and expensive later.zdDelegate outcomes, not keystrokes. Tell the team what success looks like; let them find the tooling.zTBeware the pilot that never ends. Set a decision date: scale it, fix it, or kill it.z\Insist on a fallback path. Every automated workflow needs an answer to 'what if it's wrong?'zgBuy commodity, build differentiator. Don't build what you can rent; don't rent what makes you distinct.zMMake one person accountable per initiative. Shared ownership is no ownership.z^Test with your sceptics, not your enthusiasts. They'll find the failure modes your fans won't.zCProtect focus. Three finished AI projects beat twelve started ones.zWShow the work. Adoption follows trust, and trust follows visible reasoning and sources.zWCost-control from day one. Set spend alerts before usage scales, not after the invoice.zZHire for judgement, not tool familiarity. Tools change every quarter; judgement compounds.uY   Run a pre-mortem. Ask 'it's a year on and this failed â€” why?' before you commit budget.zWBeware automating a broken process. Fix the workflow first, or you'll just fail faster.zTGive the team time to learn. Capability built under deadline pressure rarely sticks.z^Close the loop with users. The people doing the work know where the minutes are actually lost.zBDecide what you will NOT do this quarter. Strategy is subtraction.) )zLarge Language Models (LLMs)u  An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts â€” hence its fluency and its habit of confident mistakes ('hallucinations').zWLean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs.)z$Retrieval-Augmented Generation (RAG)zÉRAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.uh   RAG is usually the cheapest route to a trustworthy internal assistant â€” start here before fine-tuning.)z	AI AgentsuÁ   An agent is a model given tools and a goal, allowed to take multiple steps on its own â€” searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.zjDeploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible.)zFine-tuning vs Promptingz§Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.uX   Exhaust prompting and RAG before paying for fine-tuning â€” most needs never require it.)zHallucinations & Reliabilityz°Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.zgFor anything customer- or board-facing, design a checking step; never ship raw model output unverified.)zTokens & Context Windowsz´Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.uM   Watch cost-per-task, not just cost-per-token â€” verbose prompts add up fast.)zAI Governance & the EU AI Actz»Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.zOName an owner, document your models and data, and monitor use before you scale.)zTraining vs InferencezÀTraining is the expensive, one-off process of teaching a model from data; inference is the cheap, repeated act of using it to answer. Almost everything a business does day-to-day is inference.uZ   You rarely need to train anything â€” your costs and decisions live on the inference side.)zPrompting BasicszªA prompt is the instruction you give a model, and its quality dominates the output. Clear role, context, examples, and desired format reliably outperform clever phrasing.ud   Prompting is a teachable staff skill with immediate ROI â€” train the team before buying more tools.)zEmbeddings & Vector Searchz®Embeddings turn text into numbers that capture meaning, so a system can find documents by concept rather than exact keywords. This is the engine behind modern search and RAG.zXIt's why an AI can find the right policy document even when nobody used the right words.)z
+Multimodal AIu’   Multimodal models handle images, audio, and documents alongside text â€” reading a scanned invoice, describing a photo, or transcribing a meeting.zQMuch of your untapped value sits in documents and recordings, not tidy databases.)zFoundation Modelsz£A foundation model is a large, general model trained once at great expense, then adapted to countless tasks. It's why capable AI is now rentable rather than built.uh   You're buying access to shared infrastructure â€” your edge comes from data and workflow, not the model.)zBenchmarks & Evaluationz¦Public benchmarks measure models on standard tests, but they rarely reflect your actual workload. A private evaluation set of your real tasks is far more informative.uY   Build a small internal test set â€” it turns vendor selection from opinion into evidence.)zGuardrails & Safetyu«   Guardrails are the constraints around a model â€” filters, allowed actions, approval steps â€” that keep it inside acceptable behaviour. The model itself is not a control.zaDesign the guardrails before deployment; they're what makes AI safe to put in front of customers.)zData Privacy in AIz«What you send to a model may be processed, stored, or used for training depending on the contract and settings. Enterprise terms usually differ sharply from consumer ones.u[   Read the data terms before staff paste anything sensitive â€” and give them a clear policy.)zCompute & Inference Costz{Every response consumes compute, billed by volume of text processed. Costs scale with usage, prompt length, and model size.z_Match the model to the task: small models for routine work, large ones only where they earn it.)zOpen vs Closed ModelszÁClosed models are accessed via a provider's API; open-weight models can be downloaded and self-hosted. Open offers control and data residency, closed offers convenience and frontier capability.z]Choose by constraint: regulation and sovereignty push open, speed and capability push closed.)zBias & FairnesszÁModels learn patterns from historical data, including its inequities, which can surface in hiring, lending, or service decisions. Bias is a data and process problem, not merely a technical one.u`   For any decision affecting people, test outcomes across groups â€” and keep a human accountable.)zHuman-in-the-Loopz…This is the deliberate design choice to keep a person at the decision point, with AI preparing and recommending rather than deciding.uk   It's the single most effective control for high-stakes automation â€” and usually a regulatory expectation.)zMeasuring AI ROIu   Return shows up as time saved, error rates reduced, throughput gained, or revenue enabled â€” but only if you captured a baseline beforehand.zDMeasure the 'before' in week one, or you'll never prove the 'after'.)zBuild vs BuyzzBuying gets capability fast at recurring cost; building offers control and differentiation at high effort and maintenance.z@Buy the commodity, build only what genuinely differentiates you.)zCopilots vs Autonomous Agentsz¿A copilot assists a person in real time; an agent executes multi-step tasks independently. Copilots are lower risk and faster to adopt; agents offer bigger leverage with bigger failure modes.zOStart with copilots to build trust, then graduate specific workflows to agents.)z#RLHF (Learning from Human Feedback)z«After initial training, humans rate model outputs and the model is tuned toward preferred responses. It's why modern assistants feel helpful rather than merely predictive.uU   Model behaviour is a design choice made by its makers â€” worth asking vendors about.)zPrompt Injection & Securityuƒ   Malicious instructions hidden in a webpage, email, or document can hijack an AI that reads them â€” a genuinely new attack surface.z^Treat any content your AI ingests as untrusted input, and limit what it's permitted to act on.)zMLOps / LLMOpsz¡The operational discipline of deploying, monitoring, versioning, and improving AI systems in production. Without it, pilots work and production quietly degrades.uX   Budget for operations from the start â€” AI is a system to run, not a project to finish.)zChange Management for AIzhAdoption fails on fear, unclear expectations, and workflow disruption far more often than on technology.z_Communicate intent, involve the people affected, and measure adoption as seriously as accuracy.)zContext EngineeringzµBeyond prompts, this is the practice of supplying a model the right documents, tools, and history at the right moment. Most 'the AI got it wrong' cases are missing-context problems.zEBetter context beats a better model, and it's usually cheaper to fix.)zModel Distillationz{A large model teaches a smaller one to imitate it, yielding cheaper, faster inference with much of the capability retained.z>It's how you scale a proven use case without scaling the bill.)zStructured Outputsz”Models can be constrained to return strict formats like JSON, so their answers plug directly into systems instead of needing a human to retype them.z7This is what turns a chat demo into genuine automation.)zLatency & User Experienceue   Response speed shapes adoption as much as accuracy â€” a brilliant answer nobody waits for is unused.zkOptimise perceived speed (streaming, partial results); people forgive imperfection more readily than delay.)zSynthetic Dataz£Artificially generated data used to train or test when real data is scarce, sensitive, or imbalanced. Useful, but it can amplify the flaws of whatever produced it.uW   Valuable for testing edge cases and protecting privacy â€” validate it against reality.)zTotal Cost of Ownershipu“   The real cost of an AI system includes integration, monitoring, evaluation, staff time, and ongoing maintenance â€” typically dwarfing the licence.zNWhen comparing options, insist on TCO over three years, not the sticker price.c                 C   s*   t  dd| pd¡} t  ddt | ¡¡ ¡ S )Nz<[^>]+>r   z\s+ú )ÚreÚsubÚhtmlÚunescapeÚstrip)Út© r'   ú
+ds59_brief.pyÚ
+strip_html  s   r)   é@  c                 C   sb   t | ƒ} t d| ¡}d |d d… ¡ ¡ }t|ƒ|kr)|d |…  dd¡d d }|p0| d |… S )Nz
+(?<=[.!?])\s+r    é   é   r   u   â€¦)r)   r!   ÚsplitÚjoinr%   ÚlenÚrsplit)ÚtextÚlimitÚpartsÚoutr'   r'   r(   Ú
+two_sentences   s   r5   zoMozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36c                 C   s°  | D ]Ó}z²d }zt j|tddœdd}|jr|jr|j}W n ty< } ztd|› d|› tjd W Y d }~nd }~ww t	 
+|d urE|n|¡}|jsMW qt|dd ƒrY|j
+ d	¡nd
+p\d
+ d¡d  d
+¡d  ¡ pjd}|jd d… D ]B}t| d	d
+¡ƒ| dd
+¡}}	|r‡|	sˆqrd
+}
+| d¡rœtj|jd d… Ž  d¡}
+||	||
+t| dd
+¡p¬| dd
+¡ƒdœ  W   S W q tyÕ } ztd|› d|› tjd W Y d }~qd }~ww d S )Nz3application/rss+xml, application/xml, text/xml, */*)z
+User-AgentÚAccepté   )ÚheadersÚtimeoutz
+  ! fetch ú: ©ÚfileÚfeedÚtitler   ú-r   ú|ÚSourceé   ÚlinkÚpublished_parsedé   z%d %b %YÚsummaryÚdescription)r>   rC   ÚsourceÚdaterF   z  ! feed error )ÚrequestsÚgetÚUAÚokÚcontentÚ	ExceptionÚprintÚsysÚstderrÚ
+feedparserÚparseÚentriesÚgetattrr=   r-   r%   r)   ÚdatetimerD   Ústrftimer5   )r   ÚurlrN   ÚrespÚexcr=   ÚsrcÚer>   rC   rI   r'   r'   r(   Ú	fetch_top-  sX   ÿÿ€&€ÿ
+ÿÿÿÿ
+ÿù	&€ÿr^   c               
+   C   sˆ  g } z\t jdddddœdd}| ¡  | ¡ }dD ]C\}}}||v r\|| d }||  d	d
+¡p1d
+}|dk}|  |dttt|ƒƒd
+ƒ |rGdndd dt|ƒ  d |rVdnd|dœ¡ qW n t	yz }	 zt
+d|	› tjd W Y d }	~	nd }	~	ww z+t jddd}| ¡  | ¡  di ¡ d¡}
+|
+r¤|  dd|
+ ddddœ¡ W | S W | S  t	yÃ }	 zt
+d |	› tjd W Y d }	~	| S d }	~	ww )!Nz-https://api.coingecko.com/api/v3/simple/pricezbitcoin,ethereumÚusdÚtrue)ÚidsÚ
+vs_currenciesÚinclude_24hr_changeé   )Úparamsr9   ))ÚbitcoinÚBitcoinr   )ÚethereumÚEthereumr   Úusd_24h_changeg        r   ú$ú,u   â–²u   â–¼r    z%.1fú%ÚupÚdown)ÚkÚvÚchgÚdirr   z  ! crypto price skipped: r;   z%https://open.er-api.com/v6/latest/USD)r9   ÚratesÚZARz	USD / ZARzR%.2fÚspotr   z  ! fx rate skipped: )
+rJ   rK   Úraise_for_statusÚjsonÚappendÚformatÚintÚroundÚabsrO   rP   rQ   rR   )ÚtilesÚrÚdÚcidÚnameÚcolourÚpxrr   rn   r[   Úzarr'   r'   r(   Úfetch_watchlistK  sR   ÿþþ€ú	 €ÿ
+ÿûþ€þr†   c              
+   C   s  t sd S dd„ | D ƒ}dtj|dd }zPtjdt ddd	œtd
+d|dœgd
+œdd}| ¡  | ¡ d d d }|| d¡| d¡d … }t	| t 
+|¡d ƒD ]\}}| d¡ra|d  ¡ |d< qPW d S  t
+y } ztd|› tjd W Y d }~d S d }~ww )Nc                 S   s   g | ]}|d  |d dœ‘qS )r>   rF   )r>   rF   r'   )Ú.0Úitr'   r'   r(   Ú
+<listcomp>m  s    zds59_polish.<locals>.<listcomp>zšYou are DS59. Rewrite each item's summary as a neutral, factual 2-3 sentence summary (no hype). Return ONLY JSON {"items":[{"summary":"..."}]} in order.
+
+F)Úensure_asciiz%https://api.anthropic.com/v1/messagesz
+2023-06-01zapplication/json)z	x-api-keyzanthropic-versionzcontent-typei„  Úuser)ÚrolerN   )ÚmodelÚ
+max_tokensÚmessagesé-   )r8   rx   r9   rN   r   r1   ú{ú}r,   ÚitemsrF   z  ! Claude polish skipped: r;   )r
+   rx   ÚdumpsrJ   ÚpostÚMODELrw   ÚfindÚrfindÚzipÚloadsrK   r%   rO   rP   rQ   rR   )r“   ÚpayloadÚpromptr   Útxtrˆ   Úpr[   r'   r'   r(   Úds59_polishj  s:   þþ
+ÿû
+€þ"€ÿrŸ   c              
+   C   s@   | ||d |d dœ||dd„ |D ƒ|d |d |d dœdœS )	Nr   r,   )r1   Úbyc              
+   S   s@   g | ]\}}|d  |d |d |d |d |d |d dœ‘qS )r   r   rI   r>   rH   rF   rC   )r   r   rI   r>   rH   rF   rC   r'   ©r‡   Úsecrˆ   r'   r'   r(   r‰   ‰  s    ý
+þz$build_brief_json.<locals>.<listcomp>r+   )r>   ÚbodyÚtakeaway)rI   Ú	watchlistÚquoteÚjokeÚedgeÚ	headlinesÚconceptr'   )Údate_strr¦   r§   r¨   rª   r“   r¥   r'   r'   r(   Úbuild_brief_json‚  s   ýör¬   c                 C   sŒ   d| d › d| d › d| d › d| d › d| d	 › d
+|d › dt  |d
+ ¡› dt  |d ¡› dt  |d ¡› dt  |d ¡› d| d › dS )Nz
+  <div style="background:r   z;border:1px solid r   z;border-left:5px solid r   zm;border-radius:12px;padding:14px 16px;margin-bottom:14px;">
+    <span style="display:inline-block;background:z;color:#fff;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:4px 11px;border-radius:99px;">r   zT</span>
+    <span style="color:#6b7280;font-size:11px;font-weight:700;">&nbsp;&nbsp;rI   zJ</span>
+    <div style="font-size:16px;font-weight:700;margin:9px 0 3px;">r>   zX</div>
+    <div style="font-size:12px;color:#8790a0;font-weight:700;margin-bottom:7px;">rH   ú6</div>
+    <div style="font-size:14px;color:#3a4150;">rF   z</div>
+    <a href="rC   zS" style="display:inline-block;margin-top:10px;font-size:13px;font-weight:800;color:z=;text-decoration:none;">Read full article &rarr;</a>
+  </div>)r#   Úescape)r¢   rˆ   r'   r'   r(   Ú	card_html‘  s.   ÿÿÿþþýüûúùùr¯   c           
+      C   s|  d  dd„ |D ƒ¡pd}d  dd„ |D ƒ¡}d| › d|› d	t |d
+ ¡› dt |d ¡› d
+t |¡› dt |¡› d|› dt |d
+ ¡› dt |d ¡› dt |d ¡› d}	d| › dd| dd¡ dd|d
+ › d|d › dd|› dd|› ddg}
+|D ]"\}}|
+d|d › d|d  › d!|d" › d#|d$ |d% |d& g7 }
+q~|
+dd'|d
+ › |d d(|d › dd)g7 }
+|	d*  |
+¡fS )+Nu    &nbsp;Â·&nbsp; c                 s   s2    | ]}|d  › d|d › d|d › dV  qdS )rp   r    rq   ú (rr   ú)Nr'   )r‡   r&   r'   r'   r(   Ú	<genexpr>ž  s   €0 zrender_email.<locals>.<genexpr>u   â€”r   c                 s   s    | ]
+\}}t ||ƒV  qd S )N)r¯   r¡   r'   r'   r(   r²   Ÿ  s   € aí  <div style="font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;max-width:640px;margin:0 auto;color:#161a22;line-height:1.55;padding:4px;">
+  <div style="display:inline-block;font-weight:800;font-size:13px;letter-spacing:.04em;color:#fff;background:#5b3fd6;padding:6px 11px;border-radius:9px;">DS59</div>
+  <h1 style="font-size:23px;margin:14px 0 4px;font-weight:800;">Good morning, Mr Shai.</h1>
+  <div style="color:#6b7280;font-size:13px;font-weight:600;">Your briefing for z</div>
+  <div style="margin:12px 0 6px;font-size:12.5px;color:#3a4150;font-weight:700;background:#f3f4f8;border-radius:10px;padding:9px 12px;">zÞ</div>
+  <div style="background:#f3f0ff;border:1px solid #e4ddfb;border-radius:14px;padding:16px 18px;margin:12px 0 14px;">
+    <div style="font-family:Georgia,serif;font-style:italic;font-size:17px;color:#2b2350;">&ldquo;r   zd&rdquo;</div>
+    <div style="margin-top:8px;font-weight:800;font-size:13px;color:#7c3aed;">&mdash; r,   aš  </div>
+  </div>
+  <div style="background:#ecfbfd;border:1px solid #bfeef4;border-left:5px solid #0891b2;border-radius:12px;padding:12px 15px;margin-bottom:14px;">
+    <span style="display:inline-block;background:#0891b2;color:#fff;font-size:11px;font-weight:800;text-transform:uppercase;padding:4px 11px;border-radius:99px;">Joke of the Day</span>
+    <div style="margin-top:8px;font-size:14px;color:#3a4150;">a™  </div>
+  </div>
+  <div style="background:#fdf4e7;border:1px solid #f3ddba;border-left:5px solid #b45309;border-radius:12px;padding:12px 15px;margin-bottom:14px;">
+    <span style="display:inline-block;background:#b45309;color:#fff;font-size:11px;font-weight:800;text-transform:uppercase;padding:4px 11px;border-radius:99px;">Executive Edge</span>
+    <div style="font-size:14px;color:#3a4150;margin-top:8px;">zî</div>
+  </div>
+  <div style="font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#fff;background:#6b7280;display:inline-block;padding:4px 12px;border-radius:99px;margin:6px 0 12px;">Today's Headlines</div>
+a  
+  <div style="background:#e9f6f3;border:1px solid #c3e6de;border-left:5px solid #0f766e;border-radius:12px;padding:14px 16px;margin:14px 0;">
+    <span style="display:inline-block;background:#0f766e;color:#fff;font-size:11px;font-weight:800;text-transform:uppercase;padding:4px 11px;border-radius:99px;">AI Concept of the Day</span>
+    <div style="font-size:16px;font-weight:700;margin:9px 0 5px;">r­   zÕ</div>
+    <div style="margin-top:11px;padding:10px 13px;border-radius:10px;background:#d9efe9;border:1px solid #b6ddd3;font-size:13.5px;color:#155e52;"><strong style="color:#0f766e;">Executive takeaway:</strong> r+   a  </div>
+  </div>
+  <div style="margin-top:16px;padding-top:12px;border-top:1px solid #e9ebf0;text-align:center;color:#8790a0;font-size:12.5px;">
+    Auto-sent daily &middot; <strong style="color:#5b3fd6;">DS59</strong> &middot; at your service, sir
+  </div>
+</div>z)GOOD MORNING, MR SHAI. Your briefing for zWATCHLIST: u   &nbsp;Â·&nbsp;z | ú"z" - zJOKE: zEXECUTIVE EDGE: z
+HEADLINES:r   r°   rH   z - rI   r±   r>   rF   rC   u   AI CONCEPT â€” zExecutive takeaway: z-- DS59, at your service, sirÚ
+)r.   r#   r®   Úreplace)
+r«   r¦   r§   r¨   rª   r“   r¥   ÚwlÚcardsÚ	html_bodyÚlinesr¢   rˆ   r'   r'   r(   Úrender_email  s@   ýüúùõñîëêé0ÿ>"ÿrº   c              
+   C   sÖ   t  ¡ rt ¡ stdƒ dS zddlm} W n ty$   tdƒ Y dS w z(t t¡}| r5| d d d nd}||t 	d	|d
+œ¡t dt
+id td
+ƒ W dS  tyj } ztd|› tjd W Y d}~dS d}~ww )zÎOptional phone notification via Web Push.
+
+    Fully self-contained and non-fatal: if anything is missing or fails, the
+    briefing still publishes. (Not used on iOS below 16.4, which lacks Web Push.)
+    u5     [no push] not configured â€” skipping notification.Nr   )Úwebpushu>     [no push] pywebpush not installed â€” skipping notification.r,   r>   zYour daily briefing is ready.u   DS59 â€” today's briefing)r>   r£   r"   )Úsubscription_infoÚdataÚvapid_private_keyÚvapid_claimsu     âœ“ push notification sentz(  ! push notification failed (ignored): r;   )
+r   r%   r   rP   Ú	pywebpushr»   rO   rx   rš   r”   r   rQ   rR   )r“   r»   r"   Úheadliner[   r'   r'   r(   Ú	send_pushÆ  s,   þ
+ý"€ÿrÂ   c               
+   C   s`  t j ¡ } |  d¡}|  ¡ }t|ttƒ  }t|d ttƒ  }t|d ttƒ  }t	|d tt	ƒ  }t
+d|› ƒ g }tD ]0}t|d ƒ}	|	rc| 
+||	f¡ t
+d|d › d	|	d
+ d d… › ƒ q?t
+d|d › tjd
+ q?|syt
+dtjd
+ tdd„ |D ƒƒ tƒ }
+t
+dt|
+ƒ› ƒ t|||||||
+ƒ}tdddd}tj||ddd W d   ƒ n1 s³w   Y  t
+dƒ t|ƒ t|||||||
+ƒ\}
+}d|  d¡› }tsÚtrÚtsütdddd
+}| |
+¡ W d   ƒ n1 sñw   Y  t
+dƒ d S z•tdƒ}|tptt|d< |d < |d!< | t |d"dƒ¡ | t |
+d#dƒ¡ t! "¡ }t#d$krYt$j%t&t#|d%}| 'tt¡ | (|d  tg| )¡ ¡ W d   ƒ n	1 sSw   Y  n/t$ *t&t#¡ }|j+|d% | 'tt¡ | (|d  tg| )¡ ¡ W d   ƒ n	1 sƒw   Y  t
+d&t› ƒ W d S  t,y¯ } zt
+d'|› tjd
+ W Y d }~d S d }~ww )(Nz%A, %d %B %Yé   é   rB   zDS59 briefing for r   u     âœ“ r   r:   r>   é@   z  ! no item for r;   uS     ! No headlines fetched from any feed â€” publishing the brief without news today.c                 S   s   g | ]\}}|‘qS r'   r'   )r‡   Ú_rˆ   r'   r'   r(   r‰   ø  s    zmain.<locals>.<listcomp>z  watchlist tiles: z
+brief.jsonÚwzutf-8)ÚencodingFr+   )rŠ   Úindentu     âœ“ wrote brief.jsonu   DS59 Daily Briefing â€” z%a, %d %b %Yzpreview.htmluR     [no email] SMTP not configured â€” wrote preview.html. brief.json still updated.ÚalternativeÚSubjectÚFromÚToÚplainr#   r   )Úcontextu     âœ“ emailed briefing to z-  ! email failed (brief.json still updated): )-rW   rI   ÚtodayrX   Ú	toordinalÚQUOTESr/   ÚJOKESÚEDGESÚCONCEPTSrP   ÚSECTIONSr^   ry   rQ   rR   rŸ   r†   r¬   Úopenrx   ÚdumprÂ   rº   ÚDRY_RUNr   r   Úwriter   r   r   Úattachr   ÚsslÚcreate_default_contextr	   ÚsmtplibÚSMTP_SSLr   ÚloginÚsendmailÚ	as_stringÚSMTPÚstarttlsrO   )rÐ   r«   Únr¦   r§   r¨   rª   r“   r¢   Útopr¥   ÚbriefÚfhr¸   Ú	text_bodyÚsubjectÚmsgÚctxÚsr[   r'   r'   r(   Úmainà  st   
+
+&ÿÿÿ"
+þ€ý"€ÿrî   Ú__main__u@     ! DS59 hit an unexpected problem â€” logged below, continuing.r;   )r*   ):Ú__doc__Úosr!   rÜ   rQ   rx   r#   rÞ   rW   Úemail.mime.multipartr   Úemail.mime.textr   rS   rJ   ÚenvironrK   r   r   r   r   r{   Ústrr%   r	   Ú
+ValueErrorr   r
+   r–   r   r   r   ÚargvrÙ   rÖ   rÒ   rÓ   rÔ   rÕ   r)   r5   rL   r^   r†   rŸ   r¬   r¯   rº   rÂ   rî   Ú__name__rO   r[   Ú	tracebackrP   rR   Ú	print_excÚexitr'   r'   r'   r(   Ú<module>   sz   @ ÿ
+þþþõ+*!d
+	)
+C
+€ýø

@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 06 August 2026",
+  "date": "Friday, 07 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$64,809",
-      "chg": "▲ 1.2%",
-      "dir": "up",
+      "v": "$64,282",
+      "chg": "▼ 0.8%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,910",
-      "chg": "▲ 2.5%",
-      "dir": "up",
+      "v": "$1,900",
+      "chg": "▼ 0.6%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.32",
+      "v": "R16.34",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "06 Aug 2026",
-      "title": "OpenAI models joined forces months ahead of Hugging Face hack",
+      "date": "07 Aug 2026",
+      "title": "Hackers hit bitcoin’s safest hiding place in ongoing attack",
       "source": "Moneyweb",
-      "summary": "Working together to break out of their testing environment as early as May.",
-      "link": "https://www.moneyweb.co.za/news/ai/openai-models-joined-forces-months-ahead-of-hugging-face-hack/"
+      "summary": "The latest missing money stems from a software flaw in what’s known as a 'cold' Bitcoin wallet hosted by Canada-based Coinkite.",
+      "link": "https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/hackers-hit-bitcoins-safest-hiding-place-in-ongoing-attack/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "06 Aug 2026",
-      "title": "Live updates: Bitcoin nears $65,000 as oil, inflation hopes keep macro bid alive",
+      "date": "07 Aug 2026",
+      "title": "Bitcoin whales load up on $1.2 billion in BTC as ETFs attract $750 million",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/08/06/live-updates-bitcoin-nears-usd65-000-as-oil-inflation-hopes-keep-macro-bid-alive"
+      "link": "https://www.coindesk.com/markets/2026/08/07/bitcoin-whales-load-up-on-usd1-2-billion-in-btc-as-etfs-attract-usd750-million"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "06 Aug 2026",
-      "title": "Elon Musk’s attempt at an AI Wikipedia hasn’t been updated in months",
+      "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
       "source": "AI",
-      "summary": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead"
+      "summary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

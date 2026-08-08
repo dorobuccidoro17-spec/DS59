@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 07 August 2026",
+  "date": "Saturday, 08 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$64,282",
-      "chg": "▼ 0.8%",
-      "dir": "down",
+      "v": "$64,982",
+      "chg": "▲ 1.3%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,900",
-      "chg": "▼ 0.6%",
-      "dir": "down",
+      "v": "$1,917",
+      "chg": "▲ 1.2%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.34",
+      "v": "R16.17",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "07 Aug 2026",
-      "title": "Hackers hit bitcoin’s safest hiding place in ongoing attack",
+      "date": "08 Aug 2026",
+      "title": "Nigeria tries to revive 50-year-old mill that never made steel",
       "source": "Moneyweb",
-      "summary": "The latest missing money stems from a software flaw in what’s known as a 'cold' Bitcoin wallet hosted by Canada-based Coinkite.",
-      "link": "https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/hackers-hit-bitcoins-safest-hiding-place-in-ongoing-attack/"
+      "summary": "Even as previous efforts to revive the plant have failed.",
+      "link": "https://www.moneyweb.co.za/news/africa/nigeria-tries-to-revive-50-year-old-mill-that-never-made-steel/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "07 Aug 2026",
-      "title": "Bitcoin whales load up on $1.2 billion in BTC as ETFs attract $750 million",
+      "date": "08 Aug 2026",
+      "title": "New XRP Ledger amendments target $530 million in tokenized Wall Street assets",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/07/bitcoin-whales-load-up-on-usd1-2-billion-in-btc-as-etfs-attract-usd750-million"
+      "link": "https://www.coindesk.com/tech/2026/08/07/new-xrp-ledger-amendments-target-usd530-million-in-tokenized-wall-street-assets"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "06 Aug 2026",
-      "title": "Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+      "date": "07 Aug 2026",
+      "title": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
       "source": "AI",
-      "summary": "The AI device OpenAI is developing with former Apple designer Jony Ive is \"essentially a smart speaker without a display\" that's battery-powered, doughnut-shaped and roughly the size of a hockey puck, according to Bloomberg reporter Mark Gurman. The device, expected to launch in 2027 for a price over $300, reportedly…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor"
+      "summary": "It took long enough, but now LA rapper Fenix Flexin appears to have admitted using AI for the 80s synth pop-themed song \"Rubberz.\" His comments follow the producer Medasin's videos claiming that an AI tool called Treblo (formerly Sonauto) was used to make the song, and the company releasing an AI detector that…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

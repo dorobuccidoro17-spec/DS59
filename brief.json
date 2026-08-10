@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 09 August 2026",
+  "date": "Monday, 10 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$64,745",
-      "chg": "▼ 0.4%",
-      "dir": "down",
+      "v": "$65,176",
+      "chg": "▲ 0.6%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,913",
-      "chg": "▼ 0.2%",
-      "dir": "down",
+      "v": "$1,924",
+      "chg": "▲ 0.6%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.18",
+      "v": "R16.16",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "09 Aug 2026",
-      "title": "This history of currencies suggests the US dollar’s dominance may fade …",
+      "date": "10 Aug 2026",
+      "title": "For women-owned businesses, the funding gap is only half the problem",
       "source": "Moneyweb",
-      "summary": "But it will happen slowly.",
-      "link": "https://www.moneyweb.co.za/news/economy/this-history-of-currencies-suggests-the-us-dollars-dominance-may-fade/"
+      "summary": "Funding alone won't close the gap for South African women entrepreneurs – unequal access to the wider business ecosystem is holding growth back too.",
+      "link": "https://www.moneyweb.co.za/moneyweb-opinion/soapbox/for-women-owned-businesses-the-funding-gap-is-only-half-the-problem/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "09 Aug 2026",
-      "title": "Controversial Bitcoin fork BIP-110 mines two blocks, then stops",
+      "date": "10 Aug 2026",
+      "title": "Bitcoin tops $65,000 with US inflation data due this week",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/08/09/controversial-bitcoin-fork-bip-110-mines-two-blocks-then-stops"
+      "link": "https://www.coindesk.com/markets/2026/08/10/bitcoin-tops-usd65-000-with-us-inflation-data-due-this-week"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "08 Aug 2026",
-      "title": "An Amazon data center could have the worst polluting power plant in the country",
+      "date": "09 Aug 2026",
+      "title": "AI detectors are creating a new era of distrust",
       "source": "AI",
-      "summary": "To power its new West Texas data center, Amazon is investing in the construction of a new power plant that could be one of the largest single producers of greenhouse gases in the US, according to the New York Times. The new gas-burning plant in Pecos County, Texas has received significant investment from Amazon and,…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/977124/amazon-data-center-worst-polluting-power-plant"
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more news about how AI is changing our daily lives, follow Emma Roth.",
+      "link": "https://www.theverge.com/column/976690/ai-writing-detectors-suspicion"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

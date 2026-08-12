@@ -1,66 +1,66 @@
 {
-  "date": "Tuesday, 11 August 2026",
+  "date": "Wednesday, 12 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$63,979",
-      "chg": "▼ 1.6%",
+      "v": "$63,693",
+      "chg": "▼ 0.5%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,875",
-      "chg": "▼ 2.4%",
-      "dir": "down",
+      "v": "$1,887",
+      "chg": "▲ 0.7%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.18",
+      "v": "R16.19",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Everything you've ever wanted is on the other side of fear.",
-    "by": "George Addair"
+    "text": "It always seems impossible until it's done.",
+    "by": "Nelson Mandela"
   },
-  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
-  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
+  "joke": "Why don't scientists trust atoms? Because they make up everything.",
+  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "11 Aug 2026",
-      "title": "Weak US jobs good for markets and gold",
+      "date": "12 Aug 2026",
+      "title": "Virgin Active listing: Could it finally happen?",
       "source": "Moneyweb",
-      "summary": "Analysis of recent US jobs data and why chasing famous investment names could hurt long-term returns.",
-      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-now/weak-us-jobs-good-for-markets-and-gold/"
+      "summary": "Analysis of what’s next for Brait following its R2.5b rights issue, including the prospects of a Virgin Active listing, and why no South African miners made it into the global Mining, Metals & Minerals Top 50.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-now/virgin-active-listing-could-it-finally-happen/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "11 Aug 2026",
-      "title": "Bitcoin’s BIP-110 fork is 300 blocks behind BTC and six years from fixing itself",
+      "date": "12 Aug 2026",
+      "title": "Crypto.com rolls out tokenized stock derivatives as crypto exchanges push into equities",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/08/11/bitcoin-s-bip-110-fork-is-300-blocks-behind-btc-and-six-years-from-fixing-itself"
+      "link": "https://www.coindesk.com/business/2026/08/12/crypto-com-rolls-out-tokenized-stock-derivatives-as-crypto-exchanges-push-into-equities"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "10 Aug 2026",
-      "title": "Mark Zuckerberg doesn’t understand how to live",
+      "date": "12 Aug 2026",
+      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
       "source": "AI",
-      "summary": "Recently, a man I was rock climbing with told me about how he'd used AI to make a motivational poster for himself, which he'd hung on his bedroom wall: a bear, walking a slackline over a canyon, holding a sign that said, \"Do cool shit.\" I made what I hoped was a polite noise. What […]",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/977623/mark-zuckerberg-ai-manifesto-dim-vision"
+      "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that…",
+      "link": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive"
     }
   ],
   "concept": {
-    "title": "AI Governance & the EU AI Act",
-    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
-    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
+    "title": "Large Language Models (LLMs)",
+    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
+    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
   }
 }

@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 12 August 2026",
+  "date": "Thursday, 13 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$63,693",
-      "chg": "▼ 0.5%",
-      "dir": "down",
+      "v": "$63,781",
+      "chg": "▲ 0.2%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,887",
-      "chg": "▲ 0.7%",
+      "v": "$1,892",
+      "chg": "▲ 0.3%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.19",
+      "v": "R16.14",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "12 Aug 2026",
-      "title": "Virgin Active listing: Could it finally happen?",
+      "date": "13 Aug 2026",
+      "title": "Shoprite’s other bets continue to boom",
       "source": "Moneyweb",
-      "summary": "Analysis of what’s next for Brait following its R2.5b rights issue, including the prospects of a Virgin Active listing, and why no South African miners made it into the global Mining, Metals & Minerals Top 50.",
-      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-now/virgin-active-listing-could-it-finally-happen/"
+      "summary": "Analysis of Shoprite’s strong trading update as Sixty60 continues to drive growth, and a look at new data revealing the economic position of women in SA.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-now/shoprites-other-bets-continue-to-boom/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "12 Aug 2026",
-      "title": "Crypto.com rolls out tokenized stock derivatives as crypto exchanges push into equities",
+      "date": "13 Aug 2026",
+      "title": "Metaplanet denies selling bitcoin worth $320 million",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/08/12/crypto-com-rolls-out-tokenized-stock-derivatives-as-crypto-exchanges-push-into-equities"
+      "link": "https://www.coindesk.com/markets/2026/08/13/metaplanet-denies-selling-bitcoin-worth-usd320-million"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "12 Aug 2026",
-      "title": "Saber denies replacing Rideshare Stimulator’s writers with ChatGPT",
+      "title": "Twitch streamers can now opt out from training Amazon’s AI",
       "source": "AI",
-      "summary": "After a former lead writer claimed Saber \"replaced me with ChatGPT,\" CEO Matthew Karch now claims, \"Neither Saber nor Unigine have replaced any writers with AI,\" for the Rideshare \"Stimulator\" game announced last month, developed by Unigine. The writer, Stella Sacco, says differently, however, posting on Bluesky that…",
-      "link": "https://www.theverge.com/games/978558/rideshare-stimulator-writer-ai-saber-interactive"
+      "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, […]",
+      "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 13 August 2026",
+  "date": "Friday, 14 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$63,781",
-      "chg": "▲ 0.2%",
-      "dir": "up",
+      "v": "$63,269",
+      "chg": "▼ 0.8%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,892",
-      "chg": "▲ 0.3%",
-      "dir": "up",
+      "v": "$1,880",
+      "chg": "▼ 0.6%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.14",
+      "v": "R16.18",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "13 Aug 2026",
-      "title": "Shoprite’s other bets continue to boom",
+      "date": "14 Aug 2026",
+      "title": "When your emerging-market ETF goes all wrong",
       "source": "Moneyweb",
-      "summary": "Analysis of Shoprite’s strong trading update as Sixty60 continues to drive growth, and a look at new data revealing the economic position of women in SA.",
-      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-now/shoprites-other-bets-continue-to-boom/"
+      "summary": "Analysis of Standard Bank’s strong results and DRDGold’s expectations that earnings could double. Plus, could AI ever replace your financial adviser?",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-now/when-your-emerging-market-etf-goes-all-wrong/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "13 Aug 2026",
-      "title": "Metaplanet denies selling bitcoin worth $320 million",
+      "date": "14 Aug 2026",
+      "title": "JPMorgan shuttered its banking relationship with predictions platform Polymarket: FT",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/13/metaplanet-denies-selling-bitcoin-worth-usd320-million"
+      "link": "https://www.coindesk.com/markets/2026/08/14/jpmorgan-shuttered-its-banking-relationship-with-predictions-platform-polymarket-ft"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "12 Aug 2026",
-      "title": "Twitch streamers can now opt out from training Amazon’s AI",
+      "date": "13 Aug 2026",
+      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
       "source": "AI",
-      "summary": "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models. Opting out means that \"your streams, VODs, clips, stream chats, and pictures and text on your channel\" won't be used in \"future training\" of an Amazon AI model \"whose purpose is to generate or synthesize text, […]",
-      "link": "https://www.theverge.com/tech/979112/twitch-streamers-can-now-opt-out-from-training-amazons-ai"
+      "summary": "Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have \"more to react to,\" as reported earlier by GeekWire.",
+      "link": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

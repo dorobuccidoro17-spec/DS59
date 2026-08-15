@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 14 August 2026",
+  "date": "Saturday, 15 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$63,269",
-      "chg": "▼ 0.8%",
+      "v": "$63,094",
+      "chg": "▼ 0.3%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,880",
-      "chg": "▼ 0.6%",
-      "dir": "down",
+      "v": "$1,883",
+      "chg": "▲ 0.1%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.18",
+      "v": "R16.19",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "14 Aug 2026",
-      "title": "When your emerging-market ETF goes all wrong",
+      "date": "15 Aug 2026",
+      "title": "Crypto’s Wall Street era arrives as retail buzz, liquidity fade",
       "source": "Moneyweb",
-      "summary": "Analysis of Standard Bank’s strong results and DRDGold’s expectations that earnings could double. Plus, could AI ever replace your financial adviser?",
-      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-now/when-your-emerging-market-etf-goes-all-wrong/"
+      "summary": "Declining retail market liquidity highlights a broader transition toward institutional ownership across crypto markets.",
+      "link": "https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/cryptos-wall-street-era-arrives-as-retail-buzz-liquidity-fade/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "14 Aug 2026",
-      "title": "JPMorgan shuttered its banking relationship with predictions platform Polymarket: FT",
+      "title": "Trump expected to attend White House meeting with crypto CEOs, sources say",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/14/jpmorgan-shuttered-its-banking-relationship-with-predictions-platform-polymarket-ft"
+      "link": "https://www.coindesk.com/policy/2026/08/14/trump-expected-to-attend-white-house-meeting-with-crypto-ceos-sources-say"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "13 Aug 2026",
-      "title": "Microsoft’s Clippy-like Mico character is no longer the face of Copilot",
+      "date": "14 Aug 2026",
+      "title": "Mark Zuckerberg has an Instagzam",
       "source": "AI",
-      "summary": "Microsoft Copilot will no longer show its emotive yellow blob, Mico, when you use the chatbot's voice mode. In a support page, Microsoft says it's going to move Mico to its Learn Live platform, where the avatar will have \"more to react to,\" as reported earlier by GeekWire.",
-      "link": "https://www.theverge.com/tech/979871/microsoft-copilot-mico-retired"
+      "summary": "Instagram's wordmark is iconic. Well, was iconic.",
+      "link": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

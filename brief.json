@@ -1,18 +1,18 @@
 {
-  "date": "Saturday, 15 August 2026",
+  "date": "Sunday, 16 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$63,094",
-      "chg": "▼ 0.3%",
+      "v": "$63,017",
+      "chg": "▼ 0.1%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,883",
-      "chg": "▲ 0.1%",
-      "dir": "up",
+      "v": "$1,879",
+      "chg": "▼ 0.1%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "15 Aug 2026",
-      "title": "Crypto’s Wall Street era arrives as retail buzz, liquidity fade",
+      "date": "16 Aug 2026",
+      "title": "March and March protests leave immigrant traders’ livelihoods in ruins",
       "source": "Moneyweb",
-      "summary": "Declining retail market liquidity highlights a broader transition toward institutional ownership across crypto markets.",
-      "link": "https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/cryptos-wall-street-era-arrives-as-retail-buzz-liquidity-fade/"
+      "summary": "Traders with documents and permits chased away, leaving Bellville bus terminus market almost empty.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/immigrant-traders-see-their-livelihoods-destroyed-by-march-and-march/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "14 Aug 2026",
-      "title": "Trump expected to attend White House meeting with crypto CEOs, sources say",
+      "date": "15 Aug 2026",
+      "title": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/08/14/trump-expected-to-attend-white-house-meeting-with-crypto-ceos-sources-say"
+      "link": "https://www.coindesk.com/markets/2026/08/15/robot-maker-unitree-is-going-public-hyperliquid-traders-see-4x-upside-from-ipo-price"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "14 Aug 2026",
-      "title": "Mark Zuckerberg has an Instagzam",
+      "date": "15 Aug 2026",
+      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
       "source": "AI",
-      "summary": "Instagram's wordmark is iconic. Well, was iconic.",
-      "link": "https://www.theverge.com/podcast/980367/instagram-logo-new-zuckerberg-ai-vergecast"
+      "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI.",
+      "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

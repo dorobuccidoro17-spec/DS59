@@ -1,18 +1,18 @@
 {
-  "date": "Sunday, 16 August 2026",
+  "date": "Monday, 17 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$63,017",
-      "chg": "▼ 0.1%",
-      "dir": "down",
+      "v": "$63,447",
+      "chg": "▲ 0.7%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,879",
-      "chg": "▼ 0.1%",
-      "dir": "down",
+      "v": "$1,900",
+      "chg": "▲ 1.1%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "16 Aug 2026",
-      "title": "March and March protests leave immigrant traders’ livelihoods in ruins",
+      "date": "17 Aug 2026",
+      "title": "Global bond yields a threat to markets",
       "source": "Moneyweb",
-      "summary": "Traders with documents and permits chased away, leaving Bellville bus terminus market almost empty.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/immigrant-traders-see-their-livelihoods-destroyed-by-march-and-march/"
+      "summary": "Analysis of US market returns as mega IPOs and reduced share buybacks expand the investment pool. Plus, why traders need to look beyond interest rate decisions when assessing market opportunities.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-now/global-bond-yields-a-threat-to-markets/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "15 Aug 2026",
-      "title": "Robot maker Unitree is going public. Hyperliquid traders see 4x upside from IPO price",
+      "date": "17 Aug 2026",
+      "title": "XRP traders bet on a rebound as price slips to $1 and bearish chatter surges",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/15/robot-maker-unitree-is-going-public-hyperliquid-traders-see-4x-upside-from-ipo-price"
+      "link": "https://www.coindesk.com/markets/2026/08/17/xrp-traders-bet-on-a-rebound-as-price-slips-to-usd1-and-bearish-chatter-surges"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "15 Aug 2026",
-      "title": "Have a laugh at AI’s expense by roleplaying as a chatbot",
+      "date": "16 Aug 2026",
+      "title": "OpenAI reportedly disbanded its preparedness team",
       "source": "AI",
-      "summary": "Your AI Slop Bores Me is brilliant in its simplicity. There are two tabs: human and LARP as an AI.",
-      "link": "https://www.theverge.com/entertainment/980502/roleplay-as-an-ai-chatbot"
+      "summary": "According to the Financial Times, OpenAI disbanded its preparedness team at the end of last month. The job of the preparedness team was to assess if models posed serious risks and develop ways to mitigate those risks.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/980817/openai-disbands-preparedness-team"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

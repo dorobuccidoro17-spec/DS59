@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 19 August 2026",
+  "date": "Thursday, 20 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$64,286",
-      "chg": "▲ 0.2%",
+      "v": "$69,599",
+      "chg": "▲ 8.2%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,910",
-      "chg": "▲ 0.8%",
+      "v": "$2,254",
+      "chg": "▲ 17.9%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.25",
+      "v": "R16.12",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "19 Aug 2026",
-      "title": "Who pays when a country runs out of options?",
+      "date": "20 Aug 2026",
+      "title": "Bitcoin short squeeze ripples across a battered crypto complex",
       "source": "Moneyweb",
-      "summary": "Growth alone is not enough …",
-      "link": "https://www.moneyweb.co.za/moneyweb-opinion/soapbox/who-pays-when-a-country-runs-out-of-options/"
+      "summary": "'The move towards $70 000, triggered by short-covering, suggests buyers are regaining confidence, although the rally now faces a crucial test of whether it can sustain momentum and challenge the $75 000 region,' said Axel Rudolph.",
+      "link": "https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/bitcoin-short-squeeze-ripples-across-a-battered-crypto-complex/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "19 Aug 2026",
-      "title": "Solana leads bitcoin and ether higher while Korean chip stocks slide 7%",
+      "date": "20 Aug 2026",
+      "title": "Bearish crypto bets lose record $2.7 billion as bitcoin surges toward $70,000",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/19/solana-leads-bitcoin-and-ether-higher-while-korean-chip-stocks-slide-7"
+      "link": "https://www.coindesk.com/markets/2026/08/20/bearish-crypto-bets-lose-record-usd2-7-billion-as-bitcoin-surges-toward-usd70-000"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "18 Aug 2026",
-      "title": "Robin Williams’ Instagram account brought back to fight ‘AI abuse’",
+      "date": "19 Aug 2026",
+      "title": "Google Gemini is getting a dedicated student hub",
       "source": "AI",
-      "summary": "Robin Williams' children are taking over their father's Instagram account after his daughter spoke out against the use of his AI likeness, as reported earlier by The Wrap. In a post on Tuesday, Zak, Zelda, and Cody Williams write that they want the late actor's Instagram profile to be a \"safe, trusted place where the…",
-      "link": "https://www.theverge.com/entertainment/981644/robin-williams-instagram-account-ai"
+      "summary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

@@ -3,15 +3,15 @@
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$75,148",
-      "chg": "▲ 8.0%",
+      "v": "$77,303",
+      "chg": "▲ 6.6%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,352",
-      "chg": "▲ 4.4%",
+      "v": "$2,420",
+      "chg": "▲ 4.0%",
       "dir": "up",
       "c": "#818cf8"
     },
@@ -34,28 +34,28 @@
       "tag": "South Africa · Business",
       "c": "#34d399",
       "date": "21 Aug 2026",
-      "title": "Shake-up of construction sector regulation coming",
+      "title": "RSG Geldsake met Moneyweb – Vrydag 21 Augustus 2026",
       "source": "Moneyweb",
-      "summary": "Following investigations into four building collapses that claimed 17 lives and injured 24 others.",
-      "link": "https://www.moneyweb.co.za/news/industry/shake-up-of-construction-sector-regulation-coming/"
+      "summary": "Tinus de Jager – Moneyweb.",
+      "link": "https://www.moneyweb.co.za/moneyweb-radio/rsg-geldsake/rsg-geldsake-met-moneyweb-vrydag-21-augustus-2026/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "21 Aug 2026",
-      "title": "Ripple backs an RLUSD credit fund amid XRP's best week in months",
+      "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/21/ripple-backs-an-rlusd-credit-fund-amid-xrp-s-best-week-in-months"
+      "link": "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "20 Aug 2026",
-      "title": "Google Discover is getting an AI chatbot-tuned feed",
+      "date": "21 Aug 2026",
+      "title": "Major YouTube creators are facing backlash for accepting AI money",
       "source": "AI",
-      "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits.",
-      "link": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
+      "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
     }
   ],
   "concept": {

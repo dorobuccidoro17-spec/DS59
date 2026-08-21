@@ -1,17 +1,17 @@
 {
-  "date": "Thursday, 20 August 2026",
+  "date": "Friday, 21 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$69,599",
-      "chg": "▲ 8.2%",
+      "v": "$75,148",
+      "chg": "▲ 8.0%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,254",
-      "chg": "▲ 17.9%",
+      "v": "$2,352",
+      "chg": "▲ 4.4%",
       "dir": "up",
       "c": "#818cf8"
     },
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "20 Aug 2026",
-      "title": "Bitcoin short squeeze ripples across a battered crypto complex",
+      "date": "21 Aug 2026",
+      "title": "Shake-up of construction sector regulation coming",
       "source": "Moneyweb",
-      "summary": "'The move towards $70 000, triggered by short-covering, suggests buyers are regaining confidence, although the rally now faces a crucial test of whether it can sustain momentum and challenge the $75 000 region,' said Axel Rudolph.",
-      "link": "https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/bitcoin-short-squeeze-ripples-across-a-battered-crypto-complex/"
+      "summary": "Following investigations into four building collapses that claimed 17 lives and injured 24 others.",
+      "link": "https://www.moneyweb.co.za/news/industry/shake-up-of-construction-sector-regulation-coming/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "20 Aug 2026",
-      "title": "Bearish crypto bets lose record $2.7 billion as bitcoin surges toward $70,000",
+      "date": "21 Aug 2026",
+      "title": "Ripple backs an RLUSD credit fund amid XRP's best week in months",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/20/bearish-crypto-bets-lose-record-usd2-7-billion-as-bitcoin-surges-toward-usd70-000"
+      "link": "https://www.coindesk.com/markets/2026/08/21/ripple-backs-an-rlusd-credit-fund-amid-xrp-s-best-week-in-months"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "19 Aug 2026",
-      "title": "Google Gemini is getting a dedicated student hub",
+      "date": "20 Aug 2026",
+      "title": "Google Discover is getting an AI chatbot-tuned feed",
       "source": "AI",
-      "summary": "As we're gearing up for back-to-school season, Google is rolling out a new dedicated student hub in Gemini. It's a one-stop repository for collecting research in a study notebook, creating flashcards, taking practice quizzes, and more.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/982425/google-gemini-student-hub"
+      "summary": "Google will soon allow you to customize your Discover feed by describing what you want to see. The new feature, rolling out to the Google app in the \"coming days,\" will use AI to automatically tweak your feed and \"remember\" your preferences for future visits.",
+      "link": "https://www.theverge.com/tech/983088/google-discover-ai-chatbot-feed"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

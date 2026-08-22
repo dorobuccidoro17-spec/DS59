@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 21 August 2026",
+  "date": "Saturday, 22 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,303",
-      "chg": "▲ 6.6%",
+      "v": "$76,879",
+      "chg": "▲ 2.1%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,420",
-      "chg": "▲ 4.0%",
+      "v": "$2,426",
+      "chg": "▲ 3.0%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.12",
+      "v": "R16.02",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "21 Aug 2026",
-      "title": "RSG Geldsake met Moneyweb – Vrydag 21 Augustus 2026",
+      "date": "22 Aug 2026",
+      "title": "‘We’re becoming an AI-enabled organisation’ – Standard Bank’s Margaret Nienaber",
       "source": "Moneyweb",
-      "summary": "Tinus de Jager – Moneyweb.",
-      "link": "https://www.moneyweb.co.za/moneyweb-radio/rsg-geldsake/rsg-geldsake-met-moneyweb-vrydag-21-augustus-2026/"
+      "summary": "Around a third of its technology staff are now utilising AI-enabled coding applications, driving early productivity gains of roughly 20%, says the bank.",
+      "link": "https://www.moneyweb.co.za/news/ai/were-becoming-an-ai-enabled-organisation-standard-banks-margaret-nienaber/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "21 Aug 2026",
-      "title": "Ethena's ENA token surges 48%, but altcoin season will have to wait",
+      "date": "22 Aug 2026",
+      "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/21/ethena-surges-48-as-altcoins-pull-away-from-bitcoin"
+      "link": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "21 Aug 2026",
-      "title": "Major YouTube creators are facing backlash for accepting AI money",
+      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
       "source": "AI",
-      "summary": "Over the past few days, a number of prominent filmmaking content creators including Matti Haapoja and Sam \"Kold\" Kolder have posted videos of themselves demonstrating what's possible with AI platform Higgsfield. The videos highlight Higgsfield's recently added Seedance 2.5 functionality and pitch these technologies as…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/983181/matti-haapoja-sam-kold-kolder-higgsfield-seedance-backlash"
+      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a […]",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

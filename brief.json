@@ -1,18 +1,18 @@
 {
-  "date": "Saturday, 22 August 2026",
+  "date": "Sunday, 23 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$76,879",
-      "chg": "▲ 2.1%",
-      "dir": "up",
+      "v": "$76,247",
+      "chg": "▼ 1.2%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,426",
-      "chg": "▲ 3.0%",
-      "dir": "up",
+      "v": "$2,383",
+      "chg": "▼ 2.4%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
@@ -24,29 +24,29 @@
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "22 Aug 2026",
-      "title": "‘We’re becoming an AI-enabled organisation’ – Standard Bank’s Margaret Nienaber",
+      "date": "23 Aug 2026",
+      "title": "More than 2.5m succulents seized from poachers",
       "source": "Moneyweb",
-      "summary": "Around a third of its technology staff are now utilising AI-enabled coding applications, driving early productivity gains of roughly 20%, says the bank.",
-      "link": "https://www.moneyweb.co.za/news/ai/were-becoming-an-ai-enabled-organisation-standard-banks-margaret-nienaber/"
+      "summary": "But this is probably less than a quarter of the illegal trade, CapeNature says",
+      "link": "https://www.moneyweb.co.za/news/south-africa/more-than-2-5m-succulents-seized-from-poachers/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "22 Aug 2026",
-      "title": "How a Treasury buyback tweak helped bitcoin surge 25% to nearly $80,000 in days",
+      "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/22/how-a-treasury-buyback-tweak-helped-bitcoin-surge-nearly-25-in-days"
+      "link": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown"
     },
     {
       "tag": "AI Pulse",
@@ -59,8 +59,8 @@
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

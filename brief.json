@@ -1,52 +1,52 @@
 {
-  "date": "Sunday, 23 August 2026",
+  "date": "Monday, 24 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$76,247",
-      "chg": "▼ 1.2%",
-      "dir": "down",
+      "v": "$76,939",
+      "chg": "▲ 0.9%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,383",
-      "chg": "▼ 2.4%",
-      "dir": "down",
+      "v": "$2,443",
+      "chg": "▲ 2.6%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.02",
+      "v": "R16.01",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "23 Aug 2026",
-      "title": "More than 2.5m succulents seized from poachers",
+      "date": "24 Aug 2026",
+      "title": "High-end coffee supply tightens",
       "source": "Moneyweb",
-      "summary": "But this is probably less than a quarter of the illegal trade, CapeNature says",
-      "link": "https://www.moneyweb.co.za/news/south-africa/more-than-2-5m-succulents-seized-from-poachers/"
+      "summary": "As downpours hit Brazil’s trees – and with cash-rich farmers holding back sales contributing to rising premiums.",
+      "link": "https://www.moneyweb.co.za/investing/commodities/high-end-coffee-supply-tightens/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "22 Aug 2026",
-      "title": "Crypto exchange BitMart weighs partial restart and creditor payouts weeks after announcing shutdown",
+      "date": "24 Aug 2026",
+      "title": "Ray Dalio says investors should own ‘a bit of Bitcoin’ as U.S. debt risks rise",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/08/22/crypto-exchange-bitmart-weighs-partial-restart-and-creditor-payouts-weeks-after-announcing-shutdown"
+      "link": "https://www.coindesk.com/markets/2026/08/24/ray-dalio-says-investors-should-own-a-bit-of-bitcoin-as-u-s-debt-risks-rise"
     },
     {
       "tag": "AI Pulse",
@@ -59,8 +59,8 @@
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

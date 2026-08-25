@@ -1,52 +1,52 @@
 {
-  "date": "Monday, 24 August 2026",
+  "date": "Tuesday, 25 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$76,939",
-      "chg": "▲ 0.9%",
+      "v": "$80,622",
+      "chg": "▲ 4.6%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,443",
-      "chg": "▲ 2.6%",
+      "v": "$2,506",
+      "chg": "▲ 2.2%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.01",
+      "v": "R16.02",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Opportunities don't happen. You create them.",
-    "by": "Chris Grosser"
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "by": "George Addair"
   },
-  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
-  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
+  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
+  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "24 Aug 2026",
-      "title": "High-end coffee supply tightens",
+      "date": "25 Aug 2026",
+      "title": "Can I open a new retirement annuity after retiring and still receive tax benefits? (Part II)",
       "source": "Moneyweb",
-      "summary": "As downpours hit Brazil’s trees – and with cash-rich farmers holding back sales contributing to rising premiums.",
-      "link": "https://www.moneyweb.co.za/investing/commodities/high-end-coffee-supply-tightens/"
+      "summary": "A second advisor answers this reader’s question.",
+      "link": "https://www.moneyweb.co.za/qa/advisor-questions/can-i-open-a-new-retirement-annuity-after-retiring-and-still-receive-tax-benefits-part-ii/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "24 Aug 2026",
-      "title": "Ray Dalio says investors should own ‘a bit of Bitcoin’ as U.S. debt risks rise",
+      "date": "25 Aug 2026",
+      "title": "Bitcoin tops $80,000, solana jumps 8% but rally now runs into overbought warning",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/24/ray-dalio-says-investors-should-own-a-bit-of-bitcoin-as-u-s-debt-risks-rise"
+      "link": "https://www.coindesk.com/markets/2026/08/25/bitcoin-tops-usd80-000-solana-jumps-8-but-rally-now-runs-into-overbought-warning"
     },
     {
       "tag": "AI Pulse",
@@ -59,8 +59,8 @@
     }
   ],
   "concept": {
-    "title": "Tokens & Context Windows",
-    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
-    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
+    "title": "AI Governance & the EU AI Act",
+    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
+    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
   }
 }

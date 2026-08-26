@@ -1,66 +1,66 @@
 {
-  "date": "Tuesday, 25 August 2026",
+  "date": "Wednesday, 26 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$80,622",
-      "chg": "▲ 4.6%",
-      "dir": "up",
+      "v": "$78,998",
+      "chg": "▼ 2.0%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,506",
-      "chg": "▲ 2.2%",
-      "dir": "up",
+      "v": "$2,462",
+      "chg": "▼ 1.8%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.02",
+      "v": "R15.94",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Everything you've ever wanted is on the other side of fear.",
-    "by": "George Addair"
+    "text": "It always seems impossible until it's done.",
+    "by": "Nelson Mandela"
   },
-  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
-  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
+  "joke": "Why don't scientists trust atoms? Because they make up everything.",
+  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "25 Aug 2026",
-      "title": "Can I open a new retirement annuity after retiring and still receive tax benefits? (Part II)",
+      "date": "26 Aug 2026",
+      "title": "Prosus investors push back on share structure and executive pay",
       "source": "Moneyweb",
-      "summary": "A second advisor answers this reader’s question.",
-      "link": "https://www.moneyweb.co.za/qa/advisor-questions/can-i-open-a-new-retirement-annuity-after-retiring-and-still-receive-tax-benefits-part-ii/"
+      "summary": "Not happy with the super-share structure that gives a small group of insiders including billionaire Koos Bekker 1 000 votes per share compared with a single vote for an ordinary share.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/prosus-investors-push-back-on-share-structure-and-executive-pay/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "25 Aug 2026",
-      "title": "Bitcoin tops $80,000, solana jumps 8% but rally now runs into overbought warning",
+      "date": "26 Aug 2026",
+      "title": "XRP’s 44% rally brings leverage back, raising risk of sharper pullback",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/25/bitcoin-tops-usd80-000-solana-jumps-8-but-rally-now-runs-into-overbought-warning"
+      "link": "https://www.coindesk.com/markets/2026/08/26/xrp-s-44-rally-brings-leverage-back-raising-risk-of-sharper-pullback"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "21 Aug 2026",
-      "title": "Over 1 million people have clicked LinkedIn’s AI slop button",
+      "date": "25 Aug 2026",
+      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
       "source": "AI",
-      "summary": "LinkedIn actually announced a \"Seems like AI slop\" button on July 30th, and the company says that a lot of people have already used it. According to a Thursday post from chief product officer Hari Srinivasan, \"over a million people\" have clicked on the button, which is accessible from the three dots menu on a […]",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/983502/linkedin-ai-slop-button-one-million-people-message"
+      "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalapeño offers the \"best of both worlds\" with lower latency and…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks"
     }
   ],
   "concept": {
-    "title": "AI Governance & the EU AI Act",
-    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
-    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
+    "title": "Large Language Models (LLMs)",
+    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
+    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
   }
 }

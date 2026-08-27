@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 26 August 2026",
+  "date": "Thursday, 27 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$78,998",
-      "chg": "▼ 2.0%",
-      "dir": "down",
+      "v": "$80,363",
+      "chg": "▲ 2.9%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,462",
-      "chg": "▼ 1.8%",
-      "dir": "down",
+      "v": "$2,524",
+      "chg": "▲ 3.0%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R15.94",
+      "v": "R15.95",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "26 Aug 2026",
-      "title": "Prosus investors push back on share structure and executive pay",
+      "date": "27 Aug 2026",
+      "title": "Post Office turnaround still hinges on new funding and partnerships",
       "source": "Moneyweb",
-      "summary": "Not happy with the super-share structure that gives a small group of insiders including billionaire Koos Bekker 1 000 votes per share compared with a single vote for an ordinary share.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/prosus-investors-push-back-on-share-structure-and-executive-pay/"
+      "summary": "‘What's going to move the needle is onboarding a significant partner that complements or supplements our business,’ says Fathima Gany, acting CEO of the SA Post Office.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/post-office-turnaround-still-hinges-on-new-funding-and-partnerships/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "26 Aug 2026",
-      "title": "XRP’s 44% rally brings leverage back, raising risk of sharper pullback",
+      "date": "27 Aug 2026",
+      "title": "MoonPay’s newest integration lets AI agents handle crypto lending on Solana",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/26/xrp-s-44-rally-brings-leverage-back-raising-risk-of-sharper-pullback"
+      "link": "https://www.coindesk.com/business/2026/08/27/moonpay-s-newest-integration-lets-ai-agents-handle-crypto-lending-on-solana"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "25 Aug 2026",
-      "title": "OpenAI says its Jalapeño chip can power faster AI responses than the competition",
+      "date": "27 Aug 2026",
+      "title": "OpenAI’s executive exodus has one big winner",
       "source": "AI",
-      "summary": "OpenAI says its new AI chip, Jalapeño, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday. During a briefing with reporters, OpenAI hardware vice president Richard Ho said Jalapeño offers the \"best of both worlds\" with lower latency and…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/984290/openai-jalapeno-ai-chip-benchmarks"
+      "summary": "Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While Sam Altman is the CEO and still OpenAI’s most public face,…",
+      "link": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

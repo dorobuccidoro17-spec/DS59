@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 27 August 2026",
+  "date": "Friday, 28 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$80,363",
-      "chg": "▲ 2.9%",
-      "dir": "up",
+      "v": "$77,699",
+      "chg": "▼ 3.3%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,524",
-      "chg": "▲ 3.0%",
-      "dir": "up",
+      "v": "$2,439",
+      "chg": "▼ 3.2%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R15.95",
+      "v": "R15.99",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "27 Aug 2026",
-      "title": "Post Office turnaround still hinges on new funding and partnerships",
+      "date": "28 Aug 2026",
+      "title": "What happens to SA’s internet during a Boks-All Black game?",
       "source": "Moneyweb",
-      "summary": "‘What's going to move the needle is onboarding a significant partner that complements or supplements our business,’ says Fathima Gany, acting CEO of the SA Post Office.",
-      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/post-office-turnaround-still-hinges-on-new-funding-and-partnerships/"
+      "summary": "117bn calls later, a new registry and opt-out weapon hopes to silence unwanted spam. Rotting crops and foreign workers: What the data really says.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/what-happens-to-sas-internet-during-a-boks-all-black-game/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "27 Aug 2026",
-      "title": "MoonPay’s newest integration lets AI agents handle crypto lending on Solana",
+      "date": "28 Aug 2026",
+      "title": "Solana vote to double disinflation passes by a hair in dramatic finish",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/08/27/moonpay-s-newest-integration-lets-ai-agents-handle-crypto-lending-on-solana"
+      "link": "https://www.coindesk.com/tech/2026/08/28/solana-vote-to-double-disinflation-passes-by-a-hair-in-dramatic-finish"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "27 Aug 2026",
-      "title": "OpenAI’s executive exodus has one big winner",
+      "date": "28 Aug 2026",
+      "title": "Trump’s EPA wants to let data centers hide their air pollution",
       "source": "AI",
-      "summary": "Today on Decoder, I’m talking to Verge senior AI reporter Hayden Field about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While Sam Altman is the CEO and still OpenAI’s most public face,…",
-      "link": "https://www.theverge.com/podcast/985332/openai-greg-brockman-sam-altman-leader-executive-exodus"
+      "summary": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

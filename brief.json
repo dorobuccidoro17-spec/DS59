@@ -1,66 +1,66 @@
 {
-  "date": "Saturday, 29 August 2026",
+  "date": "Sunday, 30 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,682",
-      "chg": "▼ 2.5%",
-      "dir": "down",
+      "v": "$78,024",
+      "chg": "▲ 0.6%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,437",
-      "chg": "▼ 2.8%",
-      "dir": "down",
+      "v": "$2,454",
+      "chg": "▲ 0.8%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.09",
+      "v": "R16.11",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "29 Aug 2026",
-      "title": "What happens if you give everyone $700? A local economy thrives",
+      "date": "30 Aug 2026",
+      "title": "SA produces enough food, yet millions face hunger",
       "source": "Moneyweb",
-      "summary": "As many as 230 000 adults in two districts of Malawi are each receiving about 1.2m kwacha, or almost $700, and they can do whatever they want with it.",
-      "link": "https://www.moneyweb.co.za/news/africa/what-happens-if-you-give-everyone-700-a-local-economy-thrives/"
+      "summary": "Better cold storage could help change that.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/south-africa-produces-enough-food-yet-millions-face-hunger/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "29 Aug 2026",
-      "title": "Bitcoin wallets untouched for 10 years moved $40 million. Most avoided exchanges",
+      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/28/bitcoin-wallets-untouched-for-10-years-moved-usd40-million-most-avoided-exchanges"
+      "link": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "28 Aug 2026",
-      "title": "Trump’s EPA wants to let data centers hide their air pollution",
+      "date": "29 Aug 2026",
+      "title": "Sony Music and Warner Chappell are suing Anthropic",
       "source": "AI",
-      "summary": "Just as new data centers face growing backlash from neighboring communities, the US Environmental Protection Agency (EPA) is about to make it harder for people to weigh in on any pollution those centers create. The EPA plans to toss out a federal rule requiring public notice and an opportunity to comment when certain…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986176/data-center-pollution-epa-rule-change-air-permit"
+      "summary": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

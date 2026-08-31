@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 30 August 2026",
+  "date": "Monday, 31 August 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$78,024",
-      "chg": "▲ 0.6%",
+      "v": "$78,590",
+      "chg": "▲ 0.5%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,454",
-      "chg": "▲ 0.8%",
-      "dir": "up",
+      "v": "$2,455",
+      "chg": "▼ 0.2%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.11",
+      "v": "R16.13",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "30 Aug 2026",
-      "title": "SA produces enough food, yet millions face hunger",
+      "date": "31 Aug 2026",
+      "title": "Sasol Plant tied to 1 000 pollution deaths a year, study shows",
       "source": "Moneyweb",
-      "summary": "Better cold storage could help change that.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/south-africa-produces-enough-food-yet-millions-face-hunger/"
+      "summary": "The coal-to-fuels complex is a major source of sulfur dioxide and nitrogen dioxide emissions, with researchers estimating significant health and economic costs.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/sasol-plant-tied-to-1-000-pollution-deaths-a-year-study-shows/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "29 Aug 2026",
-      "title": "A $1.1 million crypto card hack crashed a neobank's token 49%",
+      "date": "31 Aug 2026",
+      "title": "U.S. strikes on Iran fail to stir bitcoin, on track for best month since November 2024",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/web3/2026/08/29/a-usd1-1-million-crypto-card-hack-crashed-a-neobank-s-token-49"
+      "link": "https://www.coindesk.com/markets/2026/08/31/u-s-strikes-on-iran-fail-to-stir-bitcoin-on-track-for-best-month-since-november-2024"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "29 Aug 2026",
-      "title": "Sony Music and Warner Chappell are suing Anthropic",
+      "date": "30 Aug 2026",
+      "title": "Texas Governor Abbott blocks funding for more Flock cameras",
       "source": "AI",
-      "summary": "Sony Music and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright"
+      "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

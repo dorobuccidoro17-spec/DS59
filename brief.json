@@ -1,66 +1,66 @@
 {
-  "date": "Monday, 31 August 2026",
+  "date": "Tuesday, 01 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$78,590",
-      "chg": "▲ 0.5%",
-      "dir": "up",
+      "v": "$77,958",
+      "chg": "▼ 0.8%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,455",
-      "chg": "▼ 0.2%",
-      "dir": "down",
+      "v": "$2,452",
+      "chg": "▲ 0.2%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.13",
+      "v": "R16.12",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Opportunities don't happen. You create them.",
-    "by": "Chris Grosser"
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "by": "George Addair"
   },
-  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
-  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
+  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
+  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "31 Aug 2026",
-      "title": "Sasol Plant tied to 1 000 pollution deaths a year, study shows",
+      "date": "01 Sep 2026",
+      "title": "Solar surpasses coal as China’s top source of power capacity",
       "source": "Moneyweb",
-      "summary": "The coal-to-fuels complex is a major source of sulfur dioxide and nitrogen dioxide emissions, with researchers estimating significant health and economic costs.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/sasol-plant-tied-to-1-000-pollution-deaths-a-year-study-shows/"
+      "summary": "Surpassing coal in a key milestone for the country’s green energy boom.",
+      "link": "https://www.moneyweb.co.za/news/tech/solar-surpasses-coal-as-chinas-top-source-of-power-capacity/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "31 Aug 2026",
-      "title": "U.S. strikes on Iran fail to stir bitcoin, on track for best month since November 2024",
+      "date": "01 Sep 2026",
+      "title": "Strategy spends $635M buying back STRC as perpetual preferred stock lags $100 par",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/08/31/u-s-strikes-on-iran-fail-to-stir-bitcoin-on-track-for-best-month-since-november-2024"
+      "link": "https://www.coindesk.com/markets/2026/09/01/strategy-spends-usd635m-buying-back-strc-as-perpetual-preferred-stock-lags-usd100-par"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "30 Aug 2026",
-      "title": "Texas Governor Abbott blocks funding for more Flock cameras",
+      "date": "31 Aug 2026",
+      "title": "Debian won’t ban AI code from its Linux distribution",
       "source": "AI",
-      "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras"
+      "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exempt from nor subject…",
+      "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
     }
   ],
   "concept": {
-    "title": "Tokens & Context Windows",
-    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
-    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
+    "title": "AI Governance & the EU AI Act",
+    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
+    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
   }
 }

@@ -1,66 +1,66 @@
 {
-  "date": "Tuesday, 01 September 2026",
+  "date": "Wednesday, 02 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,958",
-      "chg": "▼ 0.8%",
+      "v": "$76,960",
+      "chg": "▼ 1.1%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,452",
-      "chg": "▲ 0.2%",
-      "dir": "up",
+      "v": "$2,396",
+      "chg": "▼ 2.0%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.12",
+      "v": "R16.16",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Everything you've ever wanted is on the other side of fear.",
-    "by": "George Addair"
+    "text": "It always seems impossible until it's done.",
+    "by": "Nelson Mandela"
   },
-  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
-  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
+  "joke": "Why don't scientists trust atoms? Because they make up everything.",
+  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "01 Sep 2026",
-      "title": "Solar surpasses coal as China’s top source of power capacity",
+      "date": "02 Sep 2026",
+      "title": "Inflation threat as diesel prices shoot up more than 11% from today",
       "source": "Moneyweb",
-      "summary": "Surpassing coal in a key milestone for the country’s green energy boom.",
-      "link": "https://www.moneyweb.co.za/news/tech/solar-surpasses-coal-as-chinas-top-source-of-power-capacity/"
+      "summary": "That may be good for Sasol and some coal producers, but freight operators – and ultimately consumers – will carry much of the cost.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/inflation-threat-as-diesel-prices-shoot-up-more-than-11-from-today/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "01 Sep 2026",
-      "title": "Strategy spends $635M buying back STRC as perpetual preferred stock lags $100 par",
+      "date": "02 Sep 2026",
+      "title": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/01/strategy-spends-usd635m-buying-back-strc-as-perpetual-preferred-stock-lags-usd100-par"
+      "link": "https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "31 Aug 2026",
-      "title": "Debian won’t ban AI code from its Linux distribution",
+      "date": "01 Sep 2026",
+      "title": "Google needs Hollywood more than the studios need AI",
       "source": "AI",
-      "summary": "Debian voted to allow developers to use AI tools in their contributions to the Linux distribution's \"development, maintenance, [and] documentation.\" The new policy on AI acknowledges that \"responsible\" use of AI can improve developers' productivity, and goes on to say, \"generative AI is neither exempt from nor subject…",
-      "link": "https://www.theverge.com/tech/986789/linux-debian-generative-ai-policy"
+      "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon to the studios that would…",
+      "link": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai"
     }
   ],
   "concept": {
-    "title": "AI Governance & the EU AI Act",
-    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
-    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
+    "title": "Large Language Models (LLMs)",
+    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
+    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
   }
 }

@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 02 September 2026",
+  "date": "Thursday, 03 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$76,960",
-      "chg": "▼ 1.1%",
-      "dir": "down",
+      "v": "$77,805",
+      "chg": "▲ 1.4%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,396",
-      "chg": "▼ 2.0%",
-      "dir": "down",
+      "v": "$2,402",
+      "chg": "▲ 0.7%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.16",
+      "v": "R16.07",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "02 Sep 2026",
-      "title": "Inflation threat as diesel prices shoot up more than 11% from today",
+      "date": "03 Sep 2026",
+      "title": "JPMorgan joins A2X as Capitec listing nears",
       "source": "Moneyweb",
-      "summary": "That may be good for Sasol and some coal producers, but freight operators – and ultimately consumers – will carry much of the cost.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/inflation-threat-as-diesel-prices-shoot-up-more-than-11-from-today/"
+      "summary": "A2X members now account for 85% of listed-security trades in South Africa.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/jpmorgan-joins-a2x-as-capitec-listing-nears/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "02 Sep 2026",
-      "title": "Live updates: BlackRock's IBIT drives $236 million bitcoin ETF outflow",
+      "date": "03 Sep 2026",
+      "title": "CFTC asks judge to dismiss CME lawsuit over crypto perpetual futures",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/02/live-updates-blackrock-s-ibit-drives-usd236-million-bitcoin-etf-outflow"
+      "link": "https://www.coindesk.com/policy/2026/09/03/cftc-asks-judge-to-dismiss-cme-lawsuit-over-crypto-perpetual-futures"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "01 Sep 2026",
-      "title": "Google needs Hollywood more than the studios need AI",
+      "date": "02 Sep 2026",
+      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
       "source": "AI",
-      "summary": "Google has reportedly been reaching out to a number of Hollywood's biggest studios, hoping to strike licensing agreements that would allow it to train its AI models on copyrighted material in exchange for massive piles of cash. In theory, these deals would be a win-win: a huge financial boon to the studios that would…",
-      "link": "https://www.theverge.com/tech/987429/google-needs-hollywood-more-than-the-studios-need-ai"
+      "summary": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

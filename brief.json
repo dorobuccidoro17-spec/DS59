@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 03 September 2026",
+  "date": "Friday, 04 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,805",
-      "chg": "▲ 1.4%",
+      "v": "$81,200",
+      "chg": "▲ 4.3%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,402",
-      "chg": "▲ 0.7%",
+      "v": "$2,539",
+      "chg": "▲ 5.6%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.07",
+      "v": "R16.00",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "03 Sep 2026",
-      "title": "JPMorgan joins A2X as Capitec listing nears",
+      "date": "04 Sep 2026",
+      "title": "Thailand puts 49 data centres on hold over resource strain",
       "source": "Moneyweb",
-      "summary": "A2X members now account for 85% of listed-security trades in South Africa.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/jpmorgan-joins-a2x-as-capitec-listing-nears/"
+      "summary": "As public concerns about the power-hungry facilities’ impact on communities intensify.",
+      "link": "https://www.moneyweb.co.za/news/ai/thailand-puts-49-data-centres-on-hold-over-resource-strain/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "03 Sep 2026",
-      "title": "CFTC asks judge to dismiss CME lawsuit over crypto perpetual futures",
+      "date": "04 Sep 2026",
+      "title": "Live updates: Bitcoin ETFs take $731 million, their biggest day since January",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/09/03/cftc-asks-judge-to-dismiss-cme-lawsuit-over-crypto-perpetual-futures"
+      "link": "https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "02 Sep 2026",
-      "title": "Google says its new Gemini 3.8 Flash model ‘works harder’ but might cost more",
+      "date": "03 Sep 2026",
+      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
       "source": "AI",
-      "summary": "Google launched Gemini 3.8 Flash, arriving just a few weeks after its predecessor. The company claims the new model \"works harder\" than Gemini 3.7 Flash by performing more reasoning steps on complex tasks and \"calling tools iteratively.\" It has the same introductory pricing as 3.7 Flash, $0.75 per million input tokens…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/988742/google-gemini-3-8-flash"
+      "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

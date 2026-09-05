@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 04 September 2026",
+  "date": "Saturday, 05 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$81,200",
-      "chg": "▲ 4.3%",
-      "dir": "up",
+      "v": "$79,617",
+      "chg": "▼ 1.8%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,539",
-      "chg": "▲ 5.6%",
-      "dir": "up",
+      "v": "$2,455",
+      "chg": "▼ 2.7%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.00",
+      "v": "R15.97",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "04 Sep 2026",
-      "title": "Thailand puts 49 data centres on hold over resource strain",
+      "date": "05 Sep 2026",
+      "title": "Apple’s Ternus has ‘huge shoes to fill’ after Cook’s 2 300% gain",
       "source": "Moneyweb",
-      "summary": "As public concerns about the power-hungry facilities’ impact on communities intensify.",
-      "link": "https://www.moneyweb.co.za/news/ai/thailand-puts-49-data-centres-on-hold-over-resource-strain/"
+      "summary": "John Ternus inherits a $4.6trn giant facing questions over AI, innovation and its next growth engine.",
+      "link": "https://www.moneyweb.co.za/news/tech/apples-ternus-has-huge-shoes-to-fill-after-cooks-2-300-gain/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "04 Sep 2026",
-      "title": "Live updates: Bitcoin ETFs take $731 million, their biggest day since January",
+      "date": "05 Sep 2026",
+      "title": "XRP Ledger has fewer active accounts than last year, but bigger trades and more value",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/04/live-updates-bitcoin-etfs-take-usd731-million-their-biggest-day-since-january"
+      "link": "https://www.coindesk.com/markets/2026/09/05/xrp-ledger-has-fewer-active-accounts-but-bigger-trades-and-more-value"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "03 Sep 2026",
-      "title": "OpenAI’s next big AI model has ‘entered the AGI era’",
+      "date": "04 Sep 2026",
+      "title": "Roland is getting into generative AI music with Melody Flip",
       "source": "AI",
-      "summary": "OpenAI's next big model is here: GPT-6 Astra. The company calls it a \"generational leap in capability\" for areas like cybersecurity, professional work, software engineering, science, and computer use.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release"
+      "summary": "It's not quite the \"push button; get song\" of Suno, but Roland's new Melody Flip tool marks the company's foray into generative AI music. Available as a plug-in for your digital audio workstation (DAW), Melody Flip offers around 250 \"Palettes,\" which are essentially themed collections of musical ideas sorted by genre.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990197/roland-ai-music-melody-flip"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

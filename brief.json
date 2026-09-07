@@ -1,18 +1,18 @@
 {
-  "date": "Sunday, 06 September 2026",
+  "date": "Monday, 07 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$79,857",
-      "chg": "▲ 0.2%",
-      "dir": "up",
+      "v": "$79,320",
+      "chg": "▼ 0.7%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,496",
-      "chg": "▲ 1.5%",
-      "dir": "up",
+      "v": "$2,486",
+      "chg": "▼ 0.5%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "06 Sep 2026",
-      "title": "Shein’s debut shows the cost of IPO missing its growth peak",
+      "date": "07 Sep 2026",
+      "title": "Sun International earnings rise as SunBet drives growth",
       "source": "Moneyweb",
-      "summary": "The fast-fashion giant’s Hong Kong debut exposes investor concerns over tariffs, slowing growth, losses and mounting regulatory pressure.",
-      "link": "https://www.moneyweb.co.za/news/international/sheins-debut-shows-the-cost-of-ipo-missing-its-growth-peak/"
+      "summary": "Casinos regain market share as the group raises its interim dividend.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/sun-international-earnings-rise-as-sunbet-drives-growth/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "05 Sep 2026",
-      "title": "Timing the bitcoin market is exciting but nearly impossible. Here's why",
+      "date": "07 Sep 2026",
+      "title": "Bitcoin struggles at $83,000 sell wall as whales distribution flip into net selling",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/05/why-crypto-experts-say-buying-and-holding-bitcoin-easily-beats-trying-to-time-the-market"
+      "link": "https://www.coindesk.com/markets/2026/09/07/bitcoin-investors-turn-to-selling-as-usd83-000-resistance-holds"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "05 Sep 2026",
-      "title": "OpenAI admits to German wiki ‘incident’",
+      "date": "06 Sep 2026",
+      "title": "Seattle Times and Newsday sue OpenAI and Microsoft for infringement",
       "source": "AI",
-      "summary": "OpenAI says it needs to overhaul how and when it reports instances of AI models attacking real-world targets. The acknowledgement comes as the company manages the fallout from reports that a swarm of its out-of-control agents hijacked a German wiki site.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident"
+      "summary": "The Seattle Times and Newsday are just the latest plaintiffs to take OpenAI to court, alleging copyright infringement. The two outlets say the company used their journalism as training data for its AI models without permission and often reproduces passages from their reporting in response to user queries.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

@@ -1,52 +1,52 @@
 {
-  "date": "Monday, 07 September 2026",
+  "date": "Tuesday, 08 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$79,320",
-      "chg": "▼ 0.7%",
+      "v": "$78,442",
+      "chg": "▼ 1.3%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,486",
-      "chg": "▼ 0.5%",
+      "v": "$2,481",
+      "chg": "▼ 0.6%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R15.96",
+      "v": "R15.99",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Opportunities don't happen. You create them.",
-    "by": "Chris Grosser"
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "by": "George Addair"
   },
-  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
-  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
+  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
+  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "07 Sep 2026",
-      "title": "Sun International earnings rise as SunBet drives growth",
+      "date": "08 Sep 2026",
+      "title": "Zimbabwe suspends antimony, tungsten exports in processing push",
       "source": "Moneyweb",
-      "summary": "Casinos regain market share as the group raises its interim dividend.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/sun-international-earnings-rise-as-sunbet-drives-growth/"
+      "summary": "Shipments of ores and concentrates have also been suspended.",
+      "link": "https://www.moneyweb.co.za/mineweb/zimbabwe-suspends-antimony-tungsten-exports-in-processing-push/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "07 Sep 2026",
-      "title": "Bitcoin struggles at $83,000 sell wall as whales distribution flip into net selling",
+      "date": "08 Sep 2026",
+      "title": "Live updates: Yen rally and rising bond yields pressure bitcoin and risk assets",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/07/bitcoin-investors-turn-to-selling-as-usd83-000-resistance-holds"
+      "link": "https://www.coindesk.com/tech/2026/09/08/live-updates"
     },
     {
       "tag": "AI Pulse",
@@ -59,8 +59,8 @@
     }
   ],
   "concept": {
-    "title": "Tokens & Context Windows",
-    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
-    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
+    "title": "AI Governance & the EU AI Act",
+    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
+    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
   }
 }

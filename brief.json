@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 09 September 2026",
+  "date": "Thursday, 10 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$79,474",
-      "chg": "▲ 1.4%",
-      "dir": "up",
+      "v": "$78,155",
+      "chg": "▼ 1.7%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,510",
-      "chg": "▲ 1.3%",
-      "dir": "up",
+      "v": "$2,475",
+      "chg": "▼ 1.4%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.00",
+      "v": "R16.04",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "09 Sep 2026",
-      "title": "Richemont appoints Anton Rupert as co-deputy chair",
+      "date": "10 Sep 2026",
+      "title": "Global cybersecurity firm launches its biggest centre in Cape Town",
       "source": "Moneyweb",
-      "summary": "The luxury goods company is focusing on long-term succession planning by appointing Johann Rupert's son.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/richemont-appoints-anton-rupert-as-co-deputy-chair/"
+      "summary": "The firm says cybersecurity is even more important as AI can launch attacks on businesses.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/global-cybersecurity-firm-launches-its-biggest-centre-in-cape-town/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "09 Sep 2026",
-      "title": "India’s financial intelligence unit flags 15 crypto platforms for AML lapses",
+      "date": "10 Sep 2026",
+      "title": "Live updates: Bitcoin ETFs post a second straight outflow while other major funds turns green",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/09/09/india-s-financial-intelligence-unit-flags-15-crypto-platforms-for-aml-lapses"
+      "link": "https://www.coindesk.com/business/2026/09/10/live-updates-bitcoin-etfs-post-a-second-straight-outflow-while-every-other-fund-turns-green"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "08 Sep 2026",
-      "title": "Drama swirls around OpenAI’s legendary mathematical milestone",
+      "date": "09 Sep 2026",
+      "title": "Suno releases its first AI music model made with record industry help",
       "source": "AI",
-      "summary": "OpenAI says it found a solution to a major math problem that has remained unsolved for around 90 years, as reported earlier by The New York Times and Wired. In a blog post on Tuesday, OpenAI announced that it discovered a solution to the Navier-Stokes problem - which relates to the flow of liquid and […]",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/991710/openai-navier-stokes-solution"
+      "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on.\" The data includes content licensed […]",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

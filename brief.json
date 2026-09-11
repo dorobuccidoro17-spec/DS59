@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 10 September 2026",
+  "date": "Friday, 11 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$78,155",
-      "chg": "▼ 1.7%",
+      "v": "$77,258",
+      "chg": "▼ 1.1%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,475",
-      "chg": "▼ 1.4%",
+      "v": "$2,474",
+      "chg": "▼ 0.1%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.04",
+      "v": "R16.19",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "10 Sep 2026",
-      "title": "Global cybersecurity firm launches its biggest centre in Cape Town",
+      "date": "11 Sep 2026",
+      "title": "South African boards court investors as pay votes become binding",
       "source": "Moneyweb",
-      "summary": "The firm says cybersecurity is even more important as AI can launch attacks on businesses.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/global-cybersecurity-firm-launches-its-biggest-centre-in-cape-town/"
+      "summary": "Mr Price Group’s recent AGM provided an early test of the new rules.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/south-african-boards-court-investors-as-pay-votes-become-binding/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "10 Sep 2026",
-      "title": "Live updates: Bitcoin ETFs post a second straight outflow while other major funds turns green",
+      "date": "11 Sep 2026",
+      "title": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/10/live-updates-bitcoin-etfs-post-a-second-straight-outflow-while-every-other-fund-turns-green"
+      "link": "https://www.coindesk.com/markets/2026/09/11/kalshi-wants-24-7-tesla-and-nvidia-perps-as-wall-street-fights-over-who-regulates-them"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "09 Sep 2026",
-      "title": "Suno releases its first AI music model made with record industry help",
+      "date": "10 Sep 2026",
+      "title": "Slack can now vibe-code interactive charts and reports inside chats",
       "source": "AI",
-      "summary": "Suno's new v6 AI music model is its first made with support from the record industry. Suno's Jack Brody told The Verge that v6 was \"trained from the ground up, with a new set of data that does not include the same data that our previous models were trained on.\" The data includes content licensed […]",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/991977/suno-releases-its-first-ai-music-model-made-with-record-industry-help"
+      "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps,…",
+      "link": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 11 September 2026",
+  "date": "Saturday, 12 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,258",
-      "chg": "▼ 1.1%",
+      "v": "$77,330",
+      "chg": "▼ 0.0%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,474",
-      "chg": "▼ 0.1%",
-      "dir": "down",
+      "v": "$2,533",
+      "chg": "▲ 2.3%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.19",
+      "v": "R16.14",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "11 Sep 2026",
-      "title": "South African boards court investors as pay votes become binding",
+      "date": "12 Sep 2026",
+      "title": "Drained funds, dry taps: The 20-year water project failure",
       "source": "Moneyweb",
-      "summary": "Mr Price Group’s recent AGM provided an early test of the new rules.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/south-african-boards-court-investors-as-pay-votes-become-binding/"
+      "summary": "Eastern Cape villagers say at least four contractors have worked on the Buthongweni Water Supply Scheme.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/this-water-project-started-20-years-ago-but-taps-are-still-dry/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "11 Sep 2026",
-      "title": "Kalshi wants 24/7 Tesla and Nvidia perps as Wall Street fights over who regulates them",
+      "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/11/kalshi-wants-24-7-tesla-and-nvidia-perps-as-wall-street-fights-over-who-regulates-them"
+      "link": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "10 Sep 2026",
-      "title": "Slack can now vibe-code interactive charts and reports inside chats",
+      "date": "11 Sep 2026",
+      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
       "source": "AI",
-      "summary": "A new feature coming to Slack will allow you to build interactive reports, polls, dashboards, presentations, microsites, and other tools directly inside a chat. With Slackforce Surfaces, you can describe to Slackbot what you need, and it will use AI to gather information from relevant conversations and connected apps,…",
-      "link": "https://www.theverge.com/tech/989853/slackforce-surfaces-launch"
+      "summary": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters. In a filing on Wednesday, the court fined Stephen Aarons $5,000 and held him in contempt for failing to \"verify the…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

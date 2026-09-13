@@ -1,18 +1,18 @@
 {
-  "date": "Saturday, 12 September 2026",
+  "date": "Sunday, 13 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,330",
-      "chg": "▼ 0.0%",
+      "v": "$76,725",
+      "chg": "▼ 0.8%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,533",
-      "chg": "▲ 2.3%",
-      "dir": "up",
+      "v": "$2,483",
+      "chg": "▼ 1.9%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "12 Sep 2026",
-      "title": "Drained funds, dry taps: The 20-year water project failure",
+      "date": "13 Sep 2026",
+      "title": "Lower Manhattan’s 25-year reinvention creates a neighbourhood beyond Wall Street",
       "source": "Moneyweb",
-      "summary": "Eastern Cape villagers say at least four contractors have worked on the Buthongweni Water Supply Scheme.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/this-water-project-started-20-years-ago-but-taps-are-still-dry/"
+      "summary": "Lower Manhattan has added almost 25 000 residential units since 9/11.",
+      "link": "https://www.moneyweb.co.za/news/international/lower-manhattans-25-year-reinvention-creates-a-neighbourhood-beyond-wall-street/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "11 Sep 2026",
-      "title": "Robinhood CEO says companies shouldn't get veto over stock tokens in AMC feud",
+      "date": "12 Sep 2026",
+      "title": "OpenAI IPO won't happen this year, says Sam Altman",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/11/robinhood-ceo-says-companies-shouldn-t-get-veto-over-stock-tokens-in-amc-feud"
+      "link": "https://www.coindesk.com/markets/2026/09/12/openai-ipo-won-t-happen-this-year-says-sam-altman"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "11 Sep 2026",
-      "title": "Lawyer fined $5K over AI-hallucinated witnesses in a murder case",
+      "date": "12 Sep 2026",
+      "title": "OpenAI’s rogue AI tried to hack another company in May",
       "source": "AI",
-      "summary": "New Mexico's Supreme Court is punishing a lawyer for including AI-fabricated witnesses and fake police testimony in an appeal for his client's murder conviction, according to a report from Reuters. In a filing on Wednesday, the court fined Stephen Aarons $5,000 and held him in contempt for failing to \"verify the…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/994207/chatgpt-new-mexico-lawyer-fined-murder-appeal"
+      "summary": "In May, hundreds of malicious and spam packages were uploaded to RubyGems, causing a serious disruption for the host. Now independent researchers have said that a swarm of OpenAI agents were responsible for the attack.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/994383/openais-rogue-ai-rubygems-hack"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

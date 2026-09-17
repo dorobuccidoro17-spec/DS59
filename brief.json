@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 16 September 2026",
+  "date": "Thursday, 17 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$75,861",
-      "chg": "▼ 1.4%",
-      "dir": "down",
+      "v": "$76,553",
+      "chg": "▲ 0.9%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,402",
-      "chg": "▼ 3.0%",
-      "dir": "down",
+      "v": "$2,441",
+      "chg": "▲ 1.7%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.27",
+      "v": "R16.32",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "16 Sep 2026",
-      "title": "South Africa is sleepwalking toward a gas crisis, businesses warn",
+      "date": "17 Sep 2026",
+      "title": "Momentum hits R7bn earnings target a year early",
       "source": "Moneyweb",
-      "summary": "Sasol warns that in two years time there will only be enough gas coming from those fields for its own needs, leaving industries holding back their investments and clamouring for the government to find solutions.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/south-africa-is-sleepwalking-toward-a-gas-crisis-businesses-warn/"
+      "summary": "Normalised headline earnings rose 13% to more than R7bn for the year to June, with five business units each contributing over R1bn.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/momentum-hits-r7bn-earnings-target-a-year-early/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "16 Sep 2026",
-      "title": "Ethereum, Base give up on common wallet standard after months of talks",
+      "date": "17 Sep 2026",
+      "title": "Bitcoin faces 2022 parallels as Federal Reserve resumes rate increases",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/09/16/ethereum-base-give-up-on-common-wallet-standard-after-months-of-talks"
+      "link": "https://www.coindesk.com/markets/2026/09/17/bitcoin-faces-2022-parallels-as-federal-reserve-resumes-rate-hikes"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "15 Sep 2026",
-      "title": "AI and data centers are incredibly unpopular in every poll",
+      "date": "16 Sep 2026",
+      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
       "source": "AI",
-      "summary": "Poll data released Tuesday by the New York Times and Siena University confirms what we've already been seeing, and what politicians are responding to - AI and data centers are incredibly unpopular. Asked if they support or oppose the construction of data centers to power AI tech, 61 percent of the 1,503 likely voters…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/995917/data-center-nyt-midterm-poll-september"
+      "summary": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI…",
+      "link": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

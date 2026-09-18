@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 17 September 2026",
+  "date": "Friday, 18 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$76,553",
-      "chg": "▲ 0.9%",
+      "v": "$78,268",
+      "chg": "▲ 2.1%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,441",
-      "chg": "▲ 1.7%",
+      "v": "$2,516",
+      "chg": "▲ 2.9%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.32",
+      "v": "R16.26",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "17 Sep 2026",
-      "title": "Momentum hits R7bn earnings target a year early",
+      "date": "18 Sep 2026",
+      "title": "Motsepe-linked firm lifts Alexforbes stake to 78% as Prudential exits",
       "source": "Moneyweb",
-      "summary": "Normalised headline earnings rose 13% to more than R7bn for the year to June, with five business units each contributing over R1bn.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/momentum-hits-r7bn-earnings-target-a-year-early/"
+      "summary": "ARC AF Holdings will increase its stake from 49.88% to 77.94% as Alexforbes undertakes a roughly R2.5bn share buyback.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/motsepe-linked-firm-lifts-alexforbes-stake-to-78-as-prudential-exits/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "17 Sep 2026",
-      "title": "Bitcoin faces 2022 parallels as Federal Reserve resumes rate increases",
+      "date": "18 Sep 2026",
+      "title": "SBI Group backs payments firm dtcpay in $25 million funding round",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/17/bitcoin-faces-2022-parallels-as-federal-reserve-resumes-rate-hikes"
+      "link": "https://www.coindesk.com/markets/2026/09/18/sbi-group-backs-payments-firm-dtcpay-in-usd25-million-funding-round"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "16 Sep 2026",
-      "title": "Snap is launching a new Specs AI tool, and it’s coming to iOS and Mac",
+      "date": "17 Sep 2026",
+      "title": "The AI Superintelligence Slowdown",
       "source": "AI",
-      "summary": "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information. It seems similar to AI assistants like Meta's Muse and Gemini's Spark, though Snap is pitching Specs Intelligence as an \"anticipatory AI…",
-      "link": "https://www.theverge.com/tech/996078/snap-specs-intelligence-ai-agent-ios-mac"
+      "summary": "Remember when tech leaders would tell their employees to “move fast and break things”? It seemed that would be the way of AI too.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/996923/ai-safety-slow-openai-anthropic"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

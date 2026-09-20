@@ -1,18 +1,18 @@
 {
-  "date": "Saturday, 19 September 2026",
+  "date": "Sunday, 20 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$81,410",
-      "chg": "▲ 3.9%",
-      "dir": "up",
+      "v": "$80,364",
+      "chg": "▼ 1.1%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,653",
-      "chg": "▲ 5.6%",
-      "dir": "up",
+      "v": "$2,579",
+      "chg": "▼ 2.2%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "19 Sep 2026",
-      "title": "AI’s existential fears meet Wall Street financing Fomo in Europe",
+      "date": "20 Sep 2026",
+      "title": "A new movie reveals the most disliked substance on earth",
       "source": "Moneyweb",
-      "summary": "Banks expect $5bn to $10bn in European data-centre bonds this year as the region accelerates its AI infrastructure build-out.",
-      "link": "https://www.moneyweb.co.za/news/ai/ais-existential-fears-meet-wall-street-financing-fomo-in-europe/"
+      "summary": "Concrete is everywhere – and its vast scale comes with economic and environmental costs.",
+      "link": "https://www.moneyweb.co.za/news/international/a-new-movie-reveals-the-most-disliked-substance-on-earth/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "18 Sep 2026",
-      "title": "CFTC sends crypto rules to White House to review as Congress stalls on Clarity Act",
+      "date": "19 Sep 2026",
+      "title": "Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/09/18/cftc-sends-crypto-rules-to-white-house-to-review-as-congress-stalls-on-clarity-act"
+      "link": "https://www.coindesk.com/news-analysis/2026/09/18/clarity-act-we-hardly-knew-ye-we-look-at-what-was-in-the-bill-and-what-s-replacing-it"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "18 Sep 2026",
-      "title": "OpenAI and Microsoft knew they were starting a ‘doom loop’ for the web",
+      "date": "19 Sep 2026",
+      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
       "source": "AI",
-      "summary": "Recently unsealed court documents in the New York Times' case against OpenAI and Microsoft are pretty damning. The companies' own documentation warned that it was starting a \"doom loop\" that would damage the web, characterized its scraping of data to train its models as the \"largest theft of labor in human history,\"…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997633/openai-microsoft-chatgpt-ai-new-york-times-doom-loop-theft-google-zero"
+      "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

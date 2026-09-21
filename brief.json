@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 20 September 2026",
+  "date": "Monday, 21 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$80,364",
-      "chg": "▼ 1.1%",
-      "dir": "down",
+      "v": "$84,557",
+      "chg": "▲ 5.3%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,579",
-      "chg": "▼ 2.2%",
-      "dir": "down",
+      "v": "$2,717",
+      "chg": "▲ 5.5%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.27",
+      "v": "R16.26",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "20 Sep 2026",
-      "title": "A new movie reveals the most disliked substance on earth",
+      "date": "21 Sep 2026",
+      "title": "Dangote Refinery seeks New York listing after 2029 expansion",
       "source": "Moneyweb",
-      "summary": "Concrete is everywhere – and its vast scale comes with economic and environmental costs.",
-      "link": "https://www.moneyweb.co.za/news/international/a-new-movie-reveals-the-most-disliked-substance-on-earth/"
+      "summary": "The refinery plans to raise up to $1.6bn in Nigeria to fund its expansion to 1.4m barrels a day by 2029.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/dangote-refinery-seeks-new-york-listing-after-2029-expansion/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "19 Sep 2026",
-      "title": "Clarity Act, we hardly knew ye: We look at what was in the bill and what's replacing it",
+      "date": "21 Sep 2026",
+      "title": "X sues its own users for running a fake bitcoin news bot farm",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/news-analysis/2026/09/18/clarity-act-we-hardly-knew-ye-we-look-at-what-was-in-the-bill-and-what-s-replacing-it"
+      "link": "https://www.coindesk.com/markets/2026/09/21/x-sues-its-won-users-for-running-a-fake-bitcoin-news-bot-farm"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "19 Sep 2026",
-      "title": "Meta’s Muse is creepy, but maybe not for the reasons you think",
+      "date": "21 Sep 2026",
+      "title": "Amazon doesn’t trust Meta’s Muse AI agent",
       "source": "AI",
-      "summary": "Meta's Muse is apparently an effective AI assistant, but one that's a little creepy. Part of that is because of its new Mac app, which can access Messages, Calendar, and Notes.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/997833/meta-muse-creepy"
+      "summary": "Meta's Muse AI agent has been blocked from shopping Amazon on behalf of its users, GeekWire reports. A popup message started appearing on Sunday for Muse users saying that \"continued access by an unauthorized AI agent violates Amazon's Conditions of Use, to which our customers have agreed.\" According to GeekWire, Meta…",
+      "link": "https://www.theverge.com/tech/998078/amazon-blocks-meta-muse-ai-agent-shopping"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

@@ -1,66 +1,66 @@
 {
-  "date": "Tuesday, 22 September 2026",
+  "date": "Wednesday, 23 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$85,880",
-      "chg": "▲ 1.3%",
-      "dir": "up",
+      "v": "$85,799",
+      "chg": "▼ 0.2%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,739",
-      "chg": "▲ 0.2%",
-      "dir": "up",
+      "v": "$2,736",
+      "chg": "▼ 0.3%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.25",
+      "v": "R16.21",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Everything you've ever wanted is on the other side of fear.",
-    "by": "George Addair"
+    "text": "It always seems impossible until it's done.",
+    "by": "Nelson Mandela"
   },
-  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
-  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
+  "joke": "Why don't scientists trust atoms? Because they make up everything.",
+  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "22 Sep 2026",
-      "title": "Pick n Pay appoints former Woolies Food boss as CEO-designate",
+      "date": "23 Sep 2026",
+      "title": "South African inflation picks up slightly ahead of rate decision",
       "source": "Moneyweb",
-      "summary": "Spencer Sonn to take over from Sean Summers in February 2027.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/pick-n-pay-appoints-former-woolies-food-boss-as-ceo-designate/"
+      "summary": "Consumer prices increased to 4.4% in August from 4.3% a month earlier, Statistics South Africa said.",
+      "link": "https://www.moneyweb.co.za/news/economy/south-african-inflation-picks-up-slightly-ahead-of-rate-decision/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "22 Sep 2026",
-      "title": "Spot bitcoin ETFs attracted nearly $1 billion on Monday, the 9th largest inflow ever",
+      "date": "23 Sep 2026",
+      "title": "AI agents will soon buy their own computing power and data using stablecoins, according to BlackRock",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/22/spot-bitcoin-etfs-attracted-nearly-usd1-billion-on-monday-the-9th-largest-inflow-ever"
+      "link": "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "21 Sep 2026",
-      "title": "California tightens rules on AI data center energy and water use",
+      "date": "23 Sep 2026",
+      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
       "source": "AI",
-      "summary": "California Gov. Gavin Newsom has signed seven bills designed to prevent AI data centers from passing utility costs onto residents, as reported earlier by the Los Angeles Times.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/998453/california-ai-data-center-bills"
+      "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
     }
   ],
   "concept": {
-    "title": "AI Governance & the EU AI Act",
-    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
-    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
+    "title": "Large Language Models (LLMs)",
+    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
+    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
   }
 }

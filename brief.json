@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 23 September 2026",
+  "date": "Thursday, 24 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$85,799",
-      "chg": "▼ 0.2%",
+      "v": "$83,230",
+      "chg": "▼ 3.0%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,736",
-      "chg": "▼ 0.3%",
+      "v": "$2,644",
+      "chg": "▼ 3.4%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.21",
+      "v": "R16.36",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "23 Sep 2026",
-      "title": "South African inflation picks up slightly ahead of rate decision",
+      "date": "24 Sep 2026",
+      "title": "City Lodge pumps R70m into upgrading Courtyard Hotel Gqeberha",
       "source": "Moneyweb",
-      "summary": "Consumer prices increased to 4.4% in August from 4.3% a month earlier, Statistics South Africa said.",
-      "link": "https://www.moneyweb.co.za/news/economy/south-african-inflation-picks-up-slightly-ahead-of-rate-decision/"
+      "summary": "As the group continues its refurbishments programme, while pursuing new expansion opportunities across SA.",
+      "link": "https://www.moneyweb.co.za/investing/property/city-lodge-pumps-r70m-into-upgrading-courtyard-hotel-gqeberha/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "23 Sep 2026",
-      "title": "AI agents will soon buy their own computing power and data using stablecoins, according to BlackRock",
+      "date": "24 Sep 2026",
+      "title": "EU financial watchdogs warn quantum computing poses imminent threat to blockchain encryption",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/23/ai-agents-will-soon-buy-their-own-computing-power-and-data-using-stablecoins-according-to-blackrock"
+      "link": "https://www.coindesk.com/tech/2026/09/24/eu-financial-watchdogs-warn-quantum-computing-poses-imminent-threat-to-blockchain-encryption"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "23 Sep 2026",
-      "title": "OpenAI wants to consult elite mathematicians about how to not fumble again",
+      "date": "24 Sep 2026",
+      "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
       "source": "AI",
-      "summary": "After turning a string of spectacular mathematical results into a reputational crisis, OpenAI is consulting human mathematicians to help it figure out a less disastrous path forward. On Monday, the company announced a new independent panel of mathematicians tasked with advising it and other AI companies on their…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/999167/openai-elite-mathematicians-panel"
+      "summary": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement…",
+      "link": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

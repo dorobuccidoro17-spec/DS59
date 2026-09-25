@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 24 September 2026",
+  "date": "Friday, 25 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$83,230",
-      "chg": "▼ 3.0%",
-      "dir": "down",
+      "v": "$84,606",
+      "chg": "▲ 1.7%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,644",
-      "chg": "▼ 3.4%",
-      "dir": "down",
+      "v": "$2,705",
+      "chg": "▲ 2.4%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.36",
+      "v": "R16.43",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "24 Sep 2026",
-      "title": "City Lodge pumps R70m into upgrading Courtyard Hotel Gqeberha",
+      "date": "25 Sep 2026",
+      "title": "Gold tilts lower as Iran impasse continues to fan rate-hike bets",
       "source": "Moneyweb",
-      "summary": "As the group continues its refurbishments programme, while pursuing new expansion opportunities across SA.",
-      "link": "https://www.moneyweb.co.za/investing/property/city-lodge-pumps-r70m-into-upgrading-courtyard-hotel-gqeberha/"
+      "summary": "Spot gold rose 0.2% to $4 283.34 an ounce at 10:56 a.m. in Singapore.",
+      "link": "https://www.moneyweb.co.za/mineweb/gold-tilts-lower-as-iran-impasse-continues-to-fan-rate-hike-bets/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "24 Sep 2026",
-      "title": "EU financial watchdogs warn quantum computing poses imminent threat to blockchain encryption",
+      "date": "25 Sep 2026",
+      "title": "Bitcoin ETFs have erased a $5.8 billion hole",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/09/24/eu-financial-watchdogs-warn-quantum-computing-poses-imminent-threat-to-blockchain-encryption"
+      "link": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "24 Sep 2026",
-      "title": "Gemini 4 is almost ready, says new Google DeepMind chief",
+      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
       "source": "AI",
-      "summary": "Google is reportedly nearing the launch of its long awaited Gemini 4 model, after dawdling behind rival developers on flagship AI releases. Speaking with The Information during his first media appearance as the leader of Google's DeepMind division, Koray Kavukcuoglu said that Gemini 4 is currently in its refinement…",
-      "link": "https://www.theverge.com/tech/999802/google-deepmind-gemini-4-timeline-koray-kavukcuoglu"
+      "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers.",
+      "link": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

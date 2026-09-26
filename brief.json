@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 25 September 2026",
+  "date": "Saturday, 26 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$84,606",
-      "chg": "▲ 1.7%",
-      "dir": "up",
+      "v": "$84,008",
+      "chg": "▼ 0.8%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,705",
-      "chg": "▲ 2.4%",
-      "dir": "up",
+      "v": "$2,681",
+      "chg": "▼ 1.0%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.43",
+      "v": "R16.30",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "25 Sep 2026",
-      "title": "Gold tilts lower as Iran impasse continues to fan rate-hike bets",
+      "date": "26 Sep 2026",
+      "title": "Sassa: Long queues, broken toilets and no service after lunchtime",
       "source": "Moneyweb",
-      "summary": "Spot gold rose 0.2% to $4 283.34 an ounce at 10:56 a.m. in Singapore.",
-      "link": "https://www.moneyweb.co.za/mineweb/gold-tilts-lower-as-iran-impasse-continues-to-fan-rate-hike-bets/"
+      "summary": "People have to make repeat visits to get help at the Umlazi Sassa office.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/sassa-long-queues-broken-toilets-and-no-service-after-lunchtime/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "25 Sep 2026",
-      "title": "Bitcoin ETFs have erased a $5.8 billion hole",
+      "date": "26 Sep 2026",
+      "title": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/25/bitcoin-etfs-have-erased-a-usd5-8-billion-hole"
+      "link": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "24 Sep 2026",
-      "title": "Gemini 3.8 Live with Live Avatar gives Google’s AI a face",
+      "date": "25 Sep 2026",
+      "title": "Meta makes the Muse filesystem even more accessible",
       "source": "AI",
-      "summary": "Google's new Gemini 3.8 Live update lets users have conversations with the model while watching an animated AI persona respond in real time. The \"Live Avatar\" will lip-sync and show different facial expressions during conversations, but it's currently only available to Gemini Enterprise customers.",
-      "link": "https://www.theverge.com/tech/1000328/google-gemini-ai-live-avatar-face"
+      "summary": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we weren't meant to see, not least because Muse itself told people, including us, it wasn't supposed…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

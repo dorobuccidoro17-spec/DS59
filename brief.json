@@ -1,66 +1,66 @@
 {
-  "date": "Saturday, 26 September 2026",
+  "date": "Sunday, 27 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$84,008",
-      "chg": "▼ 0.8%",
-      "dir": "down",
+      "v": "$84,974",
+      "chg": "▲ 1.0%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,681",
-      "chg": "▼ 1.0%",
-      "dir": "down",
+      "v": "$2,714",
+      "chg": "▲ 1.0%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.30",
+      "v": "R16.31",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "26 Sep 2026",
-      "title": "Sassa: Long queues, broken toilets and no service after lunchtime",
+      "date": "27 Sep 2026",
+      "title": "SA’s minibus taxi industry has lessons for policymakers",
       "source": "Moneyweb",
-      "summary": "People have to make repeat visits to get help at the Umlazi Sassa office.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/sassa-long-queues-broken-toilets-and-no-service-after-lunchtime/"
+      "summary": "Drivers, marshals, operators, and commuters possess practical knowledge that could improve SA's approach to transport reform.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/south-africas-minibus-taxi-industry-has-lessons-for-policymakers-on-how-informal-systems-work/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "26 Sep 2026",
-      "title": "Solana’s 150-millisecond settlement upgrade reaches second public test network",
+      "title": "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/09/26/solana-s-150-millisecond-settlement-upgrade-reaches-second-public-test-network"
+      "link": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "25 Sep 2026",
-      "title": "Meta makes the Muse filesystem even more accessible",
+      "date": "26 Sep 2026",
+      "title": "OpenAI pauses training of its ‘most capable models’",
       "source": "AI",
-      "summary": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we weren't meant to see, not least because Muse itself told people, including us, it wasn't supposed…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem"
+      "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

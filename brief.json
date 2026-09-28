@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 27 September 2026",
+  "date": "Monday, 28 September 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$84,974",
-      "chg": "▲ 1.0%",
-      "dir": "up",
+      "v": "$83,005",
+      "chg": "▼ 2.2%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,714",
-      "chg": "▲ 1.0%",
-      "dir": "up",
+      "v": "$2,664",
+      "chg": "▼ 1.7%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.31",
+      "v": "R16.32",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "27 Sep 2026",
-      "title": "SA’s minibus taxi industry has lessons for policymakers",
+      "date": "28 Sep 2026",
+      "title": "Bitcoin rally wobbles as macro risks overshadow ETF demand",
       "source": "Moneyweb",
-      "summary": "Drivers, marshals, operators, and commuters possess practical knowledge that could improve SA's approach to transport reform.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/south-africas-minibus-taxi-industry-has-lessons-for-policymakers-on-how-informal-systems-work/"
+      "summary": "The original cryptocurrency fell as much as 2.3% to $82 568 before paring some losses.",
+      "link": "https://www.moneyweb.co.za/moneyweb-crypto/bitcoin/bitcoin-rally-wobbles-as-macro-risks-overshadow-etf-demand/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "26 Sep 2026",
-      "title": "Kraken’s parent Payward is betting billions on becoming financial infrastructure, not just a crypto exchange",
+      "date": "28 Sep 2026",
+      "title": "Bitcoin falls to $83,000 while altcoins unwind Friday's rally",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/09/26/kraken-s-parent-payward-is-betting-billions-on-becoming-financial-infrastructure-not-just-a-crypto-exchange"
+      "link": "https://www.coindesk.com/markets/2026/09/28/bitcoin-falls-to-usd83-000-while-altcoins-unwind-friday-s-rally"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "26 Sep 2026",
-      "title": "OpenAI pauses training of its ‘most capable models’",
+      "date": "27 Sep 2026",
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
       "source": "AI",
-      "summary": "As reports of OpenAI's models breaking containment, hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause"
+      "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram. It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

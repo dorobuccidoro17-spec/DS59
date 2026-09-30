@@ -1,6 +1,20 @@
 {
-  "date": "Tuesday, 29 September 2026",
+  "date": "Wednesday, 30 September 2026",
   "watchlist": [
+    {
+      "k": "Bitcoin",
+      "v": "$83,884",
+      "chg": "▼ 0.2%",
+      "dir": "down",
+      "c": "#fb923c"
+    },
+    {
+      "k": "Ethereum",
+      "v": "$2,693",
+      "chg": "▼ 0.7%",
+      "dir": "down",
+      "c": "#818cf8"
+    },
     {
       "k": "USD / ZAR",
       "v": "R16.41",
@@ -10,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Everything you've ever wanted is on the other side of fear.",
-    "by": "George Addair"
+    "text": "It always seems impossible until it's done.",
+    "by": "Nelson Mandela"
   },
-  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
-  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
+  "joke": "Why don't scientists trust atoms? Because they make up everything.",
+  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "29 Sep 2026",
-      "title": "Sibanye-Stillwater to list on A2X",
+      "date": "30 Sep 2026",
+      "title": "Growing pushback against proposed cross-border rules for crypto",
       "source": "Moneyweb",
-      "summary": "From 6 October 2026.",
-      "link": "https://www.moneyweb.co.za/mineweb/sibanye-stillwater-to-list-on-a2x/"
+      "summary": "With calls to scrap proposed differing sets of exchange control rules for crypto and forex.",
+      "link": "https://www.moneyweb.co.za/moneyweb-crypto/growing-pushback-against-proposed-cross-border-rules-for-crypto/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "29 Sep 2026",
-      "title": "Aave leads DeFi higher as crypto shrugs off surging bond market",
+      "date": "30 Sep 2026",
+      "title": "OpenAI, Google and Meta pledge outside AI audits under voluntary White House deal",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/09/29/aave-leads-defi-higher-as-crypto-shrugs-off-surging-treasury-yields"
+      "link": "https://www.coindesk.com/tech/2026/09/30/openai-google-and-meta-pledge-outside-ai-audits-under-voluntary-white-house-deal"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "28 Sep 2026",
-      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "date": "30 Sep 2026",
+      "title": "Sam Altman says OpenAI won’t go public until its models are safe",
       "source": "AI",
-      "summary": "AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion.",
-      "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal"
+      "summary": "For months, people have wondered when OpenAI will go public. CEO Sam Altman says it won't happen until the company can make better promises about model safety, with no firm timeline in sight.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002505/sam-altman-openai-ipo-devday-ai-safety"
     }
   ],
   "concept": {
-    "title": "AI Governance & the EU AI Act",
-    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
-    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
+    "title": "Large Language Models (LLMs)",
+    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
+    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
   }
 }

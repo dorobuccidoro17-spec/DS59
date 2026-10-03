@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 02 October 2026",
+  "date": "Saturday, 03 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$86,292",
-      "chg": "▲ 2.8%",
-      "dir": "up",
+      "v": "$84,578",
+      "chg": "▼ 2.1%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,744",
-      "chg": "▲ 1.7%",
-      "dir": "up",
+      "v": "$2,682",
+      "chg": "▼ 2.4%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.67",
+      "v": "R16.66",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "02 Oct 2026",
-      "title": "South Africa delays power-grid expansion plan by six months",
+      "date": "03 Oct 2026",
+      "title": "Africa’s mineral strength is wasted if countries don’t work together – new report",
       "source": "Moneyweb",
-      "summary": "Eskom plans to install 14 000 kilometres of line over the next decade.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/south-africa-delays-power-grid-expansion-plan-by-six-months/"
+      "summary": "Research examined whether they are processing and refining these minerals or making components for green technologies that use them.",
+      "link": "https://www.moneyweb.co.za/news/africa/africas-mineral-strength-is-wasted-if-countries-dont-work-together-new-report/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "02 Oct 2026",
-      "title": "Crypto traders are in risk-on mode as bitcoin dominance nears return to 60%",
+      "title": "Bank group sues U.S. regulator over granting crypto trust charters",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/02/crypto-traders-are-in-risk-on-mode-as-bitcoin-dominance-nears-return-to-60"
+      "link": "https://www.coindesk.com/policy/2026/10/02/bank-group-sues-u-s-regulator-over-granting-crypto-trust-charters"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "02 Oct 2026",
-      "title": "AI music maker Suno now generates spoken words",
+      "title": "Meta open sources code to let you make Muse AI gadgets",
       "source": "AI",
-      "summary": "Suno is branching out from the world of AI music, launching a new feature that generates spoken voices based on scripts or prompted descriptions. Speech is now available in public beta across Suno's web and mobile platforms, and allows you to simultaneously generate voiceovers and background music to accompany them.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1003925/suno-speech-ai-voice-feature-beta-availability"
+      "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or […]",
+      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

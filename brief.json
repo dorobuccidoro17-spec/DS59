@@ -1,18 +1,18 @@
 {
-  "date": "Saturday, 03 October 2026",
+  "date": "Sunday, 04 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$84,578",
-      "chg": "▼ 2.1%",
-      "dir": "down",
+      "v": "$85,321",
+      "chg": "▲ 0.8%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,682",
-      "chg": "▼ 2.4%",
-      "dir": "down",
+      "v": "$2,703",
+      "chg": "▲ 0.7%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "03 Oct 2026",
-      "title": "Africa’s mineral strength is wasted if countries don’t work together – new report",
+      "date": "04 Oct 2026",
+      "title": "Joburg and Medellín: What SA can learn from Colombia about fixing a broken city",
       "source": "Moneyweb",
-      "summary": "Research examined whether they are processing and refining these minerals or making components for green technologies that use them.",
-      "link": "https://www.moneyweb.co.za/news/africa/africas-mineral-strength-is-wasted-if-countries-dont-work-together-new-report/"
+      "summary": "Colombia’s second-largest city used capable, commercially disciplined public utilities as a cornerstone of its urban recovery.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/johannesburg-and-medellin-what-south-africa-can-learn-from-colombia-about-fixing-a-broken-city/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "02 Oct 2026",
-      "title": "Bank group sues U.S. regulator over granting crypto trust charters",
+      "date": "03 Oct 2026",
+      "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/10/02/bank-group-sues-u-s-regulator-over-granting-crypto-trust-charters"
+      "link": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "02 Oct 2026",
-      "title": "Meta open sources code to let you make Muse AI gadgets",
+      "date": "03 Oct 2026",
+      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
       "source": "AI",
-      "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced. The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or […]",
-      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link"
+      "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the RE Engine for […]",
+      "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

@@ -1,16 +1,16 @@
 {
-  "date": "Sunday, 04 October 2026",
+  "date": "Monday, 05 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$85,321",
-      "chg": "▲ 0.8%",
+      "v": "$86,182",
+      "chg": "▲ 1.0%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,703",
+      "v": "$2,718",
       "chg": "▲ 0.7%",
       "dir": "up",
       "c": "#818cf8"
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "04 Oct 2026",
-      "title": "Joburg and Medellín: What SA can learn from Colombia about fixing a broken city",
+      "date": "05 Oct 2026",
+      "title": "Richest 1% own more than half of SA’s wealth: Oxfam",
       "source": "Moneyweb",
-      "summary": "Colombia’s second-largest city used capable, commercially disciplined public utilities as a cornerstone of its urban recovery.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/johannesburg-and-medellin-what-south-africa-can-learn-from-colombia-about-fixing-a-broken-city/"
+      "summary": "How R30/l petrol will hit food, fares and inflation. The missing piece in Ramaphosa’s GBV plan.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/richest-1-own-more-than-half-of-sas-wealth-oxfam/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "03 Oct 2026",
-      "title": "Payments firm OpenPayd targets year-end Nasdaq listing to fund U.S. expansion and acquisitions",
+      "date": "05 Oct 2026",
+      "title": "SEC approves a 3x fix for bitcoin and ether traders who miss the wild swings",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/10/03/openpayd-targets-year-end-nasdaq-listing-to-fund-u-s-expansion-and-acquisitions"
+      "link": "https://www.coindesk.com/daybook-us/2026/10/05/sec-approves-a-3x-fix-for-bitcoin-and-ether-traders-who-miss-the-wild-swings"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "03 Oct 2026",
-      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+      "date": "05 Oct 2026",
+      "title": "Our minds aren’t equipped to handle AI",
       "source": "AI",
-      "summary": "Capcom's Pragmata might be all about the horrors of AI, but in practice the studio doesn't seem so down on the tech. During the Capcom Open Conference RE: 2026 programmer Satoshi Ishida gave a presentation with the mouthful of a title: \"The Outlook and Future of the REX Project, Further Evolving the RE Engine for […]",
-      "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development"
+      "summary": "Norbert Wiener, godfather of cybernetics, once said, \"The thought of every age is reflected in its technique.\" For the past century, our thought has been reflected in our computers, including by those in the AI industry. Google's Demis Hassabis calls the brain \"a biological approximation to a Turing machine.\" Elon…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003794/ai-education-computational-model-thought"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

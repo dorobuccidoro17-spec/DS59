@@ -1,66 +1,66 @@
 {
-  "date": "Tuesday, 06 October 2026",
+  "date": "Wednesday, 07 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$86,314",
-      "chg": "▲ 0.3%",
-      "dir": "up",
+      "v": "$83,708",
+      "chg": "▼ 2.9%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,716",
-      "chg": "▲ 0.0%",
-      "dir": "up",
+      "v": "$2,577",
+      "chg": "▼ 5.1%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.65",
+      "v": "R16.53",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Everything you've ever wanted is on the other side of fear.",
-    "by": "George Addair"
+    "text": "It always seems impossible until it's done.",
+    "by": "Nelson Mandela"
   },
-  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
-  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
+  "joke": "Why don't scientists trust atoms? Because they make up everything.",
+  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "06 Oct 2026",
-      "title": "What PetroSA problems mean for the fuel you put in your car",
+      "date": "07 Oct 2026",
+      "title": "SA plans Ramaphosa-led commission to oversee state firms",
       "source": "Moneyweb",
-      "summary": "R395bn infrastructure pipeline takes shape. Tutu Lecture asks what humanity demands of us now.",
-      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/what-petrosa-problems-mean-for-the-fuel-you-put-in-your-car/"
+      "summary": "The proposed commission will coordinate governance and restructuring after government withdrew legislation for a state-owned holding company.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/sa-plans-ramaphosa-led-commission-to-oversee-state-firms/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "06 Oct 2026",
-      "title": "The VIX of bonds is rising but bitcoin and stocks aren't hearing it yet",
+      "date": "07 Oct 2026",
+      "title": "Here’s what bitcoin needs to break above $87,000",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/10/06/the-vix-of-bonds-is-rising-but-bitcoin-and-stocks-aren-t-hearing-it-yet"
+      "link": "https://www.coindesk.com/daybook-us/2026/10/07/here-s-what-bitcoin-needs-to-break-above-usd87-000"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "06 Oct 2026",
-      "title": "Amazon Alexa Plus keeps creepily singing ‘lalala’ for minutes on end",
+      "date": "07 Oct 2026",
+      "title": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
       "source": "AI",
-      "summary": "An unsettling Alexa Plus bug has seen some Amazon Echo smart home speakers reduced to saying - and sometimes singing - nothing but \"lalala\" on repeat for minutes at a time, often in the middle of conversations with users. When quizzed about the behavior, Alexa is apparently entirely unaware of what it's been doing.",
-      "link": "https://www.theverge.com/tech/1005342/amazon-alexa-plus-keeps-creepily-singing-lalala-for-minutes-on-end"
+      "summary": "Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
     }
   ],
   "concept": {
-    "title": "AI Governance & the EU AI Act",
-    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
-    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
+    "title": "Large Language Models (LLMs)",
+    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
+    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
   }
 }

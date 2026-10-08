@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 07 October 2026",
+  "date": "Thursday, 08 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$83,708",
-      "chg": "▼ 2.9%",
+      "v": "$82,577",
+      "chg": "▼ 1.2%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,577",
-      "chg": "▼ 5.1%",
+      "v": "$2,541",
+      "chg": "▼ 1.3%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.53",
+      "v": "R16.64",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "07 Oct 2026",
-      "title": "SA plans Ramaphosa-led commission to oversee state firms",
+      "date": "08 Oct 2026",
+      "title": "Alphabet’s Isomorphic Labs in funding talks for at least $40bn value",
       "source": "Moneyweb",
-      "summary": "The proposed commission will coordinate governance and restructuring after government withdrew legislation for a state-owned holding company.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/sa-plans-ramaphosa-led-commission-to-oversee-state-firms/"
+      "summary": "London-based Isomorphic Labs was formed in 2021 out of DeepMind with the goal of commercialising the lab’s breakthrough AlphaFold protein-folding model.",
+      "link": "https://www.moneyweb.co.za/news/international/alphabets-isomorphic-labs-in-funding-talks-for-at-least-40bn-value/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "07 Oct 2026",
-      "title": "Here’s what bitcoin needs to break above $87,000",
+      "date": "08 Oct 2026",
+      "title": "Bitcoin ETF investors head for the exit, and it's the biggest rush in months",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/10/07/here-s-what-bitcoin-needs-to-break-above-usd87-000"
+      "link": "https://www.coindesk.com/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "07 Oct 2026",
-      "title": "ChatGPT for Teens is an ‘unacceptable risk,’ says Common Sense Media",
+      "title": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
       "source": "AI",
-      "summary": "Common Sense Media, a nonprofit that offers reviews of apps, services, and entertainment with a focus on youth safety, today said that OpenAI's ChatGPT for Teens is an \"unacceptable risk.\" ChatGPT for Teens, introduced in August, has guardrails for teens and is designed to help students learn, but Common Sense Media…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1006355/openai-chatgpt-for-teens-common-sense-media"
+      "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

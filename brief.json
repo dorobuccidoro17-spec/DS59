@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 08 October 2026",
+  "date": "Friday, 09 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$82,577",
-      "chg": "▼ 1.2%",
-      "dir": "down",
+      "v": "$82,743",
+      "chg": "▲ 0.4%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,541",
-      "chg": "▼ 1.3%",
+      "v": "$2,496",
+      "chg": "▼ 1.5%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.64",
+      "v": "R16.62",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "08 Oct 2026",
-      "title": "Alphabet’s Isomorphic Labs in funding talks for at least $40bn value",
+      "date": "09 Oct 2026",
+      "title": "South African human rights lawyer Navi Pillay awarded Nobel peace prize",
       "source": "Moneyweb",
-      "summary": "London-based Isomorphic Labs was formed in 2021 out of DeepMind with the goal of commercialising the lab’s breakthrough AlphaFold protein-folding model.",
-      "link": "https://www.moneyweb.co.za/news/international/alphabets-isomorphic-labs-in-funding-talks-for-at-least-40bn-value/"
+      "summary": "Pillay is recognised for holding states and national leaders accountable and defending international law amid growing pressure on global legal institutions.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/south-african-human-rights-lawyer-navi-pillay-awarded-nobel-peace-prize/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "08 Oct 2026",
-      "title": "Bitcoin ETF investors head for the exit, and it's the biggest rush in months",
+      "date": "09 Oct 2026",
+      "title": "Trump's Iran pledge underpins crypto gains as bitcoin bears face liquidation pressure",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/10/08/bitcoin-etf-investors-head-for-the-exit-and-it-s-the-biggest-rush-in-months"
+      "link": "https://www.coindesk.com/daybook-us/2026/10/09/trump-s-iran-pledge-underpins-crypto-gains-as-bitcoin-bears-face-liquidation-pressure"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "07 Oct 2026",
-      "title": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
+      "date": "09 Oct 2026",
+      "title": "OpenAI doubles down on decision to fire three AI safety researchers",
       "source": "AI",
-      "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6"
+      "summary": "OpenAI is standing firm on its decision to fire three safety researchers after an investigation found they committed \"a significant breach of trust.\" In a post on X on Friday, the company said Jasmine Wang, Tomek Korbak and Mikita ⁠Balesni were dismissed for violating \"clear policies on handling sensitive…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008604/openai-defends-decision-fire-safety-researchers"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

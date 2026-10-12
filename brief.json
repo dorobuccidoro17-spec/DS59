@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 11 October 2026",
+  "date": "Monday, 12 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$82,944",
-      "chg": "▲ 0.2%",
-      "dir": "up",
+      "v": "$82,730",
+      "chg": "▼ 0.4%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,499",
-      "chg": "▲ 0.2%",
+      "v": "$2,530",
+      "chg": "▲ 1.1%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.54",
+      "v": "R16.51",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "11 Oct 2026",
-      "title": "Porsche targets 20% price increase for top-model sports cars",
+      "date": "12 Oct 2026",
+      "title": "Navi Pillay’s Nobel: A victory for justice, a headache for Trump",
       "source": "Moneyweb",
-      "summary": "Porsche is betting on higher prices and greater exclusivity to revive profits after costly electrification missteps and weaker Chinese sales.",
-      "link": "https://www.moneyweb.co.za/news/international/porsche-targets-20-price-increase-for-top-model-sports-cars/"
+      "summary": "Pangas at the ConCourt an attack on democracy, says FUL. The R1.2bn investment in SA’s future workforce.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/navi-pillays-nobel-a-victory-for-justice-a-headache-for-trump/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "10 Oct 2026",
-      "title": "One year after 10/10 flash crash, bitcoin and ether liquidity have rebuilt, but altcoins still face risks",
+      "date": "12 Oct 2026",
+      "title": "Standard Chartered offers RLUSD custody in Dubai and plans LMAX collateral link",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/10/one-year-after-10-10-bitcoin-and-ether-liquidity-have-rebuilt-but-other-altcoins-still-face-risks"
+      "link": "https://www.coindesk.com/business/2026/10/12/standard-chartered-offers-rlusd-custody-in-dubai-and-plans-lmax-collateral-link"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "11 Oct 2026",
-      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
       "source": "AI",
-      "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress"
+      "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \"super intelligence,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

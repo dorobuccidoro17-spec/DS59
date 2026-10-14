@@ -1,66 +1,66 @@
 {
-  "date": "Tuesday, 13 October 2026",
+  "date": "Wednesday, 14 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$83,277",
-      "chg": "▲ 0.2%",
-      "dir": "up",
+      "v": "$83,230",
+      "chg": "▼ 0.4%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,499",
-      "chg": "▼ 1.6%",
+      "v": "$2,496",
+      "chg": "▼ 0.6%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.54",
+      "v": "R16.49",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Everything you've ever wanted is on the other side of fear.",
-    "by": "George Addair"
+    "text": "It always seems impossible until it's done.",
+    "by": "Nelson Mandela"
   },
-  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
-  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
+  "joke": "Why don't scientists trust atoms? Because they make up everything.",
+  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "13 Oct 2026",
-      "title": "Modi says India offers trust as globalisation becomes coercion",
+      "date": "14 Oct 2026",
+      "title": "OpenAI says staffer arrested for hidden recording device in office",
       "source": "Moneyweb",
-      "summary": "Modi identified choke points emerging along trade routes built over decades of globalisation, compounded by the accelerating impact of artificial intelligence across every sector.",
-      "link": "https://www.moneyweb.co.za/news/international/modi-says-india-offers-trust-as-globalisation-becomes-coercion/"
+      "summary": "The incident is poised to heighten concerns about the security at top tech companies at a moment when nations are competing aggressively to develop more powerful AI systems.",
+      "link": "https://www.moneyweb.co.za/news/ai/openai-says-staffer-arrested-for-hidden-recording-device-in-office/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "13 Oct 2026",
-      "title": "South Korea blocks 27 crypto exchanges, including Bitmart and Kucoin",
+      "date": "14 Oct 2026",
+      "title": "Live updates: Bitcoin tumbles from near $84,000 ahead of U.S. inflation data",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/10/13/south-korea-blocks-27-crypto-exchanges-including-bitmart-and-kucoin"
+      "link": "https://www.coindesk.com/business/2026/10/14/live-updates-bitcoin-tumbles-from-near-usd84-000-ahead-of-u-s-inflation-data"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "13 Oct 2026",
-      "title": "Character.AI files for bankruptcy",
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
       "source": "AI",
-      "summary": "Character.AI, one of the first breakout startups of the generative AI boom, has filed for bankruptcy and is selling some of its assets to Disney. The company, which builds various online bots for users to chat or roleplay with, has faced mounting scrutiny and lawsuits over the safety of its chatbots, but has continued…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney"
+      "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device"
     }
   ],
   "concept": {
-    "title": "AI Governance & the EU AI Act",
-    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
-    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
+    "title": "Large Language Models (LLMs)",
+    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
+    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
   }
 }

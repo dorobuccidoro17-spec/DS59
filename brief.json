@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 15 October 2026",
+  "date": "Friday, 16 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$81,208",
-      "chg": "▼ 2.4%",
-      "dir": "down",
+      "v": "$82,076",
+      "chg": "▲ 1.0%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,370",
-      "chg": "▼ 5.1%",
-      "dir": "down",
+      "v": "$2,451",
+      "chg": "▲ 3.4%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.58",
+      "v": "R16.52",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "15 Oct 2026",
-      "title": "Mauritius says calm restored following spasm of public disorder",
+      "date": "16 Oct 2026",
+      "title": "Trump press secretary says she didn’t pass bar, downplays result",
       "source": "Moneyweb",
-      "summary": "The government extended the curfew for two nights after protests over water shortages and living costs escalated following a police shooting.",
-      "link": "https://www.moneyweb.co.za/news-fast-news/mauritius-says-calm-restored-following-spasm-of-public-disorder/"
+      "summary": "The White House has defended Zacharia over the questions regarding her legal career but did not address Zacharia’s status as a lawyer when asked about the Journal report.",
+      "link": "https://www.moneyweb.co.za/news/international/trump-press-secretary-says-she-didnt-pass-bar-downplays-result/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "15 Oct 2026",
-      "title": "Hex founder Richard Heart arrested in Istanbul, Turkish media report",
+      "date": "16 Oct 2026",
+      "title": "MSCI approves rules that could eject Strategy, Metaplanet from equity indexes",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/policy/2026/10/15/hex-founder-richard-heart-arrested-in-istanbul-turkish-media-report"
+      "link": "https://www.coindesk.com/markets/2026/10/16/msci-approves-rules-that-could-eject-strategy-metaplanet-from-equity-indexes"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "14 Oct 2026",
-      "title": "McKinsey is making job applicants spar with a fake AI client",
+      "date": "15 Oct 2026",
+      "title": "ChatGPT can peek at your Chrome tabs now",
       "source": "AI",
-      "summary": "Consulting firm McKinsey & Company is going to ask some entry-level candidates to have a 10-minute conversation with an AI simulation of a client as part of the interview process, according to The Wall Street Journal. The AI simulation \"aims to reflect 80% of the scenarios McKinsey consultants might encounter in their…",
-      "link": "https://www.theverge.com/news/1011654/mckinsey-ai-client-interview"
+      "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

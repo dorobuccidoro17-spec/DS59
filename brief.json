@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 16 October 2026",
+  "date": "Saturday, 17 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$82,076",
-      "chg": "▲ 1.0%",
-      "dir": "up",
+      "v": "$81,617",
+      "chg": "▼ 0.7%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,451",
-      "chg": "▲ 3.4%",
-      "dir": "up",
+      "v": "$2,433",
+      "chg": "▼ 0.9%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.52",
+      "v": "R16.47",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "16 Oct 2026",
-      "title": "Trump press secretary says she didn’t pass bar, downplays result",
+      "date": "17 Oct 2026",
+      "title": "Musk pours $158m into GOP super PAC for Texas senate race",
       "source": "Moneyweb",
-      "summary": "The White House has defended Zacharia over the questions regarding her legal career but did not address Zacharia’s status as a lawyer when asked about the Journal report.",
-      "link": "https://www.moneyweb.co.za/news/international/trump-press-secretary-says-she-didnt-pass-bar-downplays-result/"
+      "summary": "Making the world’s richest person the biggest US political donor for the second straight election cycle, according to the latest filings from the Federal Election Commission.",
+      "link": "https://www.moneyweb.co.za/news-fast-news/musk-pours-158m-into-gop-super-pac-for-texas-senate-race/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "16 Oct 2026",
-      "title": "MSCI approves rules that could eject Strategy, Metaplanet from equity indexes",
+      "date": "17 Oct 2026",
+      "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/16/msci-approves-rules-that-could-eject-strategy-metaplanet-from-equity-indexes"
+      "link": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "15 Oct 2026",
-      "title": "ChatGPT can peek at your Chrome tabs now",
+      "date": "16 Oct 2026",
+      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
       "source": "AI",
-      "summary": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your browser tabs when you tag Chrome in ChatGPT's web or desktop app, posting a demo…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+      "summary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm.…",
+      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

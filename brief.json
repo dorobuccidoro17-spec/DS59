@@ -1,17 +1,17 @@
 {
-  "date": "Saturday, 17 October 2026",
+  "date": "Sunday, 18 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$81,617",
-      "chg": "▼ 0.7%",
-      "dir": "down",
+      "v": "$81,914",
+      "chg": "▲ 0.4%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,433",
-      "chg": "▼ 0.9%",
+      "v": "$2,418",
+      "chg": "▼ 0.6%",
       "dir": "down",
       "c": "#818cf8"
     },
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "17 Oct 2026",
-      "title": "Musk pours $158m into GOP super PAC for Texas senate race",
+      "date": "18 Oct 2026",
+      "title": "Wits secures R341m Cultural Precinct deal",
       "source": "Moneyweb",
-      "summary": "Making the world’s richest person the biggest US political donor for the second straight election cycle, according to the latest filings from the Federal Election Commission.",
-      "link": "https://www.moneyweb.co.za/news-fast-news/musk-pours-158m-into-gop-super-pac-for-texas-senate-race/"
+      "summary": "A major share donation valued at R204m from the Seabrooke Family Trust underpins the university's arts expansion.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/seabrooke-donates-1-4m-sabvest-shares-as-wits-launches-r341m-precinct/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "17 Oct 2026",
-      "title": "‘Wow, it’s a real discovery’: Claude cracks a 25-year NSA number mystery",
+      "date": "18 Oct 2026",
+      "title": "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/10/17/wow-it-s-a-real-discovery-claude-cracks-a-25-year-nsa-number-mystery"
+      "link": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "16 Oct 2026",
-      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
+      "date": "17 Oct 2026",
+      "title": "Meta removes language that may have allowed it to scrape news sites",
       "source": "AI",
-      "summary": "Nvidia's RTX Spark N1X processor is finally here, and we've been collectively testing a small fortune's worth of powerful laptops sporting this new \"superchip.\" RTX Spark is designed to be a high-performing Arm-based SoC for laptops and small desktop computers, rivaling the best from Apple, Intel, AMD, and Qualcomm.…",
-      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions"
+      "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide,…",
+      "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

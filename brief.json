@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 18 October 2026",
+  "date": "Monday, 19 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$81,914",
-      "chg": "▲ 0.4%",
+      "v": "$82,256",
+      "chg": "▲ 0.1%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,418",
-      "chg": "▼ 0.6%",
+      "v": "$2,421",
+      "chg": "▼ 0.1%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.47",
+      "v": "R16.46",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "18 Oct 2026",
-      "title": "Wits secures R341m Cultural Precinct deal",
+      "date": "19 Oct 2026",
+      "title": "Lindt’s CEO exits as chocolate firm grapples with weak demand",
       "source": "Moneyweb",
-      "summary": "A major share donation valued at R204m from the Seabrooke Family Trust underpins the university's arts expansion.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/seabrooke-donates-1-4m-sabvest-shares-as-wits-launches-r341m-precinct/"
+      "summary": "Lindt also appointed a new CEO for Germany as part of its management changes.",
+      "link": "https://www.moneyweb.co.za/news/international/lindts-ceo-exits-as-chocolate-firm-grapples-with-weak-demand/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "18 Oct 2026",
-      "title": "Chip-stock bets lost $52 million in 10 minutes with Wall Street shut",
+      "date": "19 Oct 2026",
+      "title": "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/18/chip-stock-bets-lost-usd52-million-in-10-minutes-with-wall-street-shut"
+      "link": "https://www.coindesk.com/markets/2026/10/19/bitcoin-extends-bounce-above-usd82-000-as-stocks-rebound-defi-tokens-lead-altcoin-gains"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "17 Oct 2026",
-      "title": "Meta removes language that may have allowed it to scrape news sites",
+      "date": "18 Oct 2026",
+      "title": "A woman was arrested in Philly for blocking a delivery robot",
       "source": "AI",
-      "summary": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms page: … Meta may use any content from such domains, web pages, or URLs to provide,…",
-      "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites"
+      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

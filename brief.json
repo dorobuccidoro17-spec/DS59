@@ -1,66 +1,66 @@
 {
-  "date": "Monday, 19 October 2026",
+  "date": "Tuesday, 20 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$82,256",
-      "chg": "▲ 0.1%",
-      "dir": "up",
+      "v": "$81,314",
+      "chg": "▼ 2.0%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,421",
-      "chg": "▼ 0.1%",
+      "v": "$2,378",
+      "chg": "▼ 2.6%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.46",
+      "v": "R16.43",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Opportunities don't happen. You create them.",
-    "by": "Chris Grosser"
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "by": "George Addair"
   },
-  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
-  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
+  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
+  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "19 Oct 2026",
-      "title": "Lindt’s CEO exits as chocolate firm grapples with weak demand",
+      "date": "20 Oct 2026",
+      "title": "Transnet sets global freight rail record with 696-wagon train",
       "source": "Moneyweb",
-      "summary": "Lindt also appointed a new CEO for Germany as part of its management changes.",
-      "link": "https://www.moneyweb.co.za/news/international/lindts-ceo-exits-as-chocolate-firm-grapples-with-weak-demand/"
+      "summary": "The empty train completed a test run on the Saldanha-to-Northern Cape iron ore line, with operational data set to inform future heavy-haul strategies and corridor capacity.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/transnet-sets-global-freight-rail-record-with-696-wagon-train/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "19 Oct 2026",
-      "title": "Bitcoin extends bounce above $82,000 as stocks rebound, DeFi tokens lead altcoin gains",
+      "date": "20 Oct 2026",
+      "title": "South Korean IPO plunge deepens AI market jitters as brent tops $111",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/19/bitcoin-extends-bounce-above-usd82-000-as-stocks-rebound-defi-tokens-lead-altcoin-gains"
+      "link": "https://www.coindesk.com/markets/2026/10/20/south-korean-ipo-plunge-deepens-ai-market-jitters-as-brent-tops-usd111"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "18 Oct 2026",
-      "title": "A woman was arrested in Philly for blocking a delivery robot",
+      "date": "19 Oct 2026",
+      "title": "The fossil fuel comeback is here",
       "source": "AI",
-      "summary": "Carolyn Marvin was arrested and charged with disorderly conduct after blocking the path of an Uber delivery robot and refusing to get out of the way. Marvin told Philadelphia's ABC13 \"I know they're taking the jobs of human delivery workers and so, I have been protesting them whenever I saw them by standing in front…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot"
+      "summary": "The US is building more fossil fuel infrastructure than it has in a decade while renewable energy growth slows down, a new report shows. Electricity demand is also climbing faster than it has in more than a decade with more data centers, factories, and electric vehicles plugging into the grid.",
+      "link": "https://www.theverge.com/science/1013954/fossil-fuel-power-infrastructure-data-centers-report"
     }
   ],
   "concept": {
-    "title": "Tokens & Context Windows",
-    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
-    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
+    "title": "AI Governance & the EU AI Act",
+    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
+    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
   }
 }

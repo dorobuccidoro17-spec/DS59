@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 21 October 2026",
+  "date": "Thursday, 22 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$83,362",
-      "chg": "▲ 2.5%",
-      "dir": "up",
+      "v": "$81,770",
+      "chg": "▼ 1.9%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,458",
-      "chg": "▲ 3.3%",
-      "dir": "up",
+      "v": "$2,400",
+      "chg": "▼ 2.3%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.40",
+      "v": "R16.37",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "21 Oct 2026",
-      "title": "Famous Brands boosts dividend despite profit decline",
+      "date": "22 Oct 2026",
+      "title": "SA moves to bring offshore fund management back home",
       "source": "Moneyweb",
-      "summary": "Free cash flow more than doubled to R459m as the group cut capital expenditure by 73% and reduced borrowings to R1bn.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/famous-brands-boosts-dividend-despite-profit-decline/"
+      "summary": "The proposed framework would let approved asset managers oversee qualifying foreign portfolios from South Africa, where an estimated R10trn in local savings is currently managed offshore.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/sa-moves-to-bring-offshore-fund-management-back-home/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "21 Oct 2026",
-      "title": "SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin",
+      "date": "22 Oct 2026",
+      "title": "Asian stocks tumble, bitcoin retreats as China enters bear market",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/21/spacex-and-tesla-explore-merger-that-would-unite-more-than-30-000-bitcoin"
+      "link": "https://www.coindesk.com/markets/2026/10/22/asian-stocks-tumble-bitcoin-retreats-as-china-enters-bear-market"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "20 Oct 2026",
-      "title": "Judge dismisses Sam Altman’s sister’s sexual abuse lawsuit",
+      "date": "21 Oct 2026",
+      "title": "Data centers could erase decades of air quality gains",
       "source": "AI",
-      "summary": "On Tuesday, US District Judge Zachary Bluestone dismissed the lawsuit Ann Altman filed last year alleging that her brother, OpenAI CEO Sam Altman, had sexually abused her throughout her childhood. As reported earlier by The Guardian, the judge wrote that over the past year, Ann had failed to appear for an independent…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1014976/sam-altman-ann-altman-lawsuit-dismissed"
+      "summary": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

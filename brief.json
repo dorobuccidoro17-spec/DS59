@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 22 October 2026",
+  "date": "Friday, 23 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$81,770",
-      "chg": "▼ 1.9%",
+      "v": "$81,535",
+      "chg": "▼ 0.2%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,400",
-      "chg": "▼ 2.3%",
+      "v": "$2,395",
+      "chg": "▼ 0.1%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.37",
+      "v": "R16.50",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "22 Oct 2026",
-      "title": "SA moves to bring offshore fund management back home",
+      "date": "23 Oct 2026",
+      "title": "Shoprite and Investec said to discuss SA fintech tie-up",
       "source": "Moneyweb",
-      "summary": "The proposed framework would let approved asset managers oversee qualifying foreign portfolios from South Africa, where an estimated R10trn in local savings is currently managed offshore.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/sa-moves-to-bring-offshore-fund-management-back-home/"
+      "summary": "Shoprite is seeking to expand beyond basic payment services, with a potential Investec partnership bringing additional banking and fintech expertise without requiring the retailer to become a bank.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/shoprite-and-investec-said-to-discuss-sa-fintech-tie-up/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "22 Oct 2026",
-      "title": "Asian stocks tumble, bitcoin retreats as China enters bear market",
+      "date": "23 Oct 2026",
+      "title": "Sweden’s central bank revives e-krona debate as stablecoins and digital euro loom",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/22/asian-stocks-tumble-bitcoin-retreats-as-china-enters-bear-market"
+      "link": "https://www.coindesk.com/business/2026/10/23/sweden-s-central-bank-revives-e-krona-debate-as-stablecoins-and-digital-euro-loom"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "21 Oct 2026",
-      "title": "Data centers could erase decades of air quality gains",
+      "date": "22 Oct 2026",
+      "title": "Canva’s first AI image model plans designs before generating them",
       "source": "AI",
-      "summary": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report"
+      "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

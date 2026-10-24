@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 23 October 2026",
+  "date": "Saturday, 24 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$81,535",
-      "chg": "▼ 0.2%",
+      "v": "$80,556",
+      "chg": "▼ 1.4%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,395",
-      "chg": "▼ 0.1%",
+      "v": "$2,363",
+      "chg": "▼ 1.7%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.50",
+      "v": "R16.58",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "23 Oct 2026",
-      "title": "Shoprite and Investec said to discuss SA fintech tie-up",
+      "date": "24 Oct 2026",
+      "title": "Alex Gibney’s ‘Musk’: Why there’s no escaping tech tycoon villains (at the movies)",
       "source": "Moneyweb",
-      "summary": "Shoprite is seeking to expand beyond basic payment services, with a potential Investec partnership bringing additional banking and fintech expertise without requiring the retailer to become a bank.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/shoprite-and-investec-said-to-discuss-sa-fintech-tie-up/"
+      "summary": "Another version of Elon Musk appears in Artificial, which screened at this month’s London Film Festival ahead of its release, but OpenAI CEO Sam Altman's character is portrayed as the villain in the film.",
+      "link": "https://www.moneyweb.co.za/in-depth/features/alex-gibneys-musk-why-theres-no-escaping-tech-tycoon-villains-at-the-movies/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "23 Oct 2026",
-      "title": "Sweden’s central bank revives e-krona debate as stablecoins and digital euro loom",
+      "date": "24 Oct 2026",
+      "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/10/23/sweden-s-central-bank-revives-e-krona-debate-as-stablecoins-and-digital-euro-loom"
+      "link": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "22 Oct 2026",
-      "title": "Canva’s first AI image model plans designs before generating them",
+      "date": "23 Oct 2026",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
       "source": "AI",
-      "summary": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a design before generating an image, allowing for \"greater precision, consistency…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model"
+      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

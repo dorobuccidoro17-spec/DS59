@@ -1,17 +1,17 @@
 {
-  "date": "Saturday, 24 October 2026",
+  "date": "Sunday, 25 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$80,556",
-      "chg": "▼ 1.4%",
+      "v": "$80,134",
+      "chg": "▼ 0.5%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,363",
-      "chg": "▼ 1.7%",
+      "v": "$2,324",
+      "chg": "▼ 1.6%",
       "dir": "down",
       "c": "#818cf8"
     },
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "24 Oct 2026",
-      "title": "Alex Gibney’s ‘Musk’: Why there’s no escaping tech tycoon villains (at the movies)",
+      "date": "25 Oct 2026",
+      "title": "Sassa to spend R290bn on social grants this year",
       "source": "Moneyweb",
-      "summary": "Another version of Elon Musk appears in Artificial, which screened at this month’s London Film Festival ahead of its release, but OpenAI CEO Sam Altman's character is portrayed as the villain in the film.",
-      "link": "https://www.moneyweb.co.za/in-depth/features/alex-gibneys-musk-why-theres-no-escaping-tech-tycoon-villains-at-the-movies/"
+      "summary": "Grants make up 11% of government spending, the same as 20 years ago.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/sassa-to-spend-r290bn-on-social-grants-this-year/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "24 Oct 2026",
-      "title": "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet",
+      "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet"
+      "link": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "23 Oct 2026",
-      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "date": "24 Oct 2026",
+      "title": "Blue Planet III is keeping the rough edges in the age of AI",
       "source": "AI",
-      "summary": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexed and cached web content \"without risk of affecting external systems.\" OpenAI…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet"
+      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

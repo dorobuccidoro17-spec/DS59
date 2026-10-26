@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 25 October 2026",
+  "date": "Monday, 26 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$80,134",
-      "chg": "▼ 0.5%",
-      "dir": "down",
+      "v": "$80,343",
+      "chg": "▲ 0.1%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,324",
-      "chg": "▼ 1.6%",
-      "dir": "down",
+      "v": "$2,329",
+      "chg": "▲ 0.1%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.58",
+      "v": "R16.60",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "25 Oct 2026",
-      "title": "Sassa to spend R290bn on social grants this year",
+      "date": "26 Oct 2026",
+      "title": "Musk claims $40bn chips debt closed, yet talks ongoing",
       "source": "Moneyweb",
-      "summary": "Grants make up 11% of government spending, the same as 20 years ago.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/sassa-to-spend-r290bn-on-social-grants-this-year/"
+      "summary": "SpaceX, which is rated investment-grade by the three largest credit graders, has seen the price of its own debt tumble in recent weeks.",
+      "link": "https://www.moneyweb.co.za/news/tech/musk-claims-40bn-chips-debt-closed-yet-talks-ongoing/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "24 Oct 2026",
-      "title": "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends",
+      "date": "26 Oct 2026",
+      "title": "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/10/24/strategy-strive-face-balancing-act-between-bitcoin-buying-and-preferred-stock-dividends"
+      "link": "https://www.coindesk.com/markets/2026/10/26/calpers-pulls-back-from-big-tech-as-ai-jitters-deepen-neocloud-sell-off"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "24 Oct 2026",
-      "title": "Blue Planet III is keeping the rough edges in the age of AI",
+      "date": "25 Oct 2026",
+      "title": "r/opensource just banned AI, non-English speakers, and more",
       "source": "AI",
-      "summary": "BBC's Blue Planet III is looking to prove its authenticity by leaving in the less-than-perfect shots. Previous incarnations of the nature series were defined by their gorgeous, crystal-clear footage that seemed almost too good to be real.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1018205/blue-planet-iii-authentic-organic-ai"
+      "summary": "The mods at r/opensource posted new submission rules that, among other things, banned projects that use AI. The post made Saturday evening opens by saying, \"If your project uses AI, is made by AI, or is intended for AI, it's not welcome on r/opensource.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

@@ -1,66 +1,66 @@
 {
-  "date": "Wednesday, 28 October 2026",
+  "date": "Thursday, 29 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$81,437",
-      "chg": "▲ 2.0%",
-      "dir": "up",
+      "v": "$80,139",
+      "chg": "▼ 1.4%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,366",
-      "chg": "▲ 2.3%",
-      "dir": "up",
+      "v": "$2,323",
+      "chg": "▼ 1.5%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.64",
+      "v": "R16.63",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "It always seems impossible until it's done.",
-    "by": "Nelson Mandela"
+    "text": "The best way to predict the future is to create it.",
+    "by": "Peter Drucker"
   },
-  "joke": "Why don't scientists trust atoms? Because they make up everything.",
-  "edge": "Start with the problem, not the technology. The initiatives that pay off begin with one specific, costly business problem and a metric to move — not 'let's use AI.'",
+  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
+  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "28 Oct 2026",
-      "title": "Anglo’s Sanches says Brazil must ‘negotiate with everyone’",
+      "date": "29 Oct 2026",
+      "title": "Lagarde to leave ECB early, igniting race to replace her",
       "source": "Moneyweb",
-      "summary": "The miner's Brazil chief urges clear rules for critical-minerals investments as the country seeks to balance trade ties with China and the US.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/anglos-sanches-says-brazil-must-negotiate-with-everyone/"
+      "summary": "Lagarde will step down on February 7.",
+      "link": "https://www.moneyweb.co.za/news/international/lagarde-to-leave-ecb-early-igniting-race-to-replace-her/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "28 Oct 2026",
-      "title": "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS",
+      "date": "29 Oct 2026",
+      "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/10/28/nearly-90-of-large-businesses-are-embracing-tokenized-cash-to-speed-up-payments-dbs"
+      "link": "https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "27 Oct 2026",
-      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
+      "date": "29 Oct 2026",
+      "title": "AI has come for Arizona’s water",
       "source": "AI",
-      "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics"
+      "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites.",
+      "link": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
     }
   ],
   "concept": {
-    "title": "Large Language Models (LLMs)",
-    "body": "An LLM is trained on vast text to predict the next word, which is what lets it draft, summarise, and reason over language. It generates plausible text rather than looking up facts — hence its fluency and its habit of confident mistakes ('hallucinations').",
-    "takeaway": "Lean on LLMs for drafting and synthesis, and keep a human check on high-stakes outputs."
+    "title": "Retrieval-Augmented Generation (RAG)",
+    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
+    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
   }
 }

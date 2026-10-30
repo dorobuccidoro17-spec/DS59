@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 29 October 2026",
+  "date": "Friday, 30 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$80,139",
-      "chg": "▼ 1.4%",
+      "v": "$77,663",
+      "chg": "▼ 3.1%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,323",
-      "chg": "▼ 1.5%",
+      "v": "$2,245",
+      "chg": "▼ 3.4%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.63",
+      "v": "R16.62",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "29 Oct 2026",
-      "title": "Lagarde to leave ECB early, igniting race to replace her",
+      "date": "30 Oct 2026",
+      "title": "Zimbabwe readies new policy that will entrench property rights",
       "source": "Moneyweb",
-      "summary": "Lagarde will step down on February 7.",
-      "link": "https://www.moneyweb.co.za/news/international/lagarde-to-leave-ecb-early-igniting-race-to-replace-her/"
+      "summary": "The policy, which is expected to be approved by the cabinet by year-end, 'guarantees that the land reform is irreversible and moves us safely into a transformative rural economy,' Vangelis Haritatos said.",
+      "link": "https://www.moneyweb.co.za/news/africa/zimbabwe-readies-new-policy-that-will-entrench-property-rights/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "29 Oct 2026",
-      "title": "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump",
+      "date": "30 Oct 2026",
+      "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/29/bitcoin-drops-to-usd80-000-on-fed-dissent-samsung-alphabet-earnings-ai-tokens-slump"
+      "link": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "29 Oct 2026",
-      "title": "AI has come for Arizona’s water",
+      "date": "30 Oct 2026",
+      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
       "source": "AI",
-      "summary": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites.",
-      "link": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc"
+      "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians…",
+      "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

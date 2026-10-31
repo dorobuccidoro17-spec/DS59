@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 30 October 2026",
+  "date": "Saturday, 31 October 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,663",
-      "chg": "▼ 3.1%",
+      "v": "$77,408",
+      "chg": "▼ 0.3%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
       "v": "$2,245",
-      "chg": "▼ 3.4%",
+      "chg": "▼ 0.0%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.62",
+      "v": "R16.67",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "30 Oct 2026",
-      "title": "Zimbabwe readies new policy that will entrench property rights",
+      "date": "31 Oct 2026",
+      "title": "World Bank warns poor urban planning threatens Africa’s future",
       "source": "Moneyweb",
-      "summary": "The policy, which is expected to be approved by the cabinet by year-end, 'guarantees that the land reform is irreversible and moves us safely into a transformative rural economy,' Vangelis Haritatos said.",
-      "link": "https://www.moneyweb.co.za/news/africa/zimbabwe-readies-new-policy-that-will-entrench-property-rights/"
+      "summary": "Rapid urban expansion threatens the region's ability to turn its growing workforce into an economic opportunity.",
+      "link": "https://www.moneyweb.co.za/news/africa/world-bank-warns-poor-urban-planning-threatens-africas-future/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "30 Oct 2026",
-      "title": "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower",
+      "date": "31 Oct 2026",
+      "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/30/crypto-liquidations-jump-to-usd1-57-billion-as-binance-hack-sends-bitcoin-ether-lower"
+      "link": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "30 Oct 2026",
-      "title": "Wikipedia’s operator says a bad AI copyright ruling could threaten the open web",
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
       "source": "AI",
-      "summary": "The Wikimedia Foundation is staking out a middle ground in a group of landmark AI copyright cases, pushing courts to legally protect large language models (LLMs) training on copyrighted work - but not chatbots regurgitating that work to users. An overly black-and-white ruling, it says, could either deprive Wikipedians…",
-      "link": "https://www.theverge.com/policy/1022880/wikipedia-openai-new-york-times-copyright"
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December.",
+      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

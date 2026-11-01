@@ -1,18 +1,18 @@
 {
-  "date": "Saturday, 31 October 2026",
+  "date": "Sunday, 01 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,408",
-      "chg": "▼ 0.3%",
-      "dir": "down",
+      "v": "$77,868",
+      "chg": "▲ 0.6%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,245",
-      "chg": "▼ 0.0%",
-      "dir": "down",
+      "v": "$2,267",
+      "chg": "▲ 0.9%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "31 Oct 2026",
-      "title": "World Bank warns poor urban planning threatens Africa’s future",
+      "date": "01 Nov 2026",
+      "title": "Ride Joburg race gets a new finish at Kyalami",
       "source": "Moneyweb",
-      "summary": "Rapid urban expansion threatens the region's ability to turn its growing workforce into an economic opportunity.",
-      "link": "https://www.moneyweb.co.za/news/africa/world-bank-warns-poor-urban-planning-threatens-africas-future/"
+      "summary": "Race brings thousands of cyclists to a new start and finish venue.",
+      "link": "https://www.moneyweb.co.za/news-fast-news/ride-joburg-race-gets-a-new-finish-at-kyalami/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "31 Oct 2026",
-      "title": "Bitcoin stolen from Binance tops Tesla’s holdings and is over twice El Salvador’s reserve",
+      "date": "01 Nov 2026",
+      "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/10/31/bitcoin-stolen-from-binance-tops-tesla-s-holdings-and-is-over-twice-el-salvador-s-reserve"
+      "link": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "30 Oct 2026",
-      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "date": "31 Oct 2026",
+      "title": "I built an AI Tamagotchi before Meta could",
       "source": "AI",
-      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website, as reported by MacRumors. The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December.",
-      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3"
+      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home.",
+      "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

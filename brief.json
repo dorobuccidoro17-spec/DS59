@@ -1,52 +1,52 @@
 {
-  "date": "Sunday, 01 November 2026",
+  "date": "Monday, 02 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,868",
-      "chg": "▲ 0.6%",
-      "dir": "up",
+      "v": "$77,678",
+      "chg": "▼ 0.3%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,267",
-      "chg": "▲ 0.9%",
+      "v": "$2,282",
+      "chg": "▲ 0.8%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.67",
+      "v": "R16.69",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "01 Nov 2026",
-      "title": "Ride Joburg race gets a new finish at Kyalami",
+      "date": "02 Nov 2026",
+      "title": "Supermarkets across Europe report new suspected freezer hack",
       "source": "Moneyweb",
-      "summary": "Race brings thousands of cyclists to a new start and finish venue.",
-      "link": "https://www.moneyweb.co.za/news-fast-news/ride-joburg-race-gets-a-new-finish-at-kyalami/"
+      "summary": "The incidents raise concerns of a repeat of the disruption that took place in France last month, when 700 stores were hit by cyberattacks that disabled refrigeration systems and forced shops to throw out damaged food.",
+      "link": "https://www.moneyweb.co.za/news/international/supermarkets-across-europe-report-new-suspected-freezer-hack/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "01 Nov 2026",
-      "title": "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack",
+      "date": "02 Nov 2026",
+      "title": "XRP Ledger set to fix flaw that could let stablecoin partners print new tokens",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack"
+      "link": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens"
     },
     {
       "tag": "AI Pulse",
@@ -59,8 +59,8 @@
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

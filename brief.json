@@ -1,66 +1,66 @@
 {
-  "date": "Monday, 02 November 2026",
+  "date": "Tuesday, 03 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$77,678",
-      "chg": "▼ 0.3%",
+      "v": "$77,326",
+      "chg": "▼ 0.6%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,282",
-      "chg": "▲ 0.8%",
-      "dir": "up",
+      "v": "$2,278",
+      "chg": "▼ 0.3%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.69",
+      "v": "R16.61",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Opportunities don't happen. You create them.",
-    "by": "Chris Grosser"
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "by": "George Addair"
   },
-  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
-  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
+  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
+  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "02 Nov 2026",
-      "title": "Supermarkets across Europe report new suspected freezer hack",
+      "date": "03 Nov 2026",
+      "title": "Court sets aside Parks Tau’s national lottery licence award",
       "source": "Moneyweb",
-      "summary": "The incidents raise concerns of a repeat of the disruption that took place in France last month, when 700 stores were hit by cyberattacks that disabled refrigeration systems and forced shops to throw out damaged food.",
-      "link": "https://www.moneyweb.co.za/news/international/supermarkets-across-europe-report-new-suspected-freezer-hack/"
+      "summary": "Sizekhaya will continue to operate the lottery for now, but Minister Parks Tau has 12 months to award the fourth lottery licence.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/court-sets-aside-parks-taus-national-lottery-licence-award/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "02 Nov 2026",
-      "title": "XRP Ledger set to fix flaw that could let stablecoin partners print new tokens",
+      "date": "03 Nov 2026",
+      "title": "Bitcoin is breaking a midterm election pattern going back to 2014",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/11/02/xrp-ledger-set-to-fix-flaw-that-could-let-stablecoin-partners-print-new-tokens"
+      "link": "https://www.coindesk.com/daybook-us/2026/11/03/bitcoin-is-breaking-a-midterm-election-pattern-going-back-to-2014"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "31 Oct 2026",
-      "title": "I built an AI Tamagotchi before Meta could",
+      "date": "02 Nov 2026",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
       "source": "AI",
-      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home.",
-      "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code"
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will still let people use Claude Code to make…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones"
     }
   ],
   "concept": {
-    "title": "Tokens & Context Windows",
-    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
-    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
+    "title": "AI Governance & the EU AI Act",
+    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
+    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
   }
 }

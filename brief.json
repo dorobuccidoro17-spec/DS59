@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 05 November 2026",
+  "date": "Friday, 06 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$79,546",
-      "chg": "▲ 1.8%",
-      "dir": "up",
+      "v": "$76,154",
+      "chg": "▼ 4.4%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,388",
-      "chg": "▲ 3.3%",
-      "dir": "up",
+      "v": "$2,243",
+      "chg": "▼ 6.1%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.42",
+      "v": "R16.45",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "05 Nov 2026",
-      "title": "Ethiopia becomes top five African economy after data overhaul",
+      "date": "06 Nov 2026",
+      "title": "Top Africa multi-nation bourse plans ETFs, futures for growth",
       "source": "Moneyweb",
-      "summary": "Gross domestic product in the fiscal year that ended in July was the equivalent of $210.7bn Finance Minister Fitsum Assefa said.",
-      "link": "https://www.moneyweb.co.za/news/africa/ethiopia-becomes-top-five-african-economy-after-data-overhaul/"
+      "summary": "The economic bloc has combined gross domestic product of $254bn and a population exceeding 150m in an area with significant agricultural and energy resources.",
+      "link": "https://www.moneyweb.co.za/news/africa/top-africa-multi-nation-bourse-plans-etfs-futures-for-growth/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "05 Nov 2026",
-      "title": "Ukraine’s central bank opposes crypto bill, citing monetary sovereignty concerns",
+      "date": "06 Nov 2026",
+      "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/11/05/ukraine-s-central-bank-opposes-crypto-bill-citing-monetary-sovereignty-concerns"
+      "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "05 Nov 2026",
-      "title": "Big Tech’s big AI buildout will not end until someone stops it",
+      "date": "06 Nov 2026",
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
       "source": "AI",
-      "summary": "After four of the biggest competitors in the AI race held quarterly earnings calls late last month, two things are clear: Big Tech is not done spending record amounts on the AI data center buildout, and the AI data center buildout is not any closer to yielding its promised returns. A third thing is also […]",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1027344/amazon-microsoft-alphabet-google-meta-data-centers-earnings-q3"
+      "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam.",
+      "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 06 November 2026",
+  "date": "Saturday, 07 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$76,154",
-      "chg": "▼ 4.4%",
+      "v": "$75,897",
+      "chg": "▼ 0.2%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
       "v": "$2,243",
-      "chg": "▼ 6.1%",
-      "dir": "down",
+      "chg": "▲ 0.2%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.45",
+      "v": "R16.51",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "06 Nov 2026",
-      "title": "Top Africa multi-nation bourse plans ETFs, futures for growth",
+      "date": "07 Nov 2026",
+      "title": "Counting the wider cost of SA’s Agoa exit",
       "source": "Moneyweb",
-      "summary": "The economic bloc has combined gross domestic product of $254bn and a population exceeding 150m in an area with significant agricultural and energy resources.",
-      "link": "https://www.moneyweb.co.za/news/africa/top-africa-multi-nation-bourse-plans-etfs-futures-for-growth/"
+      "summary": "Agricultural, food-processing and manufacturing exporters face the greatest remaining exposure.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/counting-the-wider-cost-of-sas-agoa-exit/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "06 Nov 2026",
-      "title": "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market",
+      "title": "Apple, Meta reject OKX–ICE tokenized stock plans, leaving crypto firms as the ones to watch",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/06/over-usd1-billion-in-bullish-bets-liquidated-while-etf-flows-suggest-no-help-in-spot-market"
+      "link": "https://www.coindesk.com/policy/2026/11/06/apple-meta-reject-okx-ice-tokenized-stock-plans-leaving-crypto-firms-as-the-ones-to-watch"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "06 Nov 2026",
-      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
       "source": "AI",
-      "summary": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam.",
-      "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam"
+      "summary": "OpenAI is now valued at $1.25 trillion in a new round of funding that has raised another $11 billion, according to Bloomberg. That would make it one of the world's most valuable companies, not long after raising $122 billion from investors in March at a valuation of $852 billion.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

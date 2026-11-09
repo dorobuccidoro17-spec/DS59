@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 08 November 2026",
+  "date": "Monday, 09 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$75,914",
-      "chg": "▼ 0.1%",
+      "v": "$74,622",
+      "chg": "▼ 1.8%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,238",
-      "chg": "▼ 0.3%",
+      "v": "$2,118",
+      "chg": "▼ 5.4%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.52",
+      "v": "R16.53",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "08 Nov 2026",
-      "title": "TNPA invests R375m in Richards Bay port road upgrades",
+      "date": "09 Nov 2026",
+      "title": "ActionSA lays down conditions for Joburg coalition deal",
       "source": "Moneyweb",
-      "summary": "The 18-month rehabilitation programme is expected to create about 72 jobs.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/tnpa-invests-r375m-in-richards-bay-port-road-upgrades/"
+      "summary": "‘We are deeply concerned that any government led by Helen Zille, not the DA, Helen Zille, would have the same levels of instability and present racially skewed patterns of service delivery,’ says ActionSA national chair Michael Beaumont.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/actionsa-lays-down-conditions-for-joburg-coalition-deal/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "07 Nov 2026",
-      "title": "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end",
+      "date": "09 Nov 2026",
+      "title": "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/11/07/binance-users-in-some-european-countries-told-to-pull-crypto-before-fees-kick-in-with-accounts-closing-by-year-end"
+      "link": "https://www.coindesk.com/business/2026/11/06/solana-lset-for-its-first-tokenized-stock-venue-under-sec-framework-listing-galaxy"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "07 Nov 2026",
-      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "date": "08 Nov 2026",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
       "source": "AI",
-      "summary": "Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins.",
-      "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review"
+      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

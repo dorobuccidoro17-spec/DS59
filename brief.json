@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 12 November 2026",
+  "date": "Friday, 13 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$72,539",
-      "chg": "▼ 1.7%",
+      "v": "$69,237",
+      "chg": "▼ 5.0%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$2,009",
-      "chg": "▼ 2.1%",
+      "v": "$1,960",
+      "chg": "▼ 3.1%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.59",
+      "v": "R16.74",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "12 Nov 2026",
-      "title": "R200m levy aims to strengthen SA’s red meat industry",
+      "date": "13 Nov 2026",
+      "title": "Maimane: Ramaphosa exit would have major economic implications",
       "source": "Moneyweb",
-      "summary": "‘We, as industry said, we need to step in and be the determiners of our own future. If we're going to wait for government to do this, we're going to wait forever,’ says Red Meat Industry Services CEO Dewald Olivier.",
-      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/r200m-levy-aims-to-strengthen-sas-red-meat-industry/"
+      "summary": "The pressures that could see more swimmers follow Tatjana abroad. Digital concierges set to change how hotels serve guests and boost revenue in 2027.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/maimane-ramaphosa-exit-would-have-major-economic-implications/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "12 Nov 2026",
-      "title": "Bitcoin weakness erases September's bullish signal",
+      "date": "13 Nov 2026",
+      "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/12/bitcoin-weakness-erases-september-s-bullish-signal"
+      "link": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "11 Nov 2026",
-      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+      "date": "13 Nov 2026",
+      "title": "Let’s talk about Jensen Huang’s many affairs!",
       "source": "AI",
-      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair, just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports. The second alleged affair was with an executive who…",
-      "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor"
+      "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity.",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

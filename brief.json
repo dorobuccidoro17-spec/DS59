@@ -1,66 +1,66 @@
 {
-  "date": "Friday, 13 November 2026",
+  "date": "Saturday, 14 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$69,237",
-      "chg": "▼ 5.0%",
+      "v": "$67,239",
+      "chg": "▼ 2.9%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,960",
-      "chg": "▼ 3.1%",
+      "v": "$1,909",
+      "chg": "▼ 2.5%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.74",
+      "v": "R16.90",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "13 Nov 2026",
-      "title": "Maimane: Ramaphosa exit would have major economic implications",
+      "date": "14 Nov 2026",
+      "title": "Ray-Ban feud threatens to derail clan’s next investment ambition",
       "source": "Moneyweb",
-      "summary": "The pressures that could see more swimmers follow Tatjana abroad. Digital concierges set to change how hotels serve guests and boost revenue in 2027.",
-      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/maimane-ramaphosa-exit-would-have-major-economic-implications/"
+      "summary": "Any major project built around Generali would test whether Milleri can maintain support from the bickering clan.",
+      "link": "https://www.moneyweb.co.za/news/international/ray-ban-feud-threatens-to-derail-clans-next-investment-ambition/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "13 Nov 2026",
-      "title": "Bitcoin's momentum gauge is turning red, could send prices back below $60,000",
+      "date": "14 Nov 2026",
+      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/daybook-us/2026/11/13/bitcoin-s-momentum-gauge-is-turning-red-could-send-prices-back-below-usd60-000"
+      "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "13 Nov 2026",
-      "title": "Let’s talk about Jensen Huang’s many affairs!",
+      "title": "Amazon has a plan to index the world’s online shopping data",
       "source": "AI",
-      "summary": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approaching an affair Singularity.",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow"
+      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do…",
+      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

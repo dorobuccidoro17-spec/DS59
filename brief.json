@@ -1,66 +1,66 @@
 {
-  "date": "Saturday, 14 November 2026",
+  "date": "Sunday, 15 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$67,239",
-      "chg": "▼ 2.9%",
+      "v": "$65,434",
+      "chg": "▼ 2.5%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,909",
-      "chg": "▼ 2.5%",
+      "v": "$1,830",
+      "chg": "▼ 4.0%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.90",
+      "v": "R16.92",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "14 Nov 2026",
-      "title": "Ray-Ban feud threatens to derail clan’s next investment ambition",
+      "date": "15 Nov 2026",
+      "title": "No chlorine, no swimming: Joburg pools close",
       "source": "Moneyweb",
-      "summary": "Any major project built around Generali would test whether Milleri can maintain support from the bickering clan.",
-      "link": "https://www.moneyweb.co.za/news/international/ray-ban-feud-threatens-to-derail-clans-next-investment-ambition/"
+      "summary": "The closure comes during a heatwave and after months of delays in opening the pools.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/in-photos-joburgs-green-pools-are-being-closed/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "14 Nov 2026",
-      "title": "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011",
+      "date": "15 Nov 2026",
+      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/13/satoshi-era-wallet-served-in-a-usd260-billion-lawsuit-moves-75-btc-it-held-since-2011"
+      "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "13 Nov 2026",
-      "title": "Amazon has a plan to index the world’s online shopping data",
+      "date": "14 Nov 2026",
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
       "source": "AI",
-      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do…",
-      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life.",
+      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 15 November 2026",
+  "date": "Monday, 16 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$65,434",
-      "chg": "▼ 2.5%",
+      "v": "$64,158",
+      "chg": "▼ 2.3%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,830",
-      "chg": "▼ 4.0%",
+      "v": "$1,801",
+      "chg": "▼ 1.9%",
       "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.92",
+      "v": "R16.93",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "15 Nov 2026",
-      "title": "No chlorine, no swimming: Joburg pools close",
+      "date": "16 Nov 2026",
+      "title": "Ninety One surprised by net outflows",
       "source": "Moneyweb",
-      "summary": "The closure comes during a heatwave and after months of delays in opening the pools.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/in-photos-joburgs-green-pools-are-being-closed/"
+      "summary": "Assets under management and adjusted operating profit both increased by 19% year on year.",
+      "link": "https://www.moneyweb.co.za/news/companies-and-deals/ninety-one-surprised-by-net-outflows/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "15 Nov 2026",
-      "title": "XRP crashes to its lowest since November 2024 as money leaves crypto",
+      "date": "16 Nov 2026",
+      "title": "Solana drops ‘beta’ label after more than six years",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/15/xrp-crashes-to-its-lowest-since-november-2024-as-money-leaves-crypto"
+      "link": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "14 Nov 2026",
-      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "date": "16 Nov 2026",
+      "title": "The Nvidia scandal isn’t slowing down",
       "source": "AI",
-      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life.",
-      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview"
+      "summary": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpaced supply, leading…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

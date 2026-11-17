@@ -1,66 +1,66 @@
 {
-  "date": "Monday, 16 November 2026",
+  "date": "Tuesday, 17 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$64,158",
-      "chg": "▼ 2.3%",
-      "dir": "down",
+      "v": "$65,029",
+      "chg": "▲ 1.5%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,801",
-      "chg": "▼ 1.9%",
-      "dir": "down",
+      "v": "$1,827",
+      "chg": "▲ 1.4%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R16.93",
+      "v": "R16.96",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Opportunities don't happen. You create them.",
-    "by": "Chris Grosser"
+    "text": "Everything you've ever wanted is on the other side of fear.",
+    "by": "George Addair"
   },
-  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
-  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
+  "joke": "Parallel lines have so much in common. It's a shame they'll never meet.",
+  "edge": "Measure ROI against a baseline. If you can't state the before-and-after number, you can't defend the spend.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "16 Nov 2026",
-      "title": "Ninety One surprised by net outflows",
+      "date": "17 Nov 2026",
+      "title": "Why your banking app could make you a kidnapping target",
       "source": "Moneyweb",
-      "summary": "Assets under management and adjusted operating profit both increased by 19% year on year.",
-      "link": "https://www.moneyweb.co.za/news/companies-and-deals/ninety-one-surprised-by-net-outflows/"
+      "summary": "‘I think we are at a stage where the stats are getting worse, they are deteriorating, and we are certainly seeing an increasing trend in what we call express kidnapping,’ says iTOO CEO Justin Naylor.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/why-your-banking-app-could-make-you-a-kidnapping-target/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "16 Nov 2026",
-      "title": "Solana drops ‘beta’ label after more than six years",
+      "date": "17 Nov 2026",
+      "title": "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/11/16/solana-drops-beta-label-after-more-than-six-years"
+      "link": "https://www.coindesk.com/tech/2026/11/17/ethereum-s-glamsterdam-upgrade-risks-breaking-up-to-15-000-contracts"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "16 Nov 2026",
-      "title": "The Nvidia scandal isn’t slowing down",
+      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
       "source": "AI",
-      "summary": "For years, Jensen Huang has had an almost unprecedented power to shape AI's advancement as Nvidia's CEO, cofounder, and president. As The Verge wrote last week, Nvidia's chips are \"the bedrock upon which advanced AI technology in the US is being built.\" Ever-increasing demand has consistently outpaced supply, leading…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down"
+      "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against…",
+      "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories"
     }
   ],
   "concept": {
-    "title": "Tokens & Context Windows",
-    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
-    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
+    "title": "AI Governance & the EU AI Act",
+    "body": "Regulators increasingly require transparency, documentation, and risk classification for AI systems. Compliance is shifting from a legal afterthought to part of how you design and deploy.",
+    "takeaway": "Name an owner, document your models and data, and monitor use before you scale."
   }
 }

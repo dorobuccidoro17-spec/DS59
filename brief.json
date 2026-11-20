@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 19 November 2026",
+  "date": "Friday, 20 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$63,958",
-      "chg": "▲ 0.1%",
-      "dir": "up",
+      "v": "$61,509",
+      "chg": "▼ 3.4%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,811",
-      "chg": "▲ 1.1%",
-      "dir": "up",
+      "v": "$1,738",
+      "chg": "▼ 3.7%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R17.24",
+      "v": "R17.41",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "19 Nov 2026",
-      "title": "Xi, Trump, Putin agree to increase supply of global fuels",
+      "date": "20 Nov 2026",
+      "title": "Gauteng voters have a right to be angry – Corné Mulder",
       "source": "Moneyweb",
-      "summary": "In a world that’s seen prices surge as a result of wars being waged by two of the three military superpowers.",
-      "link": "https://www.moneyweb.co.za/news/international/xi-trump-putin-agree-to-increase-supply-of-global-fuels/"
+      "summary": "‘It was a clear indication from the electorate that there was a rejection of the ANC and the parties with the ANC, and we've got a huge opportunity here to reset coalition governments,’ says the leader of the Freedom Front Plus.",
+      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/gauteng-voters-have-a-right-to-be-angry-corne-mulder/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "19 Nov 2026",
-      "title": "Crypto traders vs. Wall Street: OKX’s Anthropic markets put IPO pricing to the test",
+      "date": "20 Nov 2026",
+      "title": "Live news: Bitcoin hovers just above $61,000 as Anthropic slides 13% after Nasdaq debut",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/19/crypto-traders-vs-wall-street-okx-s-anthropic-markets-put-ipo-pricing-to-the-test"
+      "link": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "19 Nov 2026",
-      "title": "I let Apple’s always-listening AI summarize my life for two weeks",
+      "date": "20 Nov 2026",
+      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
       "source": "AI",
-      "summary": "Was it worth it? I've been asking myself this quite a bit over the last month or so while testing both the Amazon Bee Frontier and Siri Recap on the Apple Watch Ultra 4.",
-      "link": "https://www.theverge.com/tech/1037100/apple-siri-recap-audio-intelligence-hands-on"
+      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to…",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }

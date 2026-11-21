@@ -1,17 +1,17 @@
 {
-  "date": "Friday, 20 November 2026",
+  "date": "Saturday, 21 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$61,509",
-      "chg": "▼ 3.4%",
+      "v": "$59,232",
+      "chg": "▼ 3.7%",
       "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,738",
-      "chg": "▼ 3.7%",
+      "v": "$1,671",
+      "chg": "▼ 3.6%",
       "dir": "down",
       "c": "#818cf8"
     },
@@ -24,43 +24,43 @@
     }
   ],
   "quote": {
-    "text": "Discipline is the bridge between goals and accomplishment.",
-    "by": "Jim Rohn"
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "by": "Winston Churchill"
   },
-  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
-  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
+  "joke": "I would tell you a UDP joke, but you might not get it.",
+  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "20 Nov 2026",
-      "title": "Gauteng voters have a right to be angry – Corné Mulder",
+      "date": "21 Nov 2026",
+      "title": "Durban’s Florida Road ranks among world’s top 28 coolest streets",
       "source": "Moneyweb",
-      "summary": "‘It was a clear indication from the electorate that there was a rejection of the ANC and the parties with the ANC, and we've got a huge opportunity here to reset coalition governments,’ says the leader of the Freedom Front Plus.",
-      "link": "https://www.moneyweb.co.za/moneyweb-podcasts/moneyweb-midday/gauteng-voters-have-a-right-to-be-angry-corne-mulder/"
+      "summary": "The ranking recognises the street’s Victorian and Edwardian architecture, restaurant offerings, and hospitality businesses.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/florida-road-ranks-among-worlds-top-28-coolest-streets/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "20 Nov 2026",
-      "title": "Live news: Bitcoin hovers just above $61,000 as Anthropic slides 13% after Nasdaq debut",
+      "date": "21 Nov 2026",
+      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/tech/2026/11/20/live-news-bitcoin-hovers-just-above-usd61-000-as-anthropic-slides-13-after-nasdaq-debut"
+      "link": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
       "date": "20 Nov 2026",
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
       "source": "AI",
-      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to…",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app"
+      "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at…",
+      "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
     }
   ],
   "concept": {
-    "title": "AI Agents",
-    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
-    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
+    "title": "Fine-tuning vs Prompting",
+    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
+    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
   }
 }

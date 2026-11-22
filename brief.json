@@ -1,66 +1,66 @@
 {
-  "date": "Saturday, 21 November 2026",
+  "date": "Sunday, 22 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$59,232",
-      "chg": "▼ 3.7%",
-      "dir": "down",
+      "v": "$60,712",
+      "chg": "▲ 3.1%",
+      "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,671",
-      "chg": "▼ 3.6%",
-      "dir": "down",
+      "v": "$1,704",
+      "chg": "▲ 2.3%",
+      "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R17.41",
+      "v": "R17.53",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
-    "by": "Winston Churchill"
+    "text": "Whatever you are, be a good one.",
+    "by": "Abraham Lincoln"
   },
-  "joke": "I would tell you a UDP joke, but you might not get it.",
-  "edge": "Upskill the team, don't just buy tools. Adoption, not licences, is where the return lives.",
+  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
+  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "21 Nov 2026",
-      "title": "Durban’s Florida Road ranks among world’s top 28 coolest streets",
+      "date": "22 Nov 2026",
+      "title": "Continental to close 80-year-old Nelson Mandela Bay tyre plant",
       "source": "Moneyweb",
-      "summary": "The ranking recognises the street’s Victorian and Edwardian architecture, restaurant offerings, and hospitality businesses.",
-      "link": "https://www.moneyweb.co.za/news/south-africa/florida-road-ranks-among-worlds-top-28-coolest-streets/"
+      "summary": "The potential stoppage would add to a string of plant closures that have hit South Africa’s automotive industry in recent years as manufacturers struggle to compete with surging imports from China and India.",
+      "link": "https://www.moneyweb.co.za/news/industry/continental-to-close-80-year-old-nelson-mandela-bay-tyre-plant/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
       "date": "21 Nov 2026",
-      "title": "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated",
+      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/21/ether-treasury-firm-btcs-warns-sec-its-usd54-million-aave-loan-could-be-liquidated"
+      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "20 Nov 2026",
-      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "date": "22 Nov 2026",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
       "source": "AI",
-      "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at…",
-      "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax"
+      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce.",
+      "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
     }
   ],
   "concept": {
-    "title": "Fine-tuning vs Prompting",
-    "body": "Prompting steers a general model with instructions; fine-tuning retrains it on your examples. Prompting is faster and cheaper; fine-tuning suits narrow, repeated jobs.",
-    "takeaway": "Exhaust prompting and RAG before paying for fine-tuning — most needs never require it."
+    "title": "Hallucinations & Reliability",
+    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
+    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
   }
 }

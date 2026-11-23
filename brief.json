@@ -1,66 +1,66 @@
 {
-  "date": "Sunday, 22 November 2026",
+  "date": "Monday, 23 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$60,712",
-      "chg": "▲ 3.1%",
+      "v": "$63,180",
+      "chg": "▲ 4.0%",
       "dir": "up",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,704",
-      "chg": "▲ 2.3%",
+      "v": "$1,782",
+      "chg": "▲ 3.9%",
       "dir": "up",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R17.53",
+      "v": "R17.51",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "Whatever you are, be a good one.",
-    "by": "Abraham Lincoln"
+    "text": "Opportunities don't happen. You create them.",
+    "by": "Chris Grosser"
   },
-  "joke": "Why do programmers prefer dark mode? Because light attracts bugs.",
-  "edge": "Assign clear AI ownership. Someone accountable for governance and outcomes prevents 'shadow AI' sprawl.",
+  "joke": "I'm reading a book about anti-gravity. It's impossible to put down.",
+  "edge": "Keep a human in the loop for high-stakes calls. Let AI draft and triage; let people decide.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "22 Nov 2026",
-      "title": "Continental to close 80-year-old Nelson Mandela Bay tyre plant",
+      "date": "23 Nov 2026",
+      "title": "Jensen Huang is back as Nvidia boss",
       "source": "Moneyweb",
-      "summary": "The potential stoppage would add to a string of plant closures that have hit South Africa’s automotive industry in recent years as manufacturers struggle to compete with surging imports from China and India.",
-      "link": "https://www.moneyweb.co.za/news/industry/continental-to-close-80-year-old-nelson-mandela-bay-tyre-plant/"
+      "summary": "Less than two weeks after his ousting from the leadership of the world’s largest chipmaker.",
+      "link": "https://www.moneyweb.co.za/news/international/nvidia-reinstates-jensen-huang-as-president-and-ceo/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "21 Nov 2026",
-      "title": "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave",
+      "date": "23 Nov 2026",
+      "title": "Binance hackers push $247 million through transactions designed to cloud the source",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/markets/2026/11/21/bitcoin-bounces-9-from-two-year-low-to-retake-usd60-000-as-traders-eye-monday-s-stock-open"
+      "link": "https://www.coindesk.com/business/2026/11/23/binance-hackers-push-usd247-million-through-transactions-designed-to-cloud-the-source"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "22 Nov 2026",
-      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "date": "23 Nov 2026",
+      "title": "Jensen Huang is back as Nvidia’s CEO",
       "source": "AI",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce.",
-      "link": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"
+      "summary": "Nvidia has reinstated Jensen Huang as its CEO. The company announced on Monday morning that the board \"voted unanimously to reinstate Mr.",
+      "link": "https://www.theverge.com/tech/1039937/nvidia-ceo-jensen-huang-reinstated"
     }
   ],
   "concept": {
-    "title": "Hallucinations & Reliability",
-    "body": "Models can state false things with total confidence because they optimise for plausible text, not truth. Reliability comes from grounding, verification steps, and human review.",
-    "takeaway": "For anything customer- or board-facing, design a checking step; never ship raw model output unverified."
+    "title": "Tokens & Context Windows",
+    "body": "Models read and bill in 'tokens' (word fragments), and a 'context window' caps how much they consider at once. Bigger context lets you feed more, but cost and latency rise with it.",
+    "takeaway": "Watch cost-per-task, not just cost-per-token — verbose prompts add up fast."
   }
 }

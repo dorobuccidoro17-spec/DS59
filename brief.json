@@ -1,66 +1,66 @@
 {
-  "date": "Thursday, 26 November 2026",
+  "date": "Friday, 27 November 2026",
   "watchlist": [
     {
       "k": "Bitcoin",
-      "v": "$60,697",
-      "chg": "▲ 5.4%",
-      "dir": "up",
+      "v": "$60,272",
+      "chg": "▼ 0.7%",
+      "dir": "down",
       "c": "#fb923c"
     },
     {
       "k": "Ethereum",
-      "v": "$1,699",
-      "chg": "▲ 5.1%",
-      "dir": "up",
+      "v": "$1,689",
+      "chg": "▼ 0.6%",
+      "dir": "down",
       "c": "#818cf8"
     },
     {
       "k": "USD / ZAR",
-      "v": "R17.58",
+      "v": "R17.54",
       "chg": "spot",
       "dir": "up",
       "c": "#34d399"
     }
   ],
   "quote": {
-    "text": "The best way to predict the future is to create it.",
-    "by": "Peter Drucker"
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "by": "Jim Rohn"
   },
-  "joke": "I told my computer I needed a break, and now it won't stop sending me KitKat ads.",
-  "edge": "Pilot small before you scale. Prove value on one workflow with a clear baseline before rolling anything out widely.",
+  "joke": "Why did the scarecrow win an award? He was outstanding in his field.",
+  "edge": "Fix data quality first. A modest model on clean, well-governed data beats a frontier model on a mess.",
   "headlines": [
     {
       "tag": "South Africa · Business",
       "c": "#34d399",
-      "date": "26 Nov 2026",
-      "title": "EIB and South Africa plan to sign €300m minerals deal",
+      "date": "27 Nov 2026",
+      "title": "El Niño, flooding put squeeze on SA fruit producers",
       "source": "Moneyweb",
-      "summary": "'This facility will contribute to economic growth, value creation and greater supply chain resilience for both Africa and Europe,' Fayolle said.",
-      "link": "https://www.moneyweb.co.za/news/international/eib-and-south-africa-plan-to-sign-e300m-minerals-deal/"
+      "summary": "With growers cutting harvest forecasts for grapes and stone fruit.",
+      "link": "https://www.moneyweb.co.za/news/south-africa/el-nino-flooding-put-squeeze-on-sa-fruit-producers/"
     },
     {
       "tag": "Crypto · Trading & Developments",
       "c": "#fb923c",
-      "date": "26 Nov 2026",
-      "title": "Spain gives anti-laundering unit power to freeze crypto accounts without a judge",
+      "date": "27 Nov 2026",
+      "title": "Kalshi turns to small businesses as legal battles threaten forecasts on sports",
       "source": "CoinDesk: Bitcoin, Ethereum, Crypto News and Price Data",
       "summary": "",
-      "link": "https://www.coindesk.com/business/2026/11/26/spain-gives-anti-laundering-unit-power-to-freeze-crypto-accounts-without-a-judge"
+      "link": "https://www.coindesk.com/business/2026/11/27/kalshi-turns-to-small-businesses-as-legal-battles-threaten-forecasts-on-sports"
     },
     {
       "tag": "AI Pulse",
       "c": "#818cf8",
-      "date": "26 Nov 2026",
-      "title": "42 state AGs are trying to stop Character.AI from selling users’ chats",
+      "date": "27 Nov 2026",
+      "title": "Android’s DIY widgets are a bit of vibe-coding fun",
       "source": "AI",
-      "summary": "A coalition of 42 state attorneys general is trying to prevent Character.AI from selling off user data as it navigates Chapter 11 bankruptcy proceedings. In a deluge of nearly identical press releases, the various AGs accuse the company of planning to auction off \"the private chat histories of more than 21 million U.S.",
-      "link": "https://www.theverge.com/policy/1042620/character-ai-sale-state-ags-block-selling-users-chats"
+      "summary": "Aside from dealing with my calendar, there's one thing I want AI to do: tell me if I'm about to miss the bus. What I need is a widget.",
+      "link": "https://www.theverge.com/tech/1041801/android-intelligence-create-my-widget-gemini"
     }
   ],
   "concept": {
-    "title": "Retrieval-Augmented Generation (RAG)",
-    "body": "RAG feeds a model your own documents at question time so answers are grounded in your data instead of the model's memory. It's how you get an assistant that 'knows' your business without retraining it.",
-    "takeaway": "RAG is usually the cheapest route to a trustworthy internal assistant — start here before fine-tuning."
+    "title": "AI Agents",
+    "body": "An agent is a model given tools and a goal, allowed to take multiple steps on its own — searching, calling systems, and acting. Power rises, but so does the need for guardrails and oversight.",
+    "takeaway": "Deploy agents on bounded, reversible tasks first; require approval before anything costly or irreversible."
   }
 }
